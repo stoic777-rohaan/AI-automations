@@ -1,0 +1,428 @@
+{
+  "name": "AERO",
+  "nodes": [
+    {
+      "parameters": {
+        "url": "     https://aviationweather.gov/api/data/metar?ids=VIDP,VABB,VOBL&format=json",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        704,
+        48
+      ],
+      "id": "3f14ba4d-f0aa-4f2a-b1db-8eac05d27518",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all().map(i => i.json);\n\nconst blocks = items.map(m =>\n  `${m.airport}: ${m.flightCategory} | Wind ${m.windKt} kt | Vis ${m.visibility} | Temp ${m.temp}°C | Risk ${m.risk}\\n${m.pilotFlights}`\n);\n\nconst portal = $('Config').first().json.portal;\n\nreturn [{ json: { message: \"✈️ PILOT PRE-FLIGHT BRIEFING\\n\\n\" + blocks.join(\"\\n\\n\") + \"\\n\\n🔗 Portal: \" + portal + \"?role=home\" } }];\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1248,
+        304
+      ],
+      "id": "f3521982-7270-4d70-a78f-7940507ed845",
+      "name": "Pilot Briefing"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "99f20913-3d60-480e-98d7-dfc87debde91",
+              "name": "message",
+              "value": "=⚠️ DELAY RISK at {{ $json.airport }}: {{ $json.flightCategory }}, wind {{ $json.windKt }} kt, visibility {{ $json.visibility }}. Alert gates, crew and passenger services.\nNext departures:\n{{ $json.groundFlights }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        1552,
+        -288
+      ],
+      "id": "b076755c-91f8-4c4b-9276-c905837cd8c5",
+      "name": "Delay Alert"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "ede3c37c-17ac-4166-bb78-ee0ceb01a10a",
+              "name": "message",
+              "value": "=✅ NORMAL OPS at {{ $json.airport }}: {{ $json.flightCategory }}, wind {{ $json.windKt }} kt.\nNext departures:\n{{ $json.groundFlights }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        1568,
+        112
+      ],
+      "id": "305f9219-1bca-4230-93e4-eab058d5791e",
+      "name": "Normal Ops"
+    },
+    {
+      "parameters": {
+        "jsCode": "const portal = $('Config').first().json.portal;\nconst flights = $('Flights Summary').first().json.flights;\n\nconst nowStr = new Date().toLocaleTimeString('en-GB', { timeZone: 'Asia/Kolkata', hour: '2-digit', minute: '2-digit' });\n\nconst next = icao => {\n  const all = flights\n    .filter(f => f.from_icao === icao)\n    .sort((a, b) => a.departure_time.localeCompare(b.departure_time));\n  const upcoming = all.filter(f => f.departure_time >= nowStr);\n  return (upcoming.length ? upcoming : all).slice(0, 2);\n};\n\nconst lines = (list, role) => list\n  .map(f => `• ${f.flight_no} → ${f.to_iata} dep ${f.departure_time}, gate ${f.gate}\\n  ${portal}?role=${role}&flight=${f.flight_no}`)\n  .join('\\n');\n\nreturn $input.all().map(item => {\n  const m = item.json;\n  const wind = m.wspd ?? 0;\n  const cat = m.fltCat || 'UNKNOWN';\n  const risky = ['IFR', 'LIFR'].includes(cat) || wind > 25;\n  const list = next(m.icaoId);\n\n  return {\n    json: {\n      airport: m.icaoId,\n      temp: m.temp,\n      windKt: wind,\n      visibility: m.visib,\n      flightCategory: cat,\n      risk: risky ? 'HIGH' : 'LOW',\n      raw: m.rawOb,\n      pilotFlights: lines(list, 'pilot'),\n      groundFlights: lines(list, 'ground')\n    }\n  };\n});"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        928,
+        48
+      ],
+      "id": "81f43dc9-66a1-4a80-b90c-b5ab54299623",
+      "name": "Risk rating"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 4
+          },
+          "conditions": [
+            {
+              "id": "fdc744cf-875b-4d7e-9659-9e2fb89bf4bd",
+              "leftValue": "={{ $json.risk }}",
+              "rightValue": "HIGH",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.4,
+      "position": [
+        1232,
+        -80
+      ],
+      "id": "81e9e4d8-fcbb-4f0f-9697-06ac74a0af94",
+      "name": "Delay Risk?"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -592,
+        -208
+      ],
+      "id": "90c59f55-495a-4b12-91f2-ef30fb0acb93",
+      "name": "Start"
+    },
+    {
+      "parameters": {
+        "chatId": "6714289456",
+        "text": "={{ $json.message }}",
+        "additionalFields": {
+          "appendAttribution": false
+        }
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        1712,
+        560
+      ],
+      "id": "fc2ac852-459b-43d0-b49d-e8d1d7902870",
+      "name": "Notify Pilots",
+      "webhookId": "7d9b8ba9-8be7-498d-b5f3-18ad2a71163f",
+      "credentials": {
+        "telegramApi": {
+          "id": "WHTheiYBTTzGrEN7",
+          "name": "Telegram account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "6714289456",
+        "text": "={{$json.message}}",
+        "additionalFields": {
+          "appendAttribution": false
+        }
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        1888,
+        -80
+      ],
+      "id": "afd25cc5-9be4-42f5-a0d8-1fce0b6f7788",
+      "name": "Notify Ground Staff",
+      "webhookId": "95272adc-18a5-4643-bf79-bd79f835d93c",
+      "credentials": {
+        "telegramApi": {
+          "id": "WHTheiYBTTzGrEN7",
+          "name": "Telegram account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "minutes",
+              "minutesInterval": 30
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        -624,
+        176
+      ],
+      "id": "49a7e513-e5f4-4571-ad23-d1c6e9784c12",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "e8c535a1-9879-4112-952d-504807958cc0",
+              "name": "portal",
+              "value": "     http://10.81.203.198:5678/webhook/flight-status",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        -224,
+        16
+      ],
+      "id": "00b5a886-05bd-407f-b9b8-1a4795a23a42",
+      "name": "Config"
+    },
+    {
+      "parameters": {
+        "fileSelector": "/home/node/.n8n-files/flights.json",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [
+        16,
+        16
+      ],
+      "id": "263c83c8-7c9a-48ea-bf5d-88c7146473d2",
+      "name": "Read/Write Files from Disk"
+    },
+    {
+      "parameters": {
+        "operation": "fromJson",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.2,
+      "position": [
+        240,
+        256
+      ],
+      "id": "975a7b59-53e3-4e0f-83b2-6153bcd09b73",
+      "name": "Extract Flights"
+    },
+    {
+      "parameters": {
+        "jsCode": "const all = $input.all();\nconst flights = (all.length === 1 && Array.isArray(all[0].json.data))\n  ? all[0].json.data\n  : all.map(i => i.json);\n\nreturn [{ json: { flights } }];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        464,
+        256
+      ],
+      "id": "1b6f7c49-0829-415d-b803-7019ee072c80",
+      "name": "Flights Summary"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Risk rating",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Delay Alert": {
+      "main": [
+        [
+          {
+            "node": "Notify Ground Staff",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Risk rating": {
+      "main": [
+        [
+          {
+            "node": "Delay Risk?",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Pilot Briefing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Delay Risk?": {
+      "main": [
+        [
+          {
+            "node": "Delay Alert",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Normal Ops",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Start": {
+      "main": [
+        [
+          {
+            "node": "Config",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Pilot Briefing": {
+      "main": [
+        [
+          {
+            "node": "Notify Pilots",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Normal Ops": {
+      "main": [
+        [
+          {
+            "node": "Notify Ground Staff",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Config",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Config": {
+      "main": [
+        [
+          {
+            "node": "Read/Write Files from Disk",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read/Write Files from Disk": {
+      "main": [
+        [
+          {
+            "node": "Extract Flights",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Flights": {
+      "main": [
+        [
+          {
+            "node": "Flights Summary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Flights Summary": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "43b59dd4-54c9-415e-af18-5eab3762dda4",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "c119faaca30a6e29781a5cb77b9608f50fd489bc9c912a8bd7595300c9d9cec3"
+  },
+  "nodeGroups": [],
+  "id": "2DuG0nWXj8RepF9c",
+  "tags": []
+}

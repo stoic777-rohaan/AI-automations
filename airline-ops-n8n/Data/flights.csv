@@ -1,0 +1,1001 @@
+flight_no,airline,date,from_icao,from_iata,from_city,to_icao,to_iata,to_city,terminal,gate,boarding_time,departure_time,arrival_time,duration_min,aircraft,pilot,copilot,status,delay_min,distance_km
+AI101,Air India,2026-11-11,VIDP,DEL,Delhi,VABB,BOM,Mumbai,T3,A12,14:30,15:10,17:12,122,Airbus A320neo,Capt. Arjun Mehta,F/O Riya Sharma,Boarding,0,1138
+AI202,Air India,2026-11-11,VABB,BOM,Mumbai,VIDP,DEL,Delhi,T1,B07,16:45,17:25,19:27,122,Boeing 737-800,Capt. Neha Kapoor,F/O Sameer Khan,On time,0,1138
+AI147,Air India,2026-11-11,VECC,CCU,Kolkata,VAPO,PNQ,Pune,T2,C20,20:15,20:55,23:31,156,Boeing 737 MAX 8,Capt. Vikram Clarke,F/O Omar Pillai,On time,0,1577
+SG533,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VIDP,DEL,Delhi,T1,F07,05:40,06:20,09:06,166,Airbus A320neo,Capt. Deepak Miller,F/O Deepak Hughes,On time,0,1710
+6E325,IndiGo,2026-11-11,VIDP,DEL,Delhi,VOTV,TRV,Thiruvananthapuram,T3,H30,19:40,20:20,23:46,206,Airbus A320neo,Capt. Lucas Chopra,F/O Anjali Chauhan,Scheduled,0,2233
+AI432,Air India,2026-11-11,VECC,CCU,Kolkata,VIDP,DEL,Delhi,T1,D02,09:40,10:20,12:35,135,Airbus A321neo,Capt. Amit Singh,F/O Neha Kapoor,On time,0,1312
+QP883,Akasa Air,2026-11-11,VEGT,GAU,Guwahati,VABB,BOM,Mumbai,T2,B39,20:20,21:00,00:14 +1,194,Boeing 737-800,Capt. Arjun Al-Farsi,F/O Deepak Fischer,Delayed,90,2071
+QP277,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VEGT,GAU,Guwahati,T1,D13,16:00,16:40,19:06,146,Boeing 737-800,Capt. Rahul Kulkarni,F/O Aditya Kulkarni,Delayed,35,1455
+LH546,Lufthansa,2026-11-11,VOBL,BLR,Bengaluru,OTHH,DOH,Doha,T2,B39,09:10,10:10,12:09,269,Boeing 787-9,Capt. Ishaan Mishra,F/O Pooja Rao,On time,0,3042
+SG374,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VECC,CCU,Kolkata,T2,F14,19:55,20:35,22:50,135,Boeing 737 MAX 8,Capt. Nikhil Kapoor,F/O Kabir Mishra,Scheduled,0,1312
+SG935,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VEPT,PAT,Patna,T1,F16,20:40,21:20,23:56,156,Airbus A320neo,Capt. Kabir Chopra,F/O Kabir Bhatt,On time,0,1579
+SG881,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VAPO,PNQ,Pune,T2,D22,18:30,19:10,21:13,123,Airbus A320neo,Capt. Manish Iyer,F/O Tarun Kapoor,Delayed,20,1156
+6E693,IndiGo,2026-11-11,VAID,IDR,Indore,VOGO,GOI,Goa,T1,D28,15:45,16:25,18:04,99,Boeing 737 MAX 8,Capt. James Hughes,F/O Sanjay Al-Farsi,Scheduled,0,842
+AI552,Air India,2026-11-11,VAAH,AMD,Ahmedabad,VILK,LKO,Lucknow,T2,G22,14:35,15:15,17:01,106,Airbus A320neo,Capt. Ankit Walker,F/O Divya Saxena,On time,0,927
+SG569,SpiceJet,2026-11-11,VANP,NAG,Nagpur,VOTV,TRV,Thiruvananthapuram,T2,B26,13:55,14:35,16:59,144,Boeing 737-800,Capt. Sanjay Desai,F/O Varun Mehta,Delayed,25,1420
+6E632,IndiGo,2026-11-11,VOMM,MAA,Chennai,VAPO,PNQ,Pune,T1,F31,09:50,10:30,12:15,105,Boeing 737 MAX 8,Capt. Kabir Sethi,F/O Michael Bhatt,Scheduled,0,912
+IX880,Air India Express,2026-11-11,VOHS,HYD,Hyderabad,VANP,NAG,Nagpur,T1,F12,06:30,07:10,08:18,68,Airbus A320neo,Capt. Deepak Das,F/O Isha Iyer,Scheduled,0,433
+QP558,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VOMM,MAA,Chennai,T2,F39,07:30,08:10,10:04,114,Boeing 737-800,Capt. Rajesh Rao,F/O Nikhil Singh,On time,0,1033
+SG862,SpiceJet,2026-11-11,VOTV,TRV,Thiruvananthapuram,VOMM,MAA,Chennai,T1,G07,08:45,09:25,10:47,82,Airbus A320neo,Capt. Varun Rao,F/O Manish Agarwal,On time,0,614
+SG623,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VOGO,GOI,Goa,T3,B24,19:10,19:50,22:20,150,Boeing 737 MAX 8,Capt. Arjun Kulkarni,F/O Rajesh Nair,Scheduled,0,1504
+AI800,Air India,2026-11-11,VAPO,PNQ,Pune,VOBL,BLR,Bengaluru,T2,H21,06:45,07:25,08:55,90,Airbus A321neo,Capt. Ankit Kulkarni,F/O Anjali Banerjee,Scheduled,0,722
+QR604,Qatar Airways,2026-11-11,VOBL,BLR,Bengaluru,OTHH,DOH,Doha,T1,E07,16:50,17:50,19:49,269,Airbus A330-300,Capt. Rohan Mehta,F/O Pranav Saxena,On time,0,3042
+QP718,Akasa Air,2026-11-11,VILK,LKO,Lucknow,VEGT,GAU,Guwahati,T1,H39,07:20,08:00,09:57,117,Boeing 737-800,Capt. Karan Agarwal,F/O Aarti Chauhan,Scheduled,0,1067
+LH108,Lufthansa,2026-11-11,OTHH,DOH,Doha,VABB,BOM,Mumbai,T1,G04,15:35,16:35,22:36,211,Boeing 787-9,Capt. James Trivedi,F/O Shruti Reddy,Scheduled,0,2291
+QP746,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VIDP,DEL,Delhi,T2,C01,20:15,20:55,23:41,166,Boeing 737 MAX 8,Capt. Kabir Trivedi,F/O Divya Sethi,On time,0,1710
+QP396,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VIJP,JAI,Jaipur,T1,B10,19:00,19:40,22:12,152,Boeing 737 MAX 8,Capt. Tarun Kulkarni,F/O Rahul Mehta,Delayed,15,1527
+QP912,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VIAR,ATQ,Amritsar,T2,G06,13:10,13:50,16:13,143,Airbus A321neo,Capt. Thomas Sethi,F/O Aarti Gupta,On time,0,1416
+AI917,Air India,2026-11-11,VTBS,BKK,Bangkok,VIDP,DEL,Delhi,T2,C04,17:05,18:05,20:56,261,Airbus A350-900,Capt. Nikhil Das,F/O Ishaan Agarwal,On time,0,2948
+6E435,IndiGo,2026-11-11,VOBL,BLR,Bengaluru,VOGO,GOI,Goa,T2,C05,22:40,23:20,00:32 +1,72,Boeing 737 MAX 8,Capt. Nikhil Iyer,F/O Vikram Yadav,Scheduled,0,482
+AI931,Air India,2026-11-11,EDDF,FRA,Frankfurt,VOBL,BLR,Bengaluru,T1,D16,10:05,11:05,01:39 +1,604,Boeing 787-9,Capt. Harsh Banerjee,F/O Fatima Clarke,On time,0,7402
+6E575,IndiGo,2026-11-11,VEGT,GAU,Guwahati,VOMM,MAA,Chennai,T2,B31,20:10,20:50,23:49,179,Airbus A321neo,Capt. Nikhil Yadav,F/O Meera Reddy,Scheduled,0,1883
+6E607,IndiGo,2026-11-11,VOMM,MAA,Chennai,VEGT,GAU,Guwahati,T2,D22,19:45,20:25,23:24,179,Boeing 737 MAX 8,Capt. Siddharth Verma,F/O Laura Saxena,On time,0,1883
+QP665,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VIJP,JAI,Jaipur,T2,G24,11:25,12:05,12:57,52,Airbus A321neo,Capt. Daniel Menon,F/O Swati Das,Scheduled,0,231
+QP553,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VOGO,GOI,Goa,T1,G33,11:00,11:40,12:52,72,Boeing 737-800,Capt. Manish Rao,F/O Daniel Pillai,On time,0,482
+AI757,Air India,2026-11-11,VIDP,DEL,Delhi,VEGT,GAU,Guwahati,T3,C23,20:10,20:50,23:16,146,Airbus A321neo,Capt. Varun Desai,F/O Ishaan Saxena,Delayed,45,1455
+AI829,Air India,2026-11-11,VIDP,DEL,Delhi,VOCI,COK,Kochi,T3,C07,05:05,05:45,08:57,192,Airbus A320neo,Capt. Nikhil Miller,F/O Hannah Clarke,On time,0,2048
+6E527,IndiGo,2026-11-11,VOHS,HYD,Hyderabad,VILK,LKO,Lucknow,T1,D03,11:10,11:50,13:48,118,Boeing 737 MAX 8,Capt. Harsh Patel,F/O Riya Iyer,Delayed,60,1088
+SG224,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VABB,BOM,Mumbai,T1,G17,18:05,18:45,20:24,99,Boeing 737 MAX 8,Capt. Pranav Trivedi,F/O Isha Malhotra,On time,0,834
+AI426,Air India,2026-11-11,WSSS,SIN,Singapore,VOBL,BLR,Bengaluru,T1,H24,18:50,19:50,21:59,279,Boeing 777-300ER,Capt. Rajesh Banerjee,F/O Manish Fischer,Delayed,35,3178
+IX826,Air India Express,2026-11-11,VIDP,DEL,Delhi,VOCI,COK,Kochi,T1,C11,07:15,07:55,11:07,192,Airbus A321neo,Capt. Rohan Miller,F/O Aarti Reddy,On time,0,2048
+IX694,Air India Express,2026-11-11,VABB,BOM,Mumbai,VILK,LKO,Lucknow,T2,D08,22:25,23:05,01:11 +1,126,Boeing 737-800,Capt. Harsh Al-Farsi,F/O Varun Gupta,On time,0,1183
+6E556,IndiGo,2026-11-11,VOMM,MAA,Chennai,VOCI,COK,Kochi,T1,B19,19:25,20:05,21:19,74,Boeing 737 MAX 8,Capt. Harsh Kapoor,F/O Sarah Saxena,Scheduled,0,517
+AI626,Air India,2026-11-11,VAID,IDR,Indore,VEPT,PAT,Patna,T2,F21,12:00,12:40,14:31,111,Boeing 737 MAX 8,Capt. Rohan Chopra,F/O Rahul Rao,Delayed,25,994
+QP732,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VAID,IDR,Indore,T2,C30,20:25,21:05,22:30,85,Airbus A321neo,Capt. Harsh Kulkarni,F/O Tarun Kulkarni,Scheduled,0,662
+AI852,Air India,2026-11-11,VOBL,BLR,Bengaluru,VIJP,JAI,Jaipur,T1,G08,11:40,12:20,14:52,152,Boeing 737-800,Capt. Sanjay Kapoor,F/O Tanvi Gupta,On time,0,1527
+6E743,IndiGo,2026-11-11,VOBL,BLR,Bengaluru,VAAH,AMD,Ahmedabad,T2,B05,19:10,19:50,21:58,128,Boeing 737-800,Capt. Omar Patel,F/O Amit Joshi,On time,0,1221
+6E115,IndiGo,2026-11-11,VECC,CCU,Kolkata,VIAR,ATQ,Amritsar,T1,A04,10:45,11:25,14:09,164,Airbus A320neo,Capt. Pranav Yadav,F/O Sarah Gupta,On time,0,1681
+SG440,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VOMM,MAA,Chennai,T1,G15,09:55,10:35,12:56,141,Airbus A320neo,Capt. Rajesh Desai,F/O Emma Desai,On time,0,1385
+SG846,SpiceJet,2026-11-11,VIAR,ATQ,Amritsar,VOTV,TRV,Thiruvananthapuram,T1,B27,08:30,09:10,13:04,234,Airbus A321neo,Capt. Rajesh Menon,F/O Vikram Fischer,Scheduled,0,2592
+IX145,Air India Express,2026-11-11,VOMM,MAA,Chennai,VECC,CCU,Kolkata,T2,C03,12:45,13:25,15:46,141,Boeing 737-800,Capt. Aditya Sharma,F/O Daniel Walker,Delayed,35,1385
+QR354,Qatar Airways,2026-11-11,EGLL,LHR,London,VABB,BOM,Mumbai,T1,F30,04:50,05:50,21:09,589,Boeing 777-300ER,Capt. Omar Saxena,F/O James Al-Farsi,Scheduled,0,7212
+IX703,Air India Express,2026-11-11,VIDP,DEL,Delhi,VOMM,MAA,Chennai,T3,C01,22:25,23:05,01:55 +1,170,Airbus A320neo,Capt. Deepak Kapoor,F/O Kabir Sharma,Delayed,35,1760
+IX668,Air India Express,2026-11-11,VAID,IDR,Indore,VOTV,TRV,Thiruvananthapuram,T1,C20,12:00,12:40,15:17,157,Airbus A320neo,Capt. Michael Bhatt,F/O Vikram Menon,On time,0,1587
+SQ461,Singapore Airlines,2026-11-11,VECC,CCU,Kolkata,VTBS,BKK,Bangkok,T1,A13,10:40,11:40,15:50,160,Airbus A330-300,Capt. Thomas Mehta,F/O Tanvi Yadav,On time,0,1636
+SQ832,Singapore Airlines,2026-11-11,WSSS,SIN,Singapore,VOMM,MAA,Chennai,T2,H20,04:45,05:45,07:34,259,Boeing 787-9,Capt. Karan Trivedi,F/O Tarun Sharma,On time,0,2924
+6E682,IndiGo,2026-11-11,VOBL,BLR,Bengaluru,VABB,BOM,Mumbai,T2,F38,06:45,07:25,09:04,99,Airbus A321neo,Capt. Rajesh Fischer,F/O Rohan Kapoor,On time,0,834
+AI368,Air India,2026-11-11,VECC,CCU,Kolkata,VABB,BOM,Mumbai,T1,A15,09:05,09:45,12:28,163,Airbus A320neo,Capt. Tarun Iyer,F/O Rohan Patel,Scheduled,0,1665
+IX809,Air India Express,2026-11-11,VECC,CCU,Kolkata,VANP,NAG,Nagpur,T2,H07,22:35,23:15,01:05 +1,110,Boeing 737-800,Capt. Karan Mehta,F/O Rahul Khan,On time,0,985
+AI607,Air India,2026-11-11,VOBL,BLR,Bengaluru,VTBS,BKK,Bangkok,T2,C27,16:40,17:40,22:56,226,Boeing 787-9,Capt. Rajesh Agarwal,F/O Thomas Patel,On time,0,2491
+AI121,Air India,2026-11-11,VIDP,DEL,Delhi,VOBL,BLR,Bengaluru,T1,G23,22:05,22:45,01:31 +1,166,Airbus A320neo,Capt. Varun Kulkarni,F/O Nikhil Reddy,On time,0,1710
+AI560,Air India,2026-11-11,VOMM,MAA,Chennai,VOGO,GOI,Goa,T2,B14,13:00,13:40,15:11,91,Airbus A321neo,Capt. Omar Miller,F/O Pooja Chauhan,Delayed,45,733
+QP578,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VOBL,BLR,Bengaluru,T1,H12,11:20,12:00,13:39,99,Airbus A321neo,Capt. Vikram Singh,F/O Priya Miller,On time,0,834
+QP958,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VOMM,MAA,Chennai,T1,G26,20:35,21:15,23:36,141,Boeing 737 MAX 8,Capt. Omar Walker,F/O Pallavi Desai,On time,0,1385
+IX384,Air India Express,2026-11-11,VABB,BOM,Mumbai,VAAH,AMD,Ahmedabad,T2,C07,05:05,05:45,06:54,69,Boeing 737 MAX 8,Capt. Kabir Clarke,F/O Emma Banerjee,Scheduled,0,444
+AI796,Air India,2026-11-11,VABB,BOM,Mumbai,VAPO,PNQ,Pune,T2,B16,13:15,13:55,14:39,44,Boeing 737 MAX 8,Capt. Ankit Agarwal,F/O Radhika Menon,On time,0,124
+IX793,Air India Express,2026-11-11,VOGO,GOI,Goa,VIDP,DEL,Delhi,T2,B19,11:05,11:45,14:15,150,Airbus A321neo,Capt. Daniel Bose,F/O Riya Reddy,Scheduled,0,1504
+BA719,British Airways,2026-11-11,EDDF,FRA,Frankfurt,VOBL,BLR,Bengaluru,T1,D37,14:05,15:05,05:39 +1,604,Airbus A330-300,Capt. Ishaan Walker,F/O Sarah Walker,Scheduled,0,7402
+IX710,Air India Express,2026-11-11,VABB,BOM,Mumbai,VECC,CCU,Kolkata,T2,B22,06:50,07:30,10:13,163,Airbus A321neo,Capt. Siddharth Khan,F/O Harsh Desai,Delayed,20,1665
+6E187,IndiGo,2026-11-11,VOMM,MAA,Chennai,VEPT,PAT,Patna,T2,A23,10:00,10:40,13:09,149,Boeing 737-800,Capt. Thomas Fischer,F/O Arjun Khan,Scheduled,0,1492
+AI603,Air India,2026-11-11,VOBL,BLR,Bengaluru,VOCI,COK,Kochi,T2,A18,10:50,11:30,12:33,63,Boeing 737 MAX 8,Capt. Deepak Pillai,F/O Sophie Kulkarni,On time,0,367
+AI505,Air India,2026-11-11,VOBL,BLR,Bengaluru,VTBS,BKK,Bangkok,T1,C34,05:05,06:05,11:21,226,Airbus A350-900,Capt. Omar Yadav,F/O Swati Joshi,Delayed,35,2491
+IX662,Air India Express,2026-11-11,VOMM,MAA,Chennai,VOCI,COK,Kochi,T2,D05,11:15,11:55,13:09,74,Boeing 737-800,Capt. Varun Walker,F/O Nisha Clarke,On time,0,517
+SG919,SpiceJet,2026-11-11,VOHS,HYD,Hyderabad,VOCI,COK,Kochi,T1,B05,17:55,18:35,20:12,97,Airbus A320neo,Capt. James Joshi,F/O Swati Banerjee,Scheduled,0,818
+SG290,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VIAR,ATQ,Amritsar,T2,G04,17:05,17:45,20:29,164,Boeing 737 MAX 8,Capt. James Desai,F/O Amit Joshi,Boarding,0,1681
+SG707,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VOHS,HYD,Hyderabad,T2,D31,17:10,17:50,19:57,127,Airbus A320neo,Capt. Arjun Gupta,F/O Michael Bhatt,On time,0,1207
+AI588,Air India,2026-11-11,VIDP,DEL,Delhi,VABB,BOM,Mumbai,T3,B06,15:25,16:05,18:07,122,Boeing 737-800,Capt. Lucas Pillai,F/O Sneha Iyer,On time,0,1138
+6E491,IndiGo,2026-11-11,VABB,BOM,Mumbai,VIAR,ATQ,Amritsar,T1,H14,14:20,15:00,17:23,143,Boeing 737 MAX 8,Capt. Michael Iyer,F/O Kabir Banerjee,On time,0,1416
+6E732,IndiGo,2026-11-11,VOMM,MAA,Chennai,VEPT,PAT,Patna,T2,C02,09:25,10:05,12:34,149,Boeing 737-800,Capt. Lucas Menon,F/O Ankit Hughes,Delayed,20,1492
+QP478,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VOMM,MAA,Chennai,T1,G18,20:45,21:25,22:20,55,Airbus A321neo,Capt. Nikhil Verma,F/O James Bhatt,On time,0,267
+6E192,IndiGo,2026-11-11,VOBL,BLR,Bengaluru,VOCI,COK,Kochi,T1,C26,08:50,09:30,10:33,63,Airbus A321neo,Capt. Deepak Sethi,F/O Meera Desai,On time,0,367
+SG213,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VOMM,MAA,Chennai,T1,H20,20:35,21:15,22:10,55,Boeing 737-800,Capt. Tarun Saxena,F/O Manish Menon,Delayed,10,267
+SG401,SpiceJet,2026-11-11,VOHS,HYD,Hyderabad,VAPO,PNQ,Pune,T2,E01,22:10,22:50,00:03 +1,73,Boeing 737 MAX 8,Capt. Michael Chauhan,F/O Rohan Das,On time,0,499
+AI679,Air India,2026-11-11,VOHS,HYD,Hyderabad,VOBL,BLR,Bengaluru,T2,B15,12:15,12:55,14:05,70,Airbus A321neo,Capt. Harsh Rao,F/O Laura Sethi,Delayed,10,456
+6E460,IndiGo,2026-11-11,VIDP,DEL,Delhi,VOMM,MAA,Chennai,T2,H06,12:25,13:05,15:55,170,Boeing 737-800,Capt. Nikhil Khan,F/O Shruti Khan,On time,0,1760
+SG513,SpiceJet,2026-11-11,VABB,BOM,Mumbai,VOBL,BLR,Bengaluru,T2,F07,07:55,08:35,10:14,99,Airbus A320neo,Capt. Manish Hughes,F/O Vikram Das,On time,0,834
+6E487,IndiGo,2026-11-11,VOCI,COK,Kochi,VOHS,HYD,Hyderabad,T2,C05,12:35,13:15,14:52,97,Airbus A321neo,Capt. Michael Hughes,F/O Priya Trivedi,On time,0,818
+AI271,Air India,2026-11-11,VABB,BOM,Mumbai,VOCI,COK,Kochi,T1,G36,07:25,08:05,10:01,116,Boeing 737-800,Capt. Tarun Reddy,F/O Meera Mishra,Delayed,90,1063
+IX252,Air India Express,2026-11-11,VEGT,GAU,Guwahati,VIDP,DEL,Delhi,T1,F11,19:45,20:25,22:51,146,Airbus A320neo,Capt. Rohan Al-Farsi,F/O Tanvi Clarke,Delayed,45,1455
+AI709,Air India,2026-11-11,VOMM,MAA,Chennai,VOTV,TRV,Thiruvananthapuram,T1,G20,22:35,23:15,00:37 +1,82,Boeing 737-800,Capt. Vikram Yadav,F/O Laura Kulkarni,On time,0,614
+EK931,Emirates,2026-11-11,VOHS,HYD,Hyderabad,EDDF,FRA,Frankfurt,T2,H16,19:40,20:40,01:52 +1,582,Boeing 787-9,Capt. Daniel Fischer,F/O Emma Trivedi,Scheduled,0,7116
+SG689,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VIAR,ATQ,Amritsar,T1,B19,14:15,14:55,16:01,66,Airbus A320neo,Capt. Pranav Chauhan,F/O Sophie Iyer,Delayed,10,413
+AI950,Air India,2026-11-11,VEGT,GAU,Guwahati,VIDP,DEL,Delhi,T2,A39,13:55,14:35,17:01,146,Airbus A320neo,Capt. Rajesh Hughes,F/O Pallavi Banerjee,Delayed,25,1455
+6E300,IndiGo,2026-11-11,VABB,BOM,Mumbai,VILK,LKO,Lucknow,T2,G09,04:55,05:35,07:41,126,Boeing 737 MAX 8,Capt. Vikram Reddy,F/O Lucas Chopra,Boarding,0,1183
+IX919,Air India Express,2026-11-11,VAPO,PNQ,Pune,VOBL,BLR,Bengaluru,T1,E30,06:25,07:05,08:35,90,Boeing 737 MAX 8,Capt. Ankit Banerjee,F/O Ishaan Chauhan,Scheduled,0,722
+6E561,IndiGo,2026-11-11,VECC,CCU,Kolkata,VOCI,COK,Kochi,T1,G16,08:30,09:10,12:10,180,Boeing 737-800,Capt. Daniel Nair,F/O Ananya Saxena,On time,0,1890
+AI269,Air India,2026-11-11,VIDP,DEL,Delhi,VIAR,ATQ,Amritsar,T3,D07,19:15,19:55,21:01,66,Airbus A321neo,Capt. Harsh Walker,F/O Arjun Saxena,On time,0,413
+IX448,Air India Express,2026-11-11,VOMM,MAA,Chennai,VOHS,HYD,Hyderabad,T1,A34,05:50,06:30,07:44,74,Boeing 737 MAX 8,Capt. Siddharth Kulkarni,F/O Fatima Bose,On time,0,508
+IX772,Air India Express,2026-11-11,VOHS,HYD,Hyderabad,VAID,IDR,Indore,T1,D09,16:35,17:15,18:41,86,Boeing 737 MAX 8,Capt. Pranav Clarke,F/O Michael Reddy,Boarding,0,668
+6E419,IndiGo,2026-11-11,VECC,CCU,Kolkata,VAAH,AMD,Ahmedabad,T1,C37,06:45,07:25,10:04,159,Airbus A321neo,Capt. Varun Sethi,F/O Hannah Walker,On time,0,1619
+6E903,IndiGo,2026-11-11,VIDP,DEL,Delhi,VILK,LKO,Lucknow,T2,E01,05:35,06:15,07:22,67,Airbus A321neo,Capt. Pranav Rao,F/O Deepak Menon,Delayed,20,423
+QR525,Qatar Airways,2026-11-11,VTBS,BKK,Bangkok,VABB,BOM,Mumbai,T2,G06,08:15,09:15,12:13,268,Boeing 777-300ER,Capt. Sanjay Bose,F/O Shruti Chopra,Scheduled,0,3030
+AI873,Air India,2026-11-11,VIDP,DEL,Delhi,WSSS,SIN,Singapore,T1,G13,05:50,06:50,15:14,354,Airbus A330-300,Capt. Ankit Hughes,F/O Nisha Trivedi,Delayed,15,4158
+6E429,IndiGo,2026-11-11,VIDP,DEL,Delhi,VIAR,ATQ,Amritsar,T3,A33,06:40,07:20,08:26,66,Boeing 737-800,Capt. Nikhil Trivedi,F/O Sophie Mehta,On time,0,413
+IX103,Air India Express,2026-11-11,VOHS,HYD,Hyderabad,VOGO,GOI,Goa,T1,B25,08:20,09:00,10:15,75,Airbus A321neo,Capt. Rahul Sethi,F/O Aditya Banerjee,Scheduled,0,532
+IX731,Air India Express,2026-11-11,VECC,CCU,Kolkata,VILK,LKO,Lucknow,T1,A27,05:50,06:30,08:13,103,Airbus A321neo,Capt. Ishaan Mishra,F/O Ananya Bhatt,Delayed,60,889
+LH377,Lufthansa,2026-11-11,VOMM,MAA,Chennai,EGLL,LHR,London,T2,G04,14:15,15:15,20:53,668,Boeing 787-9,Capt. Rohan Chopra,F/O Neha Sethi,On time,0,8234
+AI475,Air India,2026-11-11,VOMM,MAA,Chennai,VOHS,HYD,Hyderabad,T2,E29,19:10,19:50,21:04,74,Boeing 737 MAX 8,Capt. Karan Al-Farsi,F/O Kavya Iyer,On time,0,508
+IX541,Air India Express,2026-11-11,VIJP,JAI,Jaipur,VEPT,PAT,Patna,T1,E33,20:35,21:15,23:01,106,Boeing 737-800,Capt. Nikhil Mishra,F/O Siddharth Patel,On time,0,935
+6E338,IndiGo,2026-11-11,VECC,CCU,Kolkata,VAPO,PNQ,Pune,T2,C24,20:20,21:00,23:36,156,Airbus A321neo,Capt. Thomas Bose,F/O Kabir Walker,On time,0,1577
+IX451,Air India Express,2026-11-11,VIDP,DEL,Delhi,VAAH,AMD,Ahmedabad,T1,B18,19:35,20:15,21:48,93,Airbus A321neo,Capt. Michael Trivedi,F/O Rahul Agarwal,Boarding,0,756
+6E645,IndiGo,2026-11-11,VIAR,ATQ,Amritsar,VANP,NAG,Nagpur,T1,F15,10:00,10:40,12:51,131,Airbus A320neo,Capt. Aditya Sethi,F/O Amit Kulkarni,Scheduled,0,1253
+QP446,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VEPT,PAT,Patna,T1,B11,15:10,15:50,17:01,71,Airbus A321neo,Capt. Siddharth Kulkarni,F/O Radhika Sharma,Boarding,0,471
+IX115,Air India Express,2026-11-11,VOMM,MAA,Chennai,VIDP,DEL,Delhi,T1,A38,05:55,06:35,09:25,170,Airbus A320neo,Capt. Rajesh Walker,F/O Radhika Reddy,Delayed,10,1760
+SG503,SpiceJet,2026-11-11,VABB,BOM,Mumbai,VEPT,PAT,Patna,T2,H07,22:20,23:00,01:26 +1,146,Airbus A321neo,Capt. Nikhil Trivedi,F/O Vikram Al-Farsi,On time,0,1448
+QP845,Akasa Air,2026-11-11,VOMM,MAA,Chennai,VANP,NAG,Nagpur,T2,C18,04:35,05:15,06:59,104,Airbus A321neo,Capt. Ankit Joshi,F/O Swati Banerjee,On time,0,908
+AI325,Air India,2026-11-11,VIDP,DEL,Delhi,VAPO,PNQ,Pune,T2,E40,09:00,09:40,11:43,123,Boeing 737-800,Capt. Harsh Nair,F/O Pallavi Reddy,Boarding,0,1156
+QP951,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VOCI,COK,Kochi,T1,H36,14:15,14:55,16:51,116,Airbus A321neo,Capt. Varun Joshi,F/O Manish Miller,On time,0,1063
+IX353,Air India Express,2026-11-11,VOBL,BLR,Bengaluru,VOMM,MAA,Chennai,T1,H18,05:45,06:25,07:20,55,Boeing 737 MAX 8,Capt. Rajesh Walker,F/O Thomas Reddy,On time,0,267
+IX723,Air India Express,2026-11-11,VIDP,DEL,Delhi,VOCI,COK,Kochi,T2,H24,21:20,22:00,01:12 +1,192,Boeing 737 MAX 8,Capt. Ankit Nair,F/O Sophie Trivedi,Scheduled,0,2048
+AI287,Air India,2026-11-11,VOMM,MAA,Chennai,VECC,CCU,Kolkata,T1,F36,09:55,10:35,12:56,141,Airbus A321neo,Capt. Daniel Das,F/O Vikram Pillai,On time,0,1385
+QP102,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VAID,IDR,Indore,T1,C16,15:00,15:40,17:05,85,Airbus A321neo,Capt. Deepak Pillai,F/O Priya Yadav,Delayed,20,662
+BA765,British Airways,2026-11-11,OMDB,DXB,Dubai,VECC,CCU,Kolkata,T1,F25,22:00,23:00,05:23 +1,293,Airbus A350-900,Capt. Lucas Clarke,F/O Swati Chopra,On time,0,3365
+6E890,IndiGo,2026-11-11,VIAR,ATQ,Amritsar,VOTV,TRV,Thiruvananthapuram,T2,F34,09:50,10:30,14:24,234,Airbus A320neo,Capt. Harsh Reddy,F/O Priya Hughes,On time,0,2592
+IX845,Air India Express,2026-11-11,VIDP,DEL,Delhi,VOTV,TRV,Thiruvananthapuram,T1,F33,18:40,19:20,22:46,206,Boeing 737-800,Capt. Siddharth Das,F/O Sanjay Kulkarni,Scheduled,0,2233
+IX309,Air India Express,2026-11-11,VECC,CCU,Kolkata,VOHS,HYD,Hyderabad,T1,A17,16:00,16:40,18:47,127,Boeing 737 MAX 8,Capt. Deepak Fischer,F/O Shruti Menon,On time,0,1207
+IX520,Air India Express,2026-11-11,VOBL,BLR,Bengaluru,VOMM,MAA,Chennai,T2,B07,13:40,14:20,15:15,55,Boeing 737-800,Capt. Siddharth Chopra,F/O Ananya Walker,On time,0,267
+6E785,IndiGo,2026-11-11,VOMM,MAA,Chennai,VEGT,GAU,Guwahati,T2,D01,14:00,14:40,17:39,179,Airbus A321neo,Capt. Pranav Sethi,F/O Nikhil Iyer,Delayed,25,1883
+EK483,Emirates,2026-11-11,VECC,CCU,Kolkata,OTHH,DOH,Doha,T1,A12,13:00,14:00,16:52,322,Airbus A330-300,Capt. Siddharth Joshi,F/O Tarun Clarke,Delayed,25,3742
+EK933,Emirates,2026-11-11,VTBS,BKK,Bangkok,VOHS,HYD,Hyderabad,T1,G37,04:55,05:55,08:06,221,Airbus A350-900,Capt. Tarun Verma,F/O Nisha Agarwal,Boarding,0,2422
+QP647,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VOHS,HYD,Hyderabad,T2,F33,22:45,23:25,00:35 +1,70,Boeing 737 MAX 8,Capt. Pranav Kapoor,F/O Kabir Chopra,On time,0,456
+IX358,Air India Express,2026-11-11,VIDP,DEL,Delhi,VOHS,HYD,Hyderabad,T1,D36,19:15,19:55,22:07,132,Boeing 737-800,Capt. Rahul Gupta,F/O Karan Nair,On time,0,1266
+QP378,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VOTV,TRV,Thiruvananthapuram,T1,B19,11:55,12:35,16:01,206,Boeing 737-800,Capt. Nikhil Malhotra,F/O Nisha Patel,Scheduled,0,2233
+AI915,Air India,2026-11-11,VABB,BOM,Mumbai,EGLL,LHR,London,T1,C27,17:45,18:45,23:04,589,Boeing 777-300ER,Capt. James Chopra,F/O Laura Sharma,Boarding,0,7212
+6E346,IndiGo,2026-11-11,VIDP,DEL,Delhi,VOMM,MAA,Chennai,T1,C15,05:05,05:45,08:35,170,Airbus A321neo,Capt. Nikhil Clarke,F/O Divya Nair,Boarding,0,1760
+IX457,Air India Express,2026-11-11,VIDP,DEL,Delhi,VECC,CCU,Kolkata,T3,E18,14:10,14:50,17:05,135,Airbus A321neo,Capt. Pranav Sharma,F/O Ishaan Gupta,Delayed,15,1312
+SG480,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VOTV,TRV,Thiruvananthapuram,T2,D36,18:00,18:40,19:55,75,Boeing 737 MAX 8,Capt. Siddharth Walker,F/O Ishaan Rao,Delayed,15,531
+QP346,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VEPT,PAT,Patna,T2,F20,05:10,05:50,07:30,100,Airbus A320neo,Capt. Tarun Rao,F/O Fatima Bhatt,Scheduled,0,856
+IX346,Air India Express,2026-11-11,VABB,BOM,Mumbai,VEPT,PAT,Patna,T1,A13,06:20,07:00,09:26,146,Airbus A320neo,Capt. Deepak Das,F/O Riya Walker,Scheduled,0,1448
+EK313,Emirates,2026-11-11,VOBL,BLR,Bengaluru,VTBS,BKK,Bangkok,T1,C03,11:40,12:40,17:56,226,Airbus A330-300,Capt. Pranav Patel,F/O Fatima Desai,On time,0,2491
+AI504,Air India,2026-11-11,OMDB,DXB,Dubai,VOBL,BLR,Bengaluru,T1,H31,13:45,14:45,20:17,242,Boeing 787-9,Capt. Harsh Verma,F/O Sneha Chauhan,Delayed,60,2695
+EK154,Emirates,2026-11-11,WSSS,SIN,Singapore,VOBL,BLR,Bengaluru,T1,C06,12:40,13:40,15:49,279,Airbus A330-300,Capt. Rajesh Khan,F/O Thomas Gupta,Scheduled,0,3178
+SG491,SpiceJet,2026-11-11,VABB,BOM,Mumbai,VIAR,ATQ,Amritsar,T1,C20,12:40,13:20,15:43,143,Boeing 737 MAX 8,Capt. Daniel Clarke,F/O Omar Kulkarni,On time,0,1416
+QP211,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VECC,CCU,Kolkata,T3,G31,06:05,06:45,09:00,135,Boeing 737-800,Capt. Harsh Malhotra,F/O Omar Verma,On time,0,1312
+QP384,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VEGT,GAU,Guwahati,T1,G01,16:40,17:20,20:34,194,Airbus A321neo,Capt. Vikram Chopra,F/O Daniel Khan,On time,0,2071
+AI312,Air India,2026-11-11,VOBL,BLR,Bengaluru,VEPT,PAT,Patna,T2,D03,17:55,18:35,21:11,156,Boeing 737-800,Capt. Lucas Miller,F/O Swati Bose,Delayed,45,1579
+IX223,Air India Express,2026-11-11,VECC,CCU,Kolkata,VIAR,ATQ,Amritsar,T2,C31,14:55,15:35,18:19,164,Airbus A321neo,Capt. Amit Sethi,F/O Anjali Yadav,Delayed,10,1681
+AI144,Air India,2026-11-11,VOHS,HYD,Hyderabad,VAPO,PNQ,Pune,T1,E24,09:15,09:55,11:08,73,Airbus A321neo,Capt. Ankit Khan,F/O Ishaan Miller,Scheduled,0,499
+IX302,Air India Express,2026-11-11,VOMM,MAA,Chennai,VILK,LKO,Lucknow,T1,C39,08:30,09:10,11:42,152,Airbus A320neo,Capt. Nikhil Walker,F/O Ankit Das,On time,0,1533
+SG202,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VANP,NAG,Nagpur,T1,A37,21:00,21:40,23:23,103,Airbus A321neo,Capt. Siddharth Saxena,F/O Deepak Sharma,On time,0,889
+6E858,IndiGo,2026-11-11,VABB,BOM,Mumbai,VECC,CCU,Kolkata,T2,B26,22:00,22:40,01:23 +1,163,Boeing 737 MAX 8,Capt. Sanjay Desai,F/O Siddharth Mishra,Scheduled,0,1665
+QP560,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VOBL,BLR,Bengaluru,T2,E03,05:05,05:45,08:18,153,Boeing 737 MAX 8,Capt. Rajesh Gupta,F/O Karan Chauhan,On time,0,1546
+QP649,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VAPO,PNQ,Pune,T2,G03,12:40,13:20,14:04,44,Boeing 737 MAX 8,Capt. Pranav Joshi,F/O Priya Rao,Scheduled,0,124
+SG678,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VIDP,DEL,Delhi,T2,A09,09:35,10:15,12:30,135,Airbus A320neo,Capt. Harsh Mishra,F/O Fatima Kapoor,On time,0,1312
+6E856,IndiGo,2026-11-11,VOBL,BLR,Bengaluru,VECC,CCU,Kolkata,T2,D11,12:20,13:00,15:33,153,Boeing 737 MAX 8,Capt. Amit Iyer,F/O Harsh Mishra,On time,0,1546
+SG909,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VOMM,MAA,Chennai,T1,F05,19:30,20:10,22:31,141,Boeing 737 MAX 8,Capt. James Sethi,F/O Sarah Chopra,On time,0,1385
+SG827,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VAID,IDR,Indore,T2,E35,16:10,16:50,18:15,85,Airbus A321neo,Capt. Pranav Das,F/O Aditya Chauhan,On time,0,662
+AI268,Air India,2026-11-11,VOBL,BLR,Bengaluru,VIJP,JAI,Jaipur,T2,H22,19:50,20:30,23:02,152,Boeing 737 MAX 8,Capt. Harsh Rao,F/O Neha Clarke,Scheduled,0,1527
+AI582,Air India,2026-11-11,VOBL,BLR,Bengaluru,VANP,NAG,Nagpur,T1,A15,13:35,14:15,15:58,103,Boeing 737-800,Capt. Ankit Mishra,F/O Vikram Fischer,On time,0,889
+6E813,IndiGo,2026-11-11,VIDP,DEL,Delhi,VOHS,HYD,Hyderabad,T2,F03,04:40,05:20,07:32,132,Airbus A320neo,Capt. Sanjay Menon,F/O Shruti Pillai,On time,0,1266
+SG376,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VEPT,PAT,Patna,T2,G12,05:35,06:15,08:44,149,Boeing 737-800,Capt. Arjun Al-Farsi,F/O Radhika Pillai,On time,0,1492
+IX889,Air India Express,2026-11-11,VOMM,MAA,Chennai,VECC,CCU,Kolkata,T2,H18,17:35,18:15,20:36,141,Boeing 737-800,Capt. James Patel,F/O Ankit Trivedi,On time,0,1385
+AI570,Air India,2026-11-11,VOBL,BLR,Bengaluru,VOGO,GOI,Goa,T1,C15,21:05,21:45,22:57,72,Boeing 737-800,Capt. Harsh Desai,F/O Daniel Al-Farsi,On time,0,482
+BA626,British Airways,2026-11-11,VOBL,BLR,Bengaluru,EGLL,LHR,London,T1,H06,12:55,13:55,19:18,653,Airbus A330-300,Capt. Varun Chopra,F/O Kabir Desai,Scheduled,0,8046
+QP861,Akasa Air,2026-11-11,VAPO,PNQ,Pune,VANP,NAG,Nagpur,T1,G23,22:40,23:20,00:41 +1,81,Boeing 737-800,Capt. Daniel Patel,F/O Vikram Chauhan,On time,0,604
+AI658,Air India,2026-11-11,VOCI,COK,Kochi,VAAH,AMD,Ahmedabad,T2,D30,11:00,11:40,14:09,149,Boeing 737 MAX 8,Capt. Tarun Mishra,F/O Varun Verma,On time,0,1491
+SG199,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VOMM,MAA,Chennai,T2,F16,20:45,21:25,22:20,55,Boeing 737-800,Capt. Sanjay Singh,F/O Thomas Agarwal,On time,0,267
+AI333,Air India,2026-11-11,OTHH,DOH,Doha,VOBL,BLR,Bengaluru,T1,F39,12:05,13:05,20:04,269,Boeing 777-300ER,Capt. Rohan Banerjee,F/O James Banerjee,Delayed,60,3042
+SG593,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VECC,CCU,Kolkata,T2,A13,09:30,10:10,12:43,153,Boeing 737 MAX 8,Capt. Sanjay Kapoor,F/O Arjun Pillai,Delayed,45,1546
+AI867,Air India,2026-11-11,VOHS,HYD,Hyderabad,VIAR,ATQ,Amritsar,T1,E08,20:25,21:05,23:46,161,Boeing 737-800,Capt. Varun Chauhan,F/O Riya Iyer,Boarding,0,1650
+6E175,IndiGo,2026-11-11,VOBL,BLR,Bengaluru,VEGT,GAU,Guwahati,T1,F32,16:20,17:00,20:11,191,Airbus A321neo,Capt. Harsh Bose,F/O Harsh Fischer,On time,0,2039
+6E766,IndiGo,2026-11-11,VOTV,TRV,Thiruvananthapuram,VECC,CCU,Kolkata,T2,G28,19:05,19:45,22:53,188,Boeing 737 MAX 8,Capt. Pranav Malhotra,F/O Shruti Miller,On time,0,1999
+QR390,Qatar Airways,2026-11-11,VTBS,BKK,Bangkok,VABB,BOM,Mumbai,T2,B29,19:10,20:10,23:08,268,Airbus A330-300,Capt. Ankit Joshi,F/O Rajesh Kulkarni,Delayed,60,3030
+IX117,Air India Express,2026-11-11,VOCI,COK,Kochi,VOHS,HYD,Hyderabad,T2,D24,08:20,09:00,10:37,97,Airbus A320neo,Capt. Rahul Joshi,F/O Nisha Clarke,Scheduled,0,818
+6E427,IndiGo,2026-11-11,VIDP,DEL,Delhi,VAPO,PNQ,Pune,T2,E04,14:00,14:40,16:43,123,Boeing 737 MAX 8,Capt. Aditya Chopra,F/O Laura Bose,Delayed,90,1156
+QP682,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VEPT,PAT,Patna,T2,A20,19:55,20:35,22:15,100,Airbus A320neo,Capt. Karan Banerjee,F/O Ishaan Bhatt,Delayed,10,856
+SG894,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VECC,CCU,Kolkata,T3,D09,08:00,08:40,10:55,135,Airbus A321neo,Capt. Arjun Verma,F/O Nisha Nair,Delayed,20,1312
+EK619,Emirates,2026-11-11,VOHS,HYD,Hyderabad,OTHH,DOH,Doha,T2,B15,21:25,22:25,00:14 +1,259,Boeing 777-300ER,Capt. Amit Rao,F/O Neha Trivedi,Scheduled,0,2913
+AI500,Air India,2026-11-11,VABB,BOM,Mumbai,VOMM,MAA,Chennai,T2,C06,17:15,17:55,19:49,114,Airbus A321neo,Capt. Tarun Menon,F/O Kavya Chauhan,Scheduled,0,1033
+6E782,IndiGo,2026-11-11,VABB,BOM,Mumbai,VAPO,PNQ,Pune,T1,F32,17:45,18:25,19:09,44,Boeing 737-800,Capt. Tarun Clarke,F/O Kabir Agarwal,Scheduled,0,124
+QP781,Akasa Air,2026-11-11,VOMM,MAA,Chennai,VOGO,GOI,Goa,T1,A10,17:05,17:45,19:16,91,Boeing 737-800,Capt. Manish Trivedi,F/O Simran Menon,On time,0,733
+SG318,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VOCI,COK,Kochi,T1,F28,05:50,06:30,07:44,74,Boeing 737 MAX 8,Capt. Rahul Trivedi,F/O Aarti Kapoor,Delayed,10,517
+QP552,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VIDP,DEL,Delhi,T2,E09,16:15,16:55,19:07,132,Boeing 737-800,Capt. Karan Mehta,F/O Nikhil Kulkarni,On time,0,1266
+AI724,Air India,2026-11-11,VOMM,MAA,Chennai,OTHH,DOH,Doha,T1,D32,13:20,14:20,16:37,287,Boeing 787-9,Capt. Harsh Sharma,F/O Aisha Kulkarni,Delayed,60,3286
+6E533,IndiGo,2026-11-11,VILK,LKO,Lucknow,VEGT,GAU,Guwahati,T1,C29,14:35,15:15,17:12,117,Boeing 737 MAX 8,Capt. Rahul Patel,F/O Sophie Patel,Scheduled,0,1067
+IX970,Air India Express,2026-11-11,VIDP,DEL,Delhi,VOTV,TRV,Thiruvananthapuram,T1,A02,05:25,06:05,09:31,206,Airbus A321neo,Capt. Tarun Mishra,F/O Ishaan Gupta,Scheduled,0,2233
+6E463,IndiGo,2026-11-11,VECC,CCU,Kolkata,VOTV,TRV,Thiruvananthapuram,T1,E14,04:25,05:05,08:13,188,Airbus A320neo,Capt. Ishaan Al-Farsi,F/O Tarun Chauhan,On time,0,1999
+SG539,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VECC,CCU,Kolkata,T2,H39,20:10,20:50,23:05,135,Airbus A320neo,Capt. Lucas Bhatt,F/O Amit Reddy,On time,0,1312
+SQ112,Singapore Airlines,2026-11-11,VOBL,BLR,Bengaluru,OTHH,DOH,Doha,T1,D32,16:00,17:00,18:59,269,Boeing 787-9,Capt. Karan Kapoor,F/O Sarah Hughes,Delayed,90,3042
+IX367,Air India Express,2026-11-11,VOGO,GOI,Goa,VOCI,COK,Kochi,T1,B17,11:25,12:05,13:29,84,Boeing 737 MAX 8,Capt. Arjun Hughes,F/O Lucas Mehta,Boarding,0,644
+SG568,SpiceJet,2026-11-11,VAAH,AMD,Ahmedabad,VABB,BOM,Mumbai,T1,C12,16:35,17:15,18:24,69,Airbus A321neo,Capt. Manish Fischer,F/O Tanvi Miller,Scheduled,0,444
+LH483,Lufthansa,2026-11-11,VOHS,HYD,Hyderabad,OMDB,DXB,Dubai,T1,F37,19:20,20:20,22:40,230,Airbus A350-900,Capt. Lucas Iyer,F/O Divya Reddy,Scheduled,0,2546
+LH685,Lufthansa,2026-11-11,OMDB,DXB,Dubai,VABB,BOM,Mumbai,T2,D05,09:15,10:15,14:48,183,Boeing 787-9,Capt. Amit Sethi,F/O James Gupta,Scheduled,0,1926
+SG582,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VOMM,MAA,Chennai,T1,E15,11:15,11:55,12:50,55,Boeing 737-800,Capt. Lucas Reddy,F/O Tarun Malhotra,On time,0,267
+AI985,Air India,2026-11-11,VOHS,HYD,Hyderabad,VIDP,DEL,Delhi,T1,H38,16:50,17:30,19:42,132,Airbus A320neo,Capt. Siddharth Fischer,F/O Sanjay Rao,On time,0,1266
+SQ765,Singapore Airlines,2026-11-11,VOHS,HYD,Hyderabad,EDDF,FRA,Frankfurt,T2,E25,18:25,19:25,00:37 +1,582,Boeing 787-9,Capt. Ishaan Kulkarni,F/O Aarti Chopra,Delayed,20,7116
+QP512,Akasa Air,2026-11-11,VANP,NAG,Nagpur,VIJP,JAI,Jaipur,T2,C06,15:50,16:30,18:00,90,Boeing 737 MAX 8,Capt. Rahul Nair,F/O Aisha Reddy,Delayed,35,717
+EK642,Emirates,2026-11-11,VIDP,DEL,Delhi,EDDF,FRA,Frankfurt,T3,A32,11:35,12:35,16:30,505,Airbus A330-300,Capt. Aditya Miller,F/O Amit Das,Delayed,20,6121
+6E516,IndiGo,2026-11-11,VABB,BOM,Mumbai,VOBL,BLR,Bengaluru,T2,A08,12:55,13:35,15:14,99,Airbus A321neo,Capt. Ishaan Khan,F/O Kavya Rao,Delayed,20,834
+AI357,Air India,2026-11-11,VOBL,BLR,Bengaluru,VIJP,JAI,Jaipur,T1,G39,21:40,22:20,00:52 +1,152,Boeing 737-800,Capt. Arjun Fischer,F/O Meera Rao,On time,0,1527
+IX698,Air India Express,2026-11-11,VAID,IDR,Indore,VANP,NAG,Nagpur,T2,F04,12:50,13:30,14:34,64,Boeing 737 MAX 8,Capt. James Pillai,F/O Tarun Bhatt,Scheduled,0,380
+SG418,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VOGO,GOI,Goa,T2,H31,10:15,10:55,12:07,72,Boeing 737-800,Capt. Deepak Bhatt,F/O Kabir Bose,Scheduled,0,482
+6E287,IndiGo,2026-11-11,VOCI,COK,Kochi,VABB,BOM,Mumbai,T2,H36,15:30,16:10,18:06,116,Airbus A321neo,Capt. Rohan Miller,F/O Ishaan Bose,On time,0,1063
+6E544,IndiGo,2026-11-11,VOMM,MAA,Chennai,OTHH,DOH,Doha,T1,H21,23:25,00:25,02:42 +1,287,Boeing 787-9,Capt. Ankit Fischer,F/O Nisha Rao,Delayed,60,3286
+QP136,Akasa Air,2026-11-11,VOGO,GOI,Goa,VILK,LKO,Lucknow,T1,C16,20:10,20:50,23:17,147,Boeing 737 MAX 8,Capt. Siddharth Sharma,F/O Varun Joshi,On time,0,1461
+AI254,Air India,2026-11-11,VEPT,PAT,Patna,VABB,BOM,Mumbai,T2,D20,14:55,15:35,18:01,146,Airbus A320neo,Capt. James Das,F/O Riya Bhatt,On time,0,1448
+QR673,Qatar Airways,2026-11-11,WSSS,SIN,Singapore,VECC,CCU,Kolkata,T2,B17,09:50,10:50,12:38,258,Boeing 777-300ER,Capt. Sanjay Nair,F/O Divya Agarwal,On time,0,2902
+IX235,Air India Express,2026-11-11,VOBL,BLR,Bengaluru,VOMM,MAA,Chennai,T1,B38,13:45,14:25,15:20,55,Airbus A321neo,Capt. Arjun Saxena,F/O Ananya Verma,Scheduled,0,267
+AI547,Air India,2026-11-11,VECC,CCU,Kolkata,VIJP,JAI,Jaipur,T2,H09,13:05,13:45,16:04,139,Airbus A321neo,Capt. Arjun Nair,F/O Manish Patel,Scheduled,0,1356
+IX755,Air India Express,2026-11-11,VIDP,DEL,Delhi,VOMM,MAA,Chennai,T3,F28,15:25,16:05,18:55,170,Airbus A321neo,Capt. Manish Al-Farsi,F/O Riya Reddy,On time,0,1760
+QP606,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VOGO,GOI,Goa,T1,D33,06:50,07:30,10:18,168,Boeing 737 MAX 8,Capt. Harsh Mehta,F/O Priya Chopra,Delayed,20,1734
+QP870,Akasa Air,2026-11-11,VOMM,MAA,Chennai,VEGT,GAU,Guwahati,T2,A02,13:35,14:15,17:14,179,Airbus A320neo,Capt. Deepak Rao,F/O Rahul Desai,Delayed,60,1883
+SG304,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VEPT,PAT,Patna,T3,D18,04:40,05:20,07:00,100,Boeing 737 MAX 8,Capt. Rajesh Al-Farsi,F/O Simran Iyer,On time,0,856
+EK678,Emirates,2026-11-11,VABB,BOM,Mumbai,WSSS,SIN,Singapore,T1,F33,19:40,20:40,04:46 +1,336,Airbus A350-900,Capt. Ishaan Mehta,F/O Divya Reddy,On time,0,3920
+SG916,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VEGT,GAU,Guwahati,T1,F13,05:05,05:45,08:11,146,Boeing 737 MAX 8,Capt. Thomas Verma,F/O Sarah Iyer,On time,0,1455
+AI936,Air India,2026-11-11,VABB,BOM,Mumbai,VOMM,MAA,Chennai,T1,A12,06:20,07:00,08:54,114,Airbus A320neo,Capt. Pranav Mishra,F/O Sneha Al-Farsi,On time,0,1033
+6E536,IndiGo,2026-11-11,VILK,LKO,Lucknow,VAID,IDR,Indore,T2,D14,15:00,15:40,17:07,87,Boeing 737 MAX 8,Capt. Harsh Nair,F/O Rohan Das,On time,0,682
+SG841,SpiceJet,2026-11-11,VOHS,HYD,Hyderabad,VILK,LKO,Lucknow,T1,B33,18:20,19:00,20:58,118,Airbus A321neo,Capt. Siddharth Khan,F/O Emma Patel,Delayed,60,1088
+AI286,Air India,2026-11-11,VOHS,HYD,Hyderabad,VILK,LKO,Lucknow,T2,C11,15:50,16:30,18:28,118,Boeing 737 MAX 8,Capt. Aditya Mehta,F/O Sanjay Banerjee,Boarding,0,1088
+QR566,Qatar Airways,2026-11-11,OTHH,DOH,Doha,VECC,CCU,Kolkata,T1,A26,04:50,05:50,13:42,322,Airbus A330-300,Capt. Michael Chopra,F/O Vikram Pillai,On time,0,3742
+EK426,Emirates,2026-11-11,VIDP,DEL,Delhi,WSSS,SIN,Singapore,T1,F40,22:05,23:05,07:29 +1,354,Boeing 777-300ER,Capt. Rajesh Chauhan,F/O Karan Patel,Boarding,0,4158
+AI780,Air India,2026-11-11,VOHS,HYD,Hyderabad,VOMM,MAA,Chennai,T1,G32,19:45,20:25,21:39,74,Boeing 737-800,Capt. Karan Agarwal,F/O Omar Clarke,On time,0,508
+SG829,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VILK,LKO,Lucknow,T2,A31,19:45,20:25,22:58,153,Airbus A321neo,Capt. Aditya Walker,F/O Ishaan Gupta,Scheduled,0,1544
+SG728,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VOHS,HYD,Hyderabad,T1,G30,07:45,08:25,09:39,74,Airbus A320neo,Capt. Harsh Reddy,F/O Vikram Kapoor,Delayed,10,508
+AI326,Air India,2026-11-11,EGLL,LHR,London,VOHS,HYD,Hyderabad,T1,A18,14:00,15:00,07:01 +1,631,Boeing 787-9,Capt. Rohan Yadav,F/O Omar Joshi,On time,0,7752
+SG897,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VANP,NAG,Nagpur,T1,H19,17:55,18:35,20:18,103,Boeing 737-800,Capt. Nikhil Trivedi,F/O Omar Mishra,Boarding,0,889
+BA584,British Airways,2026-11-11,VIDP,DEL,Delhi,OMDB,DXB,Dubai,T1,C36,09:10,10:10,12:02,202,Airbus A330-300,Capt. Nikhil Das,F/O Siddharth Reddy,On time,0,2183
+QP413,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VECC,CCU,Kolkata,T1,F28,06:50,07:30,10:03,153,Boeing 737-800,Capt. Sanjay Patel,F/O Kavya Clarke,Delayed,45,1546
+IX856,Air India Express,2026-11-11,VIDP,DEL,Delhi,VOMM,MAA,Chennai,T1,H22,22:00,22:40,01:30 +1,170,Airbus A321neo,Capt. Sanjay Trivedi,F/O Harsh Agarwal,Scheduled,0,1760
+QP195,Akasa Air,2026-11-11,VOMM,MAA,Chennai,VOCI,COK,Kochi,T1,F13,08:05,08:45,09:59,74,Airbus A321neo,Capt. Arjun Das,F/O Vikram Yadav,On time,0,517
+BA478,British Airways,2026-11-11,VABB,BOM,Mumbai,VTBS,BKK,Bangkok,T2,A18,06:45,07:45,13:43,268,Boeing 787-9,Capt. Ishaan Al-Farsi,F/O Thomas Reddy,On time,0,3030
+SG943,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VAAH,AMD,Ahmedabad,T1,H10,13:45,14:25,16:45,140,Boeing 737-800,Capt. Kabir Miller,F/O Siddharth Verma,On time,0,1374
+SG990,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VOTV,TRV,Thiruvananthapuram,T1,G06,22:05,22:45,00:00 +1,75,Airbus A320neo,Capt. James Patel,F/O Lucas Das,Delayed,20,531
+QP929,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VOMM,MAA,Chennai,T1,C31,17:05,17:45,19:39,114,Airbus A321neo,Capt. Ankit Chauhan,F/O Fatima Hughes,On time,0,1033
+IX941,Air India Express,2026-11-11,VIDP,DEL,Delhi,VOCI,COK,Kochi,T1,E35,11:55,12:35,15:47,192,Airbus A321neo,Capt. James Malhotra,F/O Ananya Chopra,Scheduled,0,2048
+QP398,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VAID,IDR,Indore,T1,E24,08:20,09:00,10:13,73,Airbus A321neo,Capt. James Kulkarni,F/O Simran Bose,Scheduled,0,505
+SG998,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VIJP,JAI,Jaipur,T1,A03,22:15,22:55,01:14 +1,139,Boeing 737-800,Capt. Rohan Walker,F/O Kavya Rao,On time,0,1356
+IX642,Air India Express,2026-11-11,VOMM,MAA,Chennai,VILK,LKO,Lucknow,T2,C02,08:35,09:15,11:47,152,Airbus A321neo,Capt. Nikhil Saxena,F/O Pallavi Malhotra,On time,0,1533
+AI545,Air India,2026-11-11,VAID,IDR,Indore,VILK,LKO,Lucknow,T2,D15,09:25,10:05,11:32,87,Airbus A321neo,Capt. Vikram Verma,F/O Sneha Khan,Delayed,45,682
+QP749,Akasa Air,2026-11-11,VEPT,PAT,Patna,VOCI,COK,Kochi,T1,E21,20:20,21:00,00:04 +1,184,Boeing 737-800,Capt. Pranav Menon,F/O Daniel Joshi,Delayed,15,1945
+AI195,Air India,2026-11-11,VECC,CCU,Kolkata,VOTV,TRV,Thiruvananthapuram,T2,D35,09:55,10:35,13:43,188,Boeing 737 MAX 8,Capt. Tarun Bhatt,F/O Anjali Agarwal,Delayed,60,1999
+6E354,IndiGo,2026-11-11,VOBL,BLR,Bengaluru,VOCI,COK,Kochi,T1,G07,08:15,08:55,09:58,63,Boeing 737-800,Capt. Rahul Saxena,F/O Emma Verma,Delayed,20,367
+6E229,IndiGo,2026-11-11,VOBL,BLR,Bengaluru,VEPT,PAT,Patna,T1,B27,11:10,11:50,14:26,156,Airbus A321neo,Capt. Deepak Chopra,F/O Neha Desai,Scheduled,0,1579
+6E455,IndiGo,2026-11-11,VOTV,TRV,Thiruvananthapuram,VOCI,COK,Kochi,T2,F10,12:05,12:45,13:34,49,Airbus A321neo,Capt. Varun Saxena,F/O Lucas Khan,On time,0,194
+6E233,IndiGo,2026-11-11,VOBL,BLR,Bengaluru,VEPT,PAT,Patna,T1,C36,10:10,10:50,13:26,156,Airbus A320neo,Capt. Nikhil Al-Farsi,F/O Rajesh Banerjee,Scheduled,0,1579
+6E759,IndiGo,2026-11-11,VEGT,GAU,Guwahati,VILK,LKO,Lucknow,T2,C26,22:20,23:00,00:57 +1,117,Boeing 737-800,Capt. Rahul Fischer,F/O Ananya Al-Farsi,Boarding,0,1067
+IX734,Air India Express,2026-11-11,VECC,CCU,Kolkata,VIDP,DEL,Delhi,T2,D29,04:50,05:30,07:45,135,Airbus A321neo,Capt. Rajesh Bose,F/O Rajesh Sharma,Boarding,0,1312
+AI542,Air India,2026-11-11,VOMM,MAA,Chennai,VAPO,PNQ,Pune,T1,A13,10:10,10:50,12:35,105,Boeing 737 MAX 8,Capt. Rajesh Joshi,F/O Simran Menon,On time,0,912
+QP256,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VILK,LKO,Lucknow,T1,G02,05:25,06:05,07:12,67,Boeing 737-800,Capt. Rajesh Kapoor,F/O Arjun Trivedi,Delayed,45,423
+QP989,Akasa Air,2026-11-11,VAAH,AMD,Ahmedabad,VILK,LKO,Lucknow,T1,B05,12:20,13:00,14:46,106,Boeing 737-800,Capt. James Walker,F/O Pooja Mishra,Scheduled,0,927
+6E333,IndiGo,2026-11-11,VOMM,MAA,Chennai,VEPT,PAT,Patna,T2,A24,10:55,11:35,14:04,149,Boeing 737-800,Capt. Ankit Sharma,F/O Rohan Fischer,Delayed,60,1492
+AI411,Air India,2026-11-11,VOHS,HYD,Hyderabad,VILK,LKO,Lucknow,T1,G38,17:10,17:50,19:48,118,Airbus A320neo,Capt. Daniel Saxena,F/O Ankit Agarwal,On time,0,1088
+AI633,Air India,2026-11-11,OTHH,DOH,Doha,VOBL,BLR,Bengaluru,T2,C24,18:45,19:45,02:44 +1,269,Boeing 777-300ER,Capt. Rahul Fischer,F/O Divya Pillai,Delayed,35,3042
+AI693,Air India,2026-11-11,VIDP,DEL,Delhi,VILK,LKO,Lucknow,T3,G28,05:40,06:20,07:27,67,Boeing 737 MAX 8,Capt. James Pillai,F/O James Miller,On time,0,423
+QP535,Akasa Air,2026-11-11,VOMM,MAA,Chennai,VECC,CCU,Kolkata,T1,D28,07:45,08:25,10:46,141,Boeing 737-800,Capt. Kabir Patel,F/O Aditya Kapoor,Scheduled,0,1385
+IX625,Air India Express,2026-11-11,VIDP,DEL,Delhi,VAPO,PNQ,Pune,T2,F19,18:20,19:00,21:03,123,Boeing 737 MAX 8,Capt. Siddharth Khan,F/O Tanvi Malhotra,On time,0,1156
+AI860,Air India,2026-11-11,VOBL,BLR,Bengaluru,VEGT,GAU,Guwahati,T2,C32,17:55,18:35,21:46,191,Airbus A321neo,Capt. Deepak Al-Farsi,F/O Michael Banerjee,On time,0,2039
+QP589,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VOGO,GOI,Goa,T2,A16,21:45,22:25,01:13 +1,168,Airbus A321neo,Capt. Omar Kulkarni,F/O Kavya Das,Delayed,45,1734
+QP576,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VECC,CCU,Kolkata,T1,E07,17:15,17:55,20:02,127,Boeing 737-800,Capt. Ishaan Yadav,F/O Harsh Kulkarni,Boarding,0,1207
+AI703,Air India,2026-11-11,EDDF,FRA,Frankfurt,VOBL,BLR,Bengaluru,T2,F18,05:15,06:15,20:49,604,Boeing 777-300ER,Capt. Kabir Agarwal,F/O Pallavi Kulkarni,Delayed,10,7402
+AI815,Air India,2026-11-11,VOMM,MAA,Chennai,EGLL,LHR,London,T1,E11,12:20,13:20,18:58,668,Airbus A330-300,Capt. Karan Mehta,F/O Divya Das,On time,0,8234
+6E529,IndiGo,2026-11-11,VIDP,DEL,Delhi,VAID,IDR,Indore,T2,B37,15:05,15:45,17:10,85,Airbus A321neo,Capt. Sanjay Agarwal,F/O Karan Hughes,Scheduled,0,662
+IX191,Air India Express,2026-11-11,VOHS,HYD,Hyderabad,VOMM,MAA,Chennai,T2,B09,09:25,10:05,11:19,74,Airbus A320neo,Capt. Karan Nair,F/O Sanjay Desai,Delayed,20,508
+IX666,Air India Express,2026-11-11,VABB,BOM,Mumbai,VIDP,DEL,Delhi,T1,B18,12:40,13:20,15:22,122,Boeing 737 MAX 8,Capt. Karan Pillai,F/O Simran Joshi,On time,0,1138
+SG103,SpiceJet,2026-11-11,VABB,BOM,Mumbai,VIJP,JAI,Jaipur,T1,B27,10:20,11:00,12:45,105,Airbus A320neo,Capt. Deepak Chopra,F/O Deepak Chopra,Scheduled,0,911
+6E501,IndiGo,2026-11-11,VEGT,GAU,Guwahati,VANP,NAG,Nagpur,T2,H13,15:35,16:15,18:37,142,Boeing 737 MAX 8,Capt. Ankit Sharma,F/O Aisha Walker,Scheduled,0,1393
+AI749,Air India,2026-11-11,VAAH,AMD,Ahmedabad,VIDP,DEL,Delhi,T1,E21,13:20,14:00,15:33,93,Boeing 737 MAX 8,Capt. Rajesh Iyer,F/O Ananya Trivedi,On time,0,756
+IX539,Air India Express,2026-11-11,VIDP,DEL,Delhi,VIJP,JAI,Jaipur,T2,D20,09:05,09:45,10:37,52,Airbus A321neo,Capt. James Chauhan,F/O Nikhil Yadav,On time,0,231
+SG780,SpiceJet,2026-11-11,VANP,NAG,Nagpur,VAPO,PNQ,Pune,T1,G03,21:30,22:10,23:31,81,Boeing 737 MAX 8,Capt. Pranav Joshi,F/O Sneha Hughes,Scheduled,0,604
+IX376,Air India Express,2026-11-11,VABB,BOM,Mumbai,VAID,IDR,Indore,T2,B15,10:40,11:20,12:33,73,Boeing 737 MAX 8,Capt. Aditya Mehta,F/O Neha Malhotra,On time,0,505
+AI608,Air India,2026-11-11,VIDP,DEL,Delhi,VEGT,GAU,Guwahati,T3,F28,22:10,22:50,01:16 +1,146,Boeing 737-800,Capt. Michael Desai,F/O Siddharth Clarke,On time,0,1455
+AI927,Air India,2026-11-11,VOHS,HYD,Hyderabad,VAPO,PNQ,Pune,T2,A01,16:40,17:20,18:33,73,Boeing 737 MAX 8,Capt. Rohan Kapoor,F/O Riya Banerjee,Scheduled,0,499
+QP564,Akasa Air,2026-11-11,VOCI,COK,Kochi,VIDP,DEL,Delhi,T1,H31,05:40,06:20,09:32,192,Boeing 737-800,Capt. Pranav Kapoor,F/O Karan Malhotra,Scheduled,0,2048
+IX719,Air India Express,2026-11-11,VOBL,BLR,Bengaluru,VIJP,JAI,Jaipur,T2,A11,10:50,11:30,14:02,152,Boeing 737 MAX 8,Capt. Rahul Iyer,F/O Laura Saxena,Scheduled,0,1527
+SG271,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VEGT,GAU,Guwahati,T1,G02,22:10,22:50,02:01 +1,191,Airbus A321neo,Capt. Lucas Sethi,F/O Radhika Menon,On time,0,2039
+IX466,Air India Express,2026-11-11,VOBL,BLR,Bengaluru,VOGO,GOI,Goa,T2,H11,16:40,17:20,18:32,72,Airbus A321neo,Capt. Rahul Bhatt,F/O Michael Nair,Scheduled,0,482
+QR173,Qatar Airways,2026-11-11,OMDB,DXB,Dubai,VOHS,HYD,Hyderabad,T1,E10,14:35,15:35,20:55,230,Airbus A350-900,Capt. Karan Hughes,F/O Siddharth Trivedi,On time,0,2546
+IX220,Air India Express,2026-11-11,VOHS,HYD,Hyderabad,VAPO,PNQ,Pune,T1,E34,15:15,15:55,17:08,73,Airbus A320neo,Capt. Lucas Saxena,F/O Tanvi Joshi,Boarding,0,499
+QP977,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VAAH,AMD,Ahmedabad,T3,C24,04:20,05:00,06:33,93,Boeing 737 MAX 8,Capt. Rajesh Mishra,F/O Michael Mishra,Boarding,0,756
+6E762,IndiGo,2026-11-11,VECC,CCU,Kolkata,VOBL,BLR,Bengaluru,T2,B08,08:35,09:15,11:48,153,Airbus A320neo,Capt. Arjun Banerjee,F/O Vikram Reddy,On time,0,1546
+AI149,Air India,2026-11-11,VECC,CCU,Kolkata,VOGO,GOI,Goa,T2,H36,19:20,20:00,22:48,168,Airbus A321neo,Capt. James Das,F/O Michael Bhatt,On time,0,1734
+6E549,IndiGo,2026-11-11,VECC,CCU,Kolkata,VABB,BOM,Mumbai,T2,H21,13:15,13:55,16:38,163,Airbus A321neo,Capt. Rohan Joshi,F/O Isha Trivedi,Delayed,90,1665
+QP392,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VECC,CCU,Kolkata,T1,A14,19:50,20:30,23:03,153,Airbus A321neo,Capt. Thomas Banerjee,F/O Amit Chauhan,On time,0,1546
+SQ903,Singapore Airlines,2026-11-11,EDDF,FRA,Frankfurt,VECC,CCU,Kolkata,T2,F18,19:35,20:35,11:08 +1,603,Boeing 777-300ER,Capt. Amit Chopra,F/O Omar Miller,On time,0,7390
+6E719,IndiGo,2026-11-11,VOCI,COK,Kochi,VOMM,MAA,Chennai,T1,F34,23:15,23:55,01:09 +1,74,Boeing 737-800,Capt. Aditya Chopra,F/O Kabir Miller,Delayed,35,517
+QP138,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VAPO,PNQ,Pune,T2,G19,07:50,08:30,09:14,44,Boeing 737-800,Capt. Sanjay Khan,F/O Ishaan Al-Farsi,Delayed,90,124
+QP754,Akasa Air,2026-11-11,VOMM,MAA,Chennai,VANP,NAG,Nagpur,T1,E04,15:25,16:05,17:49,104,Airbus A321neo,Capt. Rahul Mehta,F/O Meera Saxena,Delayed,15,908
+QP236,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VIAR,ATQ,Amritsar,T2,D13,19:15,19:55,22:18,143,Airbus A321neo,Capt. Manish Gupta,F/O Anjali Banerjee,On time,0,1416
+6E482,IndiGo,2026-11-11,VIAR,ATQ,Amritsar,VOGO,GOI,Goa,T2,G09,22:40,23:20,02:14 +1,174,Airbus A320neo,Capt. Varun Bose,F/O Anjali Walker,On time,0,1818
+AI481,Air India,2026-11-11,VEGT,GAU,Guwahati,VOCI,COK,Kochi,T2,C19,17:15,17:55,21:33,218,Airbus A321neo,Capt. Daniel Patel,F/O Lucas Patel,On time,0,2387
+6E446,IndiGo,2026-11-11,VIAR,ATQ,Amritsar,VOGO,GOI,Goa,T1,D01,04:45,05:25,08:19,174,Boeing 737 MAX 8,Capt. Vikram Singh,F/O Sophie Singh,Scheduled,0,1818
+QP773,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VECC,CCU,Kolkata,T1,H01,09:05,09:45,11:52,127,Airbus A320neo,Capt. Deepak Kulkarni,F/O Neha Desai,On time,0,1207
+IX873,Air India Express,2026-11-11,VABB,BOM,Mumbai,VAPO,PNQ,Pune,T2,B08,12:25,13:05,13:49,44,Boeing 737-800,Capt. Pranav Agarwal,F/O Rahul Yadav,Scheduled,0,124
+LH849,Lufthansa,2026-11-11,EGLL,LHR,London,VOHS,HYD,Hyderabad,T1,D07,16:40,17:40,09:41 +1,631,Airbus A350-900,Capt. Thomas Mishra,F/O James Malhotra,On time,0,7752
+AI604,Air India,2026-11-11,VOHS,HYD,Hyderabad,VTBS,BKK,Bangkok,T2,F21,20:00,21:00,02:11 +1,221,Boeing 787-9,Capt. Rajesh Chauhan,F/O Siddharth Patel,Scheduled,0,2422
+6E150,IndiGo,2026-11-11,VOHS,HYD,Hyderabad,VABB,BOM,Mumbai,T2,D12,05:15,05:55,07:17,82,Boeing 737-800,Capt. Rohan Mehta,F/O Isha Khan,On time,0,622
+6E265,IndiGo,2026-11-11,VOHS,HYD,Hyderabad,VIJP,JAI,Jaipur,T2,A12,21:15,21:55,23:54,119,Boeing 737 MAX 8,Capt. Karan Nair,F/O Isha Walker,Scheduled,0,1099
+IX902,Air India Express,2026-11-11,VABB,BOM,Mumbai,VAAH,AMD,Ahmedabad,T2,G05,05:35,06:15,07:24,69,Boeing 737-800,Capt. Kabir Walker,F/O Radhika Hughes,Delayed,20,444
+BA860,British Airways,2026-11-11,VOMM,MAA,Chennai,EDDF,FRA,Frankfurt,T2,C35,04:35,05:35,11:24,619,Airbus A350-900,Capt. Tarun Banerjee,F/O Harsh Chopra,Boarding,0,7594
+6E580,IndiGo,2026-11-11,VIDP,DEL,Delhi,VAAH,AMD,Ahmedabad,T1,H33,12:25,13:05,14:38,93,Airbus A320neo,Capt. Michael Chauhan,F/O Sarah Banerjee,On time,0,756
+QP889,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VECC,CCU,Kolkata,T1,G09,21:10,21:50,23:57,127,Airbus A320neo,Capt. Rahul Joshi,F/O Karan Sharma,On time,0,1207
+SG752,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VIJP,JAI,Jaipur,T1,B25,14:25,15:05,17:24,139,Airbus A321neo,Capt. Aditya Das,F/O Aditya Verma,Delayed,45,1356
+SQ813,Singapore Airlines,2026-11-11,VECC,CCU,Kolkata,WSSS,SIN,Singapore,T1,C25,10:00,11:00,17:48,258,Airbus A330-300,Capt. Arjun Verma,F/O Ankit Banerjee,On time,0,2902
+SG844,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VOBL,BLR,Bengaluru,T2,H13,20:50,21:30,00:03 +1,153,Airbus A320neo,Capt. Deepak Mishra,F/O Sophie Bhatt,Delayed,10,1546
+QP285,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VOTV,TRV,Thiruvananthapuram,T2,A39,13:50,14:30,16:20,110,Airbus A320neo,Capt. Rajesh Verma,F/O Shruti Fischer,Scheduled,0,987
+IX946,Air India Express,2026-11-11,VOMM,MAA,Chennai,VEPT,PAT,Patna,T1,E10,19:00,19:40,22:09,149,Airbus A320neo,Capt. Pranav Gupta,F/O Siddharth Fischer,Scheduled,0,1492
+IX406,Air India Express,2026-11-11,VAAH,AMD,Ahmedabad,VIDP,DEL,Delhi,T2,E12,20:40,21:20,22:53,93,Airbus A320neo,Capt. Kabir Patel,F/O Kavya Rao,Scheduled,0,756
+6E776,IndiGo,2026-11-11,VECC,CCU,Kolkata,VOBL,BLR,Bengaluru,T2,C36,11:05,11:45,14:18,153,Boeing 737 MAX 8,Capt. Ishaan Nair,F/O Amit Chauhan,Scheduled,0,1546
+AI836,Air India,2026-11-11,VOBL,BLR,Bengaluru,EDDF,FRA,Frankfurt,T2,G12,09:50,10:50,16:24,604,Airbus A330-300,Capt. Manish Mishra,F/O Manish Joshi,Scheduled,0,7402
+QP789,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VOCI,COK,Kochi,T1,F30,10:50,11:30,13:07,97,Boeing 737 MAX 8,Capt. Varun Miller,F/O Rahul Pillai,Boarding,0,818
+SG785,SpiceJet,2026-11-11,VANP,NAG,Nagpur,VILK,LKO,Lucknow,T2,E20,14:45,15:25,16:50,85,Boeing 737-800,Capt. Sanjay Rao,F/O Sarah Fischer,Boarding,0,657
+IX396,Air India Express,2026-11-11,VOHS,HYD,Hyderabad,VEGT,GAU,Guwahati,T2,D04,13:45,14:25,17:09,164,Airbus A321neo,Capt. Lucas Saxena,F/O Kabir Das,Delayed,45,1677
+IX166,Air India Express,2026-11-11,VOMM,MAA,Chennai,VOBL,BLR,Bengaluru,T1,G08,22:05,22:45,23:40,55,Boeing 737-800,Capt. Karan Saxena,F/O Daniel Desai,Boarding,0,267
+6E183,IndiGo,2026-11-11,VIJP,JAI,Jaipur,VEPT,PAT,Patna,T2,D31,06:45,07:25,09:11,106,Airbus A320neo,Capt. Manish Kulkarni,F/O Arjun Malhotra,Scheduled,0,935
+IX327,Air India Express,2026-11-11,VIJP,JAI,Jaipur,VEGT,GAU,Guwahati,T1,E02,15:05,15:45,18:20,155,Airbus A321neo,Capt. Harsh Sharma,F/O Aarti Khan,On time,0,1571
+BA206,British Airways,2026-11-11,WSSS,SIN,Singapore,VOHS,HYD,Hyderabad,T1,E17,13:25,14:25,16:44,289,Airbus A350-900,Capt. Amit Mehta,F/O Sarah Malhotra,On time,0,3305
+QP760,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VOTV,TRV,Thiruvananthapuram,T3,F17,04:40,05:20,08:46,206,Airbus A320neo,Capt. Rahul Gupta,F/O Sarah Al-Farsi,Boarding,0,2233
+SQ484,Singapore Airlines,2026-11-11,VABB,BOM,Mumbai,WSSS,SIN,Singapore,T1,E15,14:10,15:10,23:16,336,Boeing 787-9,Capt. Siddharth Al-Farsi,F/O Pooja Walker,On time,0,3920
+QP115,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VIJP,JAI,Jaipur,T2,B03,11:00,11:40,13:39,119,Airbus A320neo,Capt. Arjun Walker,F/O Pranav Malhotra,Scheduled,0,1099
+BA180,British Airways,2026-11-11,VOBL,BLR,Bengaluru,OMDB,DXB,Dubai,T1,E14,17:25,18:25,20:57,242,Airbus A330-300,Capt. Manish Saxena,F/O Rajesh Clarke,On time,0,2695
+AI937,Air India,2026-11-11,VTBS,BKK,Bangkok,VECC,CCU,Kolkata,T2,E26,11:55,12:55,14:05,160,Boeing 777-300ER,Capt. Amit Clarke,F/O Manish Sharma,Scheduled,0,1636
+IX813,Air India Express,2026-11-11,VOHS,HYD,Hyderabad,VEGT,GAU,Guwahati,T1,B11,17:30,18:10,20:54,164,Airbus A320neo,Capt. Omar Saxena,F/O Daniel Kulkarni,On time,0,1677
+SG551,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VAPO,PNQ,Pune,T2,G01,12:30,13:10,15:13,123,Airbus A320neo,Capt. Siddharth Mehta,F/O Pranav Kapoor,Delayed,25,1156
+AI246,Air India,2026-11-11,VOHS,HYD,Hyderabad,VEPT,PAT,Patna,T2,A10,20:35,21:15,23:18,123,Airbus A321neo,Capt. Manish Khan,F/O Karan Banerjee,Delayed,20,1155
+SG525,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VOMM,MAA,Chennai,T3,D12,10:50,11:30,14:20,170,Boeing 737-800,Capt. Karan Sethi,F/O Divya Banerjee,Delayed,25,1760
+BA617,British Airways,2026-11-11,VOHS,HYD,Hyderabad,WSSS,SIN,Singapore,T1,A29,19:05,20:05,03:24 +1,289,Boeing 787-9,Capt. Arjun Das,F/O Siddharth Walker,On time,0,3305
+EK379,Emirates,2026-11-11,VOMM,MAA,Chennai,OMDB,DXB,Dubai,T2,H04,06:45,07:45,10:35,260,Boeing 787-9,Capt. Rohan Rao,F/O Thomas Chauhan,On time,0,2933
+QP582,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VAPO,PNQ,Pune,T2,F28,09:15,09:55,11:25,90,Airbus A320neo,Capt. Manish Joshi,F/O Pranav Saxena,On time,0,722
+IX131,Air India Express,2026-11-11,VOHS,HYD,Hyderabad,VOCI,COK,Kochi,T1,G09,07:25,08:05,09:42,97,Airbus A321neo,Capt. Vikram Clarke,F/O Pooja Gupta,Delayed,15,818
+QP406,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VIDP,DEL,Delhi,T1,E03,18:30,19:10,21:25,135,Airbus A320neo,Capt. Sanjay Pillai,F/O Sanjay Al-Farsi,On time,0,1312
+AI736,Air India,2026-11-11,VIDP,DEL,Delhi,VOHS,HYD,Hyderabad,T3,B18,06:45,07:25,09:37,132,Airbus A320neo,Capt. Harsh Pillai,F/O Pranav Agarwal,Scheduled,0,1266
+QP686,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VABB,BOM,Mumbai,T2,E28,06:25,07:05,09:48,163,Boeing 737-800,Capt. James Kulkarni,F/O Kavya Nair,Scheduled,0,1665
+SG385,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VOTV,TRV,Thiruvananthapuram,T3,G09,14:40,15:20,18:46,206,Airbus A321neo,Capt. Thomas Mishra,F/O Omar Kulkarni,On time,0,2233
+AI728,Air India,2026-11-11,VECC,CCU,Kolkata,VOMM,MAA,Chennai,T1,F33,08:20,09:00,11:21,141,Boeing 737-800,Capt. Pranav Kulkarni,F/O Tanvi Trivedi,Boarding,0,1385
+IX881,Air India Express,2026-11-11,VECC,CCU,Kolkata,VOBL,BLR,Bengaluru,T2,D09,12:15,12:55,15:28,153,Boeing 737 MAX 8,Capt. Rohan Banerjee,F/O Shruti Miller,On time,0,1546
+SG209,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VIAR,ATQ,Amritsar,T2,C34,06:35,07:15,10:35,200,Boeing 737 MAX 8,Capt. Varun Reddy,F/O Sanjay Sethi,On time,0,2152
+LH196,Lufthansa,2026-11-11,EDDF,FRA,Frankfurt,VOHS,HYD,Hyderabad,T2,H38,13:10,14:10,04:22 +1,582,Airbus A330-300,Capt. Deepak Khan,F/O James Gupta,Scheduled,0,7116
+QP193,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VAID,IDR,Indore,T2,F28,05:50,06:30,08:44,134,Boeing 737-800,Capt. Pranav Das,F/O Hannah Desai,On time,0,1296
+QP704,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VOGO,GOI,Goa,T2,G04,18:05,18:45,21:33,168,Boeing 737-800,Capt. Omar Patel,F/O Neha Gupta,On time,0,1734
+6E106,IndiGo,2026-11-11,VECC,CCU,Kolkata,VIDP,DEL,Delhi,T1,B10,09:20,10:00,12:15,135,Airbus A321neo,Capt. Lucas Malhotra,F/O Kabir Khan,Delayed,20,1312
+IX748,Air India Express,2026-11-11,VOBL,BLR,Bengaluru,VAID,IDR,Indore,T1,E15,10:00,10:40,12:37,117,Airbus A320neo,Capt. Omar Al-Farsi,F/O Aarti Pillai,Scheduled,0,1077
+BA918,British Airways,2026-11-11,VABB,BOM,Mumbai,VTBS,BKK,Bangkok,T2,D22,08:20,09:20,15:18,268,Airbus A330-300,Capt. Pranav Trivedi,F/O Simran Fischer,On time,0,3030
+AI488,Air India,2026-11-11,VEGT,GAU,Guwahati,VIDP,DEL,Delhi,T2,E39,16:15,16:55,19:21,146,Boeing 737-800,Capt. Tarun Bose,F/O Varun Verma,Scheduled,0,1455
+IX203,Air India Express,2026-11-11,VECC,CCU,Kolkata,VEPT,PAT,Patna,T2,H23,20:50,21:30,22:41,71,Boeing 737 MAX 8,Capt. Vikram Miller,F/O Isha Das,On time,0,471
+IX297,Air India Express,2026-11-11,VIDP,DEL,Delhi,VAAH,AMD,Ahmedabad,T2,A16,06:50,07:30,09:03,93,Airbus A320neo,Capt. Manish Saxena,F/O Varun Gupta,Delayed,45,756
+SG892,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VOCI,COK,Kochi,T3,G03,11:15,11:55,15:07,192,Boeing 737-800,Capt. Amit Desai,F/O Harsh Hughes,On time,0,2048
+6E718,IndiGo,2026-11-11,VIDP,DEL,Delhi,VECC,CCU,Kolkata,T2,C01,08:35,09:15,11:30,135,Boeing 737-800,Capt. Rajesh Das,F/O Pooja Al-Farsi,Delayed,90,1312
+AI341,Air India,2026-11-11,VIDP,DEL,Delhi,VOGO,GOI,Goa,T3,E06,07:50,08:30,11:00,150,Airbus A321neo,Capt. Kabir Chauhan,F/O Hannah Bhatt,On time,0,1504
+SQ478,Singapore Airlines,2026-11-11,WSSS,SIN,Singapore,VABB,BOM,Mumbai,T2,G19,14:40,15:40,18:46,336,Airbus A350-900,Capt. Pranav Kulkarni,F/O Rohan Patel,On time,0,3920
+QP532,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VOGO,GOI,Goa,T1,C28,17:25,18:05,19:12,67,Boeing 737-800,Capt. Lucas Chauhan,F/O Tanvi Yadav,Boarding,0,424
+LH953,Lufthansa,2026-11-11,OMDB,DXB,Dubai,VOMM,MAA,Chennai,T2,B29,20:25,21:25,03:15 +1,260,Airbus A330-300,Capt. Nikhil Walker,F/O Deepak Saxena,On time,0,2933
+AI742,Air India,2026-11-11,VECC,CCU,Kolkata,VOGO,GOI,Goa,T1,F01,13:30,14:10,16:58,168,Boeing 737-800,Capt. Harsh Al-Farsi,F/O Aisha Banerjee,On time,0,1734
+IX938,Air India Express,2026-11-11,VEPT,PAT,Patna,VOBL,BLR,Bengaluru,T1,E29,15:00,15:40,18:16,156,Airbus A321neo,Capt. Manish Fischer,F/O Kabir Mishra,Scheduled,0,1579
+6E348,IndiGo,2026-11-11,VIDP,DEL,Delhi,VOGO,GOI,Goa,T2,E40,10:30,11:10,13:40,150,Airbus A321neo,Capt. Sanjay Hughes,F/O Neha Walker,On time,0,1504
+QP457,Akasa Air,2026-11-11,VIJP,JAI,Jaipur,VANP,NAG,Nagpur,T2,F15,21:10,21:50,23:20,90,Boeing 737-800,Capt. Ishaan Hughes,F/O Rahul Sharma,On time,0,717
+AI672,Air India,2026-11-11,VOHS,HYD,Hyderabad,VEGT,GAU,Guwahati,T2,A40,18:40,19:20,22:04,164,Boeing 737 MAX 8,Capt. Lucas Malhotra,F/O Rajesh Gupta,On time,0,1677
+SQ696,Singapore Airlines,2026-11-11,VOBL,BLR,Bengaluru,VTBS,BKK,Bangkok,T2,F37,21:30,22:30,03:46 +1,226,Boeing 777-300ER,Capt. James Desai,F/O Emma Sharma,Delayed,25,2491
+IX852,Air India Express,2026-11-11,VOHS,HYD,Hyderabad,VAAH,AMD,Ahmedabad,T1,B03,17:55,18:35,20:18,103,Airbus A320neo,Capt. Varun Pillai,F/O Fatima Fischer,Boarding,0,886
+6E318,IndiGo,2026-11-11,WSSS,SIN,Singapore,VOHS,HYD,Hyderabad,T2,C25,06:10,07:10,09:29,289,Boeing 777-300ER,Capt. Tarun Gupta,F/O Laura Sharma,On time,0,3305
+6E794,IndiGo,2026-11-11,VECC,CCU,Kolkata,VOCI,COK,Kochi,T2,B37,11:25,12:05,15:05,180,Boeing 737 MAX 8,Capt. Karan Chopra,F/O Shruti Sharma,Delayed,90,1890
+6E410,IndiGo,2026-11-11,VIJP,JAI,Jaipur,VECC,CCU,Kolkata,T1,F07,11:05,11:45,14:04,139,Boeing 737 MAX 8,Capt. Lucas Gupta,F/O Lucas Sharma,Scheduled,0,1356
+SG572,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VABB,BOM,Mumbai,T1,E28,18:30,19:10,21:04,114,Airbus A320neo,Capt. Omar Bhatt,F/O Swati Gupta,On time,0,1033
+QP318,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VIAR,ATQ,Amritsar,T2,A23,18:20,19:00,21:44,164,Boeing 737 MAX 8,Capt. Daniel Sethi,F/O Riya Joshi,On time,0,1681
+BA465,British Airways,2026-11-11,VTBS,BKK,Bangkok,VABB,BOM,Mumbai,T1,G30,12:10,13:10,16:08,268,Airbus A330-300,Capt. Rajesh Joshi,F/O Riya Iyer,Boarding,0,3030
+6E161,IndiGo,2026-11-11,VIDP,DEL,Delhi,VEPT,PAT,Patna,T3,D30,11:05,11:45,13:25,100,Boeing 737-800,Capt. Varun Banerjee,F/O Fatima Sethi,Delayed,20,856
+6E800,IndiGo,2026-11-11,VOHS,HYD,Hyderabad,VANP,NAG,Nagpur,T1,B27,16:50,17:30,18:38,68,Airbus A321neo,Capt. Rohan Bhatt,F/O Fatima Hughes,Scheduled,0,433
+AI842,Air India,2026-11-11,VECC,CCU,Kolkata,VIAR,ATQ,Amritsar,T1,H11,16:45,17:25,20:09,164,Airbus A321neo,Capt. Manish Singh,F/O Kabir Chopra,Scheduled,0,1681
+SG878,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VOBL,BLR,Bengaluru,T1,D16,20:45,21:25,22:20,55,Boeing 737 MAX 8,Capt. Rohan Das,F/O Varun Banerjee,Delayed,60,267
+6E100,IndiGo,2026-11-11,VIDP,DEL,Delhi,VEGT,GAU,Guwahati,T3,D07,13:10,13:50,16:16,146,Boeing 737 MAX 8,Capt. James Bose,F/O Shruti Sethi,On time,0,1455
+QP726,Akasa Air,2026-11-11,VAID,IDR,Indore,VIDP,DEL,Delhi,T2,G36,21:00,21:40,23:05,85,Airbus A321neo,Capt. Sanjay Sharma,F/O Harsh Gupta,On time,0,662
+SG760,SpiceJet,2026-11-11,VANP,NAG,Nagpur,VILK,LKO,Lucknow,T2,C20,22:00,22:40,00:05 +1,85,Boeing 737 MAX 8,Capt. James Pillai,F/O Hannah Menon,Scheduled,0,657
+QR401,Qatar Airways,2026-11-11,VOMM,MAA,Chennai,OMDB,DXB,Dubai,T1,G35,20:15,21:15,00:05 +1,260,Boeing 787-9,Capt. Harsh Bose,F/O Anjali Bose,Scheduled,0,2933
+SG306,SpiceJet,2026-11-11,VAPO,PNQ,Pune,VIJP,JAI,Jaipur,T2,B30,18:20,19:00,20:47,107,Airbus A321neo,Capt. Aditya Mehta,F/O Hannah Sethi,Delayed,90,936
+IX610,Air India Express,2026-11-11,VAAH,AMD,Ahmedabad,VABB,BOM,Mumbai,T2,B31,08:00,08:40,09:49,69,Airbus A321neo,Capt. Siddharth Patel,F/O Daniel Patel,Delayed,10,444
+QP192,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VOTV,TRV,Thiruvananthapuram,T1,A35,15:55,16:35,19:43,188,Airbus A320neo,Capt. Varun Verma,F/O Sarah Kulkarni,Scheduled,0,1999
+IX989,Air India Express,2026-11-11,VOBL,BLR,Bengaluru,VOCI,COK,Kochi,T2,D20,22:15,22:55,23:58,63,Boeing 737 MAX 8,Capt. Varun Kapoor,F/O Amit Menon,Delayed,25,367
+QP854,Akasa Air,2026-11-11,VAAH,AMD,Ahmedabad,VANP,NAG,Nagpur,T2,F32,21:00,21:40,23:08,88,Airbus A321neo,Capt. Kabir Fischer,F/O Priya Bose,On time,0,696
+QP892,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VANP,NAG,Nagpur,T2,D38,15:30,16:10,17:53,103,Airbus A320neo,Capt. Sanjay Menon,F/O Deepak Bose,Scheduled,0,889
+6E726,IndiGo,2026-11-11,VIAR,ATQ,Amritsar,VIJP,JAI,Jaipur,T1,A02,10:00,10:40,11:57,77,Boeing 737 MAX 8,Capt. James Chauhan,F/O Radhika Iyer,Delayed,20,552
+IX640,Air India Express,2026-11-11,VOHS,HYD,Hyderabad,VANP,NAG,Nagpur,T2,E37,04:55,05:35,06:43,68,Boeing 737-800,Capt. Michael Pillai,F/O Aisha Banerjee,On time,0,433
+AI171,Air India,2026-11-11,VECC,CCU,Kolkata,VAID,IDR,Indore,T2,G22,07:10,07:50,10:04,134,Airbus A320neo,Capt. Rajesh Fischer,F/O Riya Saxena,Delayed,20,1296
+6E380,IndiGo,2026-11-11,VILK,LKO,Lucknow,VIDP,DEL,Delhi,T2,H29,09:25,10:05,11:12,67,Airbus A321neo,Capt. Rahul Nair,F/O Neha Iyer,Delayed,45,423
+SG152,SpiceJet,2026-11-11,VOTV,TRV,Thiruvananthapuram,VAPO,PNQ,Pune,T1,A15,12:50,13:30,15:34,124,Airbus A321neo,Capt. Nikhil Walker,F/O Kavya Sethi,Delayed,90,1168
+QR415,Qatar Airways,2026-11-11,WSSS,SIN,Singapore,VOMM,MAA,Chennai,T2,A39,13:05,14:05,15:54,259,Airbus A330-300,Capt. Rahul Malhotra,F/O Vikram Sharma,Delayed,60,2924
+AI890,Air India,2026-11-11,VABB,BOM,Mumbai,VAPO,PNQ,Pune,T1,H08,20:50,21:30,22:14,44,Airbus A320neo,Capt. Rajesh Menon,F/O Neha Verma,On time,0,124
+QP580,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VABB,BOM,Mumbai,T3,H03,07:55,08:35,10:37,122,Airbus A321neo,Capt. Omar Singh,F/O Arjun Nair,On time,0,1138
+IX929,Air India Express,2026-11-11,VABB,BOM,Mumbai,VIJP,JAI,Jaipur,T2,F20,14:40,15:20,17:05,105,Boeing 737-800,Capt. Rajesh Trivedi,F/O Pooja Kapoor,Scheduled,0,911
+IX794,Air India Express,2026-11-11,VECC,CCU,Kolkata,VILK,LKO,Lucknow,T1,A05,08:55,09:35,11:18,103,Boeing 737 MAX 8,Capt. Amit Das,F/O Omar Sharma,Scheduled,0,889
+SG996,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VOCI,COK,Kochi,T2,A40,19:55,20:35,23:47,192,Boeing 737-800,Capt. Harsh Hughes,F/O Rajesh Pillai,Boarding,0,2048
+QP241,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VIDP,DEL,Delhi,T1,A09,08:35,09:15,11:27,132,Boeing 737 MAX 8,Capt. Daniel Mehta,F/O Anjali Iyer,Scheduled,0,1266
+IX540,Air India Express,2026-11-11,VANP,NAG,Nagpur,VOCI,COK,Kochi,T1,C02,21:35,22:15,00:26 +1,131,Boeing 737 MAX 8,Capt. Harsh Nair,F/O Aditya Das,Scheduled,0,1248
+QP793,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VEGT,GAU,Guwahati,T1,A23,14:30,15:10,16:23,73,Boeing 737 MAX 8,Capt. Manish Fischer,F/O Tarun Walker,On time,0,498
+AI136,Air India,2026-11-11,VTBS,BKK,Bangkok,VOBL,BLR,Bengaluru,T1,E36,19:50,20:50,23:06,226,Boeing 777-300ER,Capt. Tarun Nair,F/O Tanvi Trivedi,Delayed,25,2491
+IX829,Air India Express,2026-11-11,VOHS,HYD,Hyderabad,VILK,LKO,Lucknow,T2,G03,06:45,07:25,09:23,118,Airbus A320neo,Capt. Amit Reddy,F/O Vikram Khan,On time,0,1088
+IX964,Air India Express,2026-11-11,VOMM,MAA,Chennai,VILK,LKO,Lucknow,T2,G26,22:55,23:35,02:07 +1,152,Boeing 737 MAX 8,Capt. Vikram Pillai,F/O Laura Khan,Delayed,15,1533
+6E610,IndiGo,2026-11-11,VIDP,DEL,Delhi,VOHS,HYD,Hyderabad,T3,D29,08:30,09:10,11:22,132,Airbus A321neo,Capt. Amit Pillai,F/O Sarah Trivedi,On time,0,1266
+SG505,SpiceJet,2026-11-11,VABB,BOM,Mumbai,VIAR,ATQ,Amritsar,T1,G39,22:00,22:40,01:03 +1,143,Boeing 737 MAX 8,Capt. Ankit Mehta,F/O Arjun Patel,On time,0,1416
+SG279,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VEPT,PAT,Patna,T2,C03,06:00,06:40,07:51,71,Boeing 737 MAX 8,Capt. Deepak Trivedi,F/O Shruti Joshi,Scheduled,0,471
+AI940,Air India,2026-11-11,VIJP,JAI,Jaipur,VOCI,COK,Kochi,T1,H22,20:15,20:55,23:52,177,Airbus A321neo,Capt. Rajesh Chauhan,F/O Aarti Banerjee,Delayed,60,1854
+IX837,Air India Express,2026-11-11,VOBL,BLR,Bengaluru,VANP,NAG,Nagpur,T2,H18,07:50,08:30,10:13,103,Airbus A321neo,Capt. Ankit Rao,F/O Rohan Sethi,Boarding,0,889
+QP443,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VILK,LKO,Lucknow,T1,G22,22:25,23:05,01:38 +1,153,Airbus A320neo,Capt. Pranav Clarke,F/O Deepak Sharma,On time,0,1544
+IX795,Air India Express,2026-11-11,VEGT,GAU,Guwahati,VABB,BOM,Mumbai,T1,A18,15:00,15:40,18:54,194,Airbus A321neo,Capt. Karan Das,F/O Rajesh Iyer,Boarding,0,2071
+QP335,Akasa Air,2026-11-11,VOGO,GOI,Goa,VAID,IDR,Indore,T2,D13,22:30,23:10,00:49 +1,99,Boeing 737 MAX 8,Capt. Rahul Bose,F/O Nikhil Walker,On time,0,842
+AI343,Air India,2026-11-11,VIDP,DEL,Delhi,VOCI,COK,Kochi,T3,D16,10:40,11:20,14:32,192,Airbus A320neo,Capt. Daniel Singh,F/O Hannah Verma,Delayed,20,2048
+SQ507,Singapore Airlines,2026-11-11,EGLL,LHR,London,VOHS,HYD,Hyderabad,T1,A25,05:10,06:10,22:11,631,Airbus A350-900,Capt. Rahul Gupta,F/O Daniel Kulkarni,Delayed,45,7752
+IX828,Air India Express,2026-11-11,VIDP,DEL,Delhi,VAID,IDR,Indore,T2,B23,06:35,07:15,08:40,85,Boeing 737 MAX 8,Capt. Harsh Reddy,F/O Sarah Patel,Scheduled,0,662
+AI284,Air India,2026-11-11,VABB,BOM,Mumbai,VECC,CCU,Kolkata,T1,E35,06:10,06:50,09:33,163,Boeing 737 MAX 8,Capt. Ishaan Miller,F/O Sarah Banerjee,On time,0,1665
+IX649,Air India Express,2026-11-11,VOMM,MAA,Chennai,VAPO,PNQ,Pune,T2,H25,22:20,23:00,00:45 +1,105,Boeing 737 MAX 8,Capt. Amit Rao,F/O Rajesh Reddy,Scheduled,0,912
+QP907,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VOGO,GOI,Goa,T1,A05,05:25,06:05,07:20,75,Boeing 737-800,Capt. Nikhil Chopra,F/O Tarun Mishra,Boarding,0,532
+IX444,Air India Express,2026-11-11,VOHS,HYD,Hyderabad,VIAR,ATQ,Amritsar,T1,C09,12:55,13:35,16:16,161,Boeing 737-800,Capt. Siddharth Patel,F/O Amit Chauhan,On time,0,1650
+IX647,Air India Express,2026-11-11,VABB,BOM,Mumbai,VOCI,COK,Kochi,T2,D30,10:00,10:40,12:36,116,Boeing 737 MAX 8,Capt. Ishaan Khan,F/O Aarti Kapoor,On time,0,1063
+SG277,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VAPO,PNQ,Pune,T3,C23,13:20,14:00,16:03,123,Boeing 737 MAX 8,Capt. Varun Bhatt,F/O Simran Hughes,On time,0,1156
+QP289,Akasa Air,2026-11-11,VOMM,MAA,Chennai,VILK,LKO,Lucknow,T1,E33,23:10,23:50,02:22 +1,152,Boeing 737 MAX 8,Capt. Karan Sethi,F/O Rohan Chopra,Delayed,25,1533
+QP884,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VIAR,ATQ,Amritsar,T2,F28,18:15,18:55,21:39,164,Boeing 737 MAX 8,Capt. Ishaan Trivedi,F/O Nisha Patel,On time,0,1681
+QP539,Akasa Air,2026-11-11,VOMM,MAA,Chennai,VAAH,AMD,Ahmedabad,T1,G11,21:55,22:35,00:55 +1,140,Airbus A320neo,Capt. Nikhil Menon,F/O Rajesh Agarwal,On time,0,1374
+BA320,British Airways,2026-11-11,VOMM,MAA,Chennai,WSSS,SIN,Singapore,T2,B20,07:20,08:20,15:09,259,Airbus A350-900,Capt. Rahul Gupta,F/O Amit Miller,On time,0,2924
+AI651,Air India,2026-11-11,VOHS,HYD,Hyderabad,VIAR,ATQ,Amritsar,T2,E04,15:15,15:55,18:36,161,Airbus A320neo,Capt. Sanjay Mishra,F/O Pooja Sharma,Scheduled,0,1650
+6E322,IndiGo,2026-11-11,VECC,CCU,Kolkata,VIAR,ATQ,Amritsar,T1,F09,11:20,12:00,14:44,164,Boeing 737 MAX 8,Capt. Michael Joshi,F/O Aditya Verma,On time,0,1681
+QR335,Qatar Airways,2026-11-11,OTHH,DOH,Doha,VOMM,MAA,Chennai,T2,D38,04:50,05:50,13:07,287,Airbus A330-300,Capt. Ankit Al-Farsi,F/O Ishaan Rao,Boarding,0,3286
+QP609,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VILK,LKO,Lucknow,T1,E37,21:40,22:20,00:18 +1,118,Boeing 737-800,Capt. Pranav Kapoor,F/O Aditya Al-Farsi,On time,0,1088
+AI981,Air India,2026-11-11,EGLL,LHR,London,VOMM,MAA,Chennai,T1,H18,11:00,12:00,04:38 +1,668,Airbus A350-900,Capt. Michael Kulkarni,F/O Emma Kulkarni,Delayed,20,8234
+6E617,IndiGo,2026-11-11,VECC,CCU,Kolkata,VABB,BOM,Mumbai,T2,G33,17:55,18:35,21:18,163,Boeing 737 MAX 8,Capt. Pranav Iyer,F/O Ananya Walker,On time,0,1665
+AI972,Air India,2026-11-11,VOBL,BLR,Bengaluru,VAID,IDR,Indore,T2,G18,13:45,14:25,16:22,117,Boeing 737 MAX 8,Capt. Rohan Verma,F/O Rohan Nair,On time,0,1077
+SG823,SpiceJet,2026-11-11,VOGO,GOI,Goa,VIJP,JAI,Jaipur,T2,C08,14:30,15:10,17:24,134,Boeing 737 MAX 8,Capt. Siddharth Gupta,F/O James Khan,On time,0,1288
+QP519,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VANP,NAG,Nagpur,T1,A18,04:25,05:05,06:48,103,Airbus A321neo,Capt. Daniel Clarke,F/O Michael Saxena,Scheduled,0,889
+SG454,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VAID,IDR,Indore,T2,A27,16:00,16:40,18:54,134,Boeing 737-800,Capt. Aditya Kulkarni,F/O Daniel Rao,Delayed,20,1296
+SG839,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VIJP,JAI,Jaipur,T1,B33,21:55,22:35,00:54 +1,139,Airbus A320neo,Capt. Michael Verma,F/O Nisha Sharma,On time,0,1356
+6E154,IndiGo,2026-11-11,VOMM,MAA,Chennai,VAID,IDR,Indore,T1,H26,21:20,22:00,00:05 +1,125,Boeing 737-800,Capt. Varun Bhatt,F/O Daniel Iyer,Scheduled,0,1176
+6E277,IndiGo,2026-11-11,VOHS,HYD,Hyderabad,VILK,LKO,Lucknow,T2,G33,13:25,14:05,16:03,118,Boeing 737 MAX 8,Capt. Sanjay Chauhan,F/O Tarun Yadav,On time,0,1088
+LH332,Lufthansa,2026-11-11,VABB,BOM,Mumbai,EDDF,FRA,Frankfurt,T2,G28,12:50,13:50,18:20,540,Airbus A350-900,Capt. Ishaan Kapoor,F/O James Chauhan,Scheduled,0,6569
+6E447,IndiGo,2026-11-11,VOMM,MAA,Chennai,VABB,BOM,Mumbai,T2,B28,09:15,09:55,11:49,114,Boeing 737 MAX 8,Capt. Nikhil Malhotra,F/O Kavya Al-Farsi,On time,0,1033
+IX953,Air India Express,2026-11-11,VOBL,BLR,Bengaluru,VAID,IDR,Indore,T1,A14,17:35,18:15,20:12,117,Airbus A320neo,Capt. James Pillai,F/O Aditya Fischer,On time,0,1077
+SG762,SpiceJet,2026-11-11,VOHS,HYD,Hyderabad,VIDP,DEL,Delhi,T2,E23,07:00,07:40,09:52,132,Airbus A320neo,Capt. Rahul Reddy,F/O Manish Rao,On time,0,1266
+AI565,Air India,2026-11-11,OMDB,DXB,Dubai,VOMM,MAA,Chennai,T2,E36,07:10,08:10,14:00,260,Airbus A330-300,Capt. Tarun Kulkarni,F/O Priya Kapoor,On time,0,2933
+IX261,Air India Express,2026-11-11,VABB,BOM,Mumbai,VIDP,DEL,Delhi,T1,H28,20:55,21:35,23:37,122,Boeing 737-800,Capt. Rahul Fischer,F/O Priya Sethi,On time,0,1138
+BA408,British Airways,2026-11-11,VTBS,BKK,Bangkok,VOHS,HYD,Hyderabad,T1,A12,18:25,19:25,21:36,221,Boeing 787-9,Capt. Daniel Banerjee,F/O Lucas Mehta,Delayed,25,2422
+AI879,Air India,2026-11-11,VIDP,DEL,Delhi,VIAR,ATQ,Amritsar,T1,B10,08:55,09:35,10:41,66,Boeing 737-800,Capt. Thomas Sharma,F/O Sophie Clarke,Scheduled,0,413
+6E397,IndiGo,2026-11-11,VECC,CCU,Kolkata,VANP,NAG,Nagpur,T2,G30,06:45,07:25,09:15,110,Boeing 737-800,Capt. Ishaan Rao,F/O Nikhil Saxena,On time,0,985
+AI508,Air India,2026-11-11,VILK,LKO,Lucknow,VECC,CCU,Kolkata,T2,G24,06:45,07:25,09:08,103,Airbus A320neo,Capt. Vikram Iyer,F/O Rahul Joshi,On time,0,889
+QP168,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VIDP,DEL,Delhi,T2,H17,21:10,21:50,00:36 +1,166,Airbus A321neo,Capt. Kabir Banerjee,F/O Aditya Rao,On time,0,1710
+SQ969,Singapore Airlines,2026-11-11,WSSS,SIN,Singapore,VIDP,DEL,Delhi,T1,F25,17:45,18:45,22:09,354,Airbus A330-300,Capt. Karan Saxena,F/O Simran Khan,Delayed,35,4158
+AI351,Air India,2026-11-11,VOMM,MAA,Chennai,VOHS,HYD,Hyderabad,T1,H16,08:30,09:10,10:24,74,Boeing 737-800,Capt. Vikram Rao,F/O Kabir Mishra,Scheduled,0,508
+SG685,SpiceJet,2026-11-11,VABB,BOM,Mumbai,VEPT,PAT,Patna,T1,A10,07:05,07:45,10:11,146,Boeing 737-800,Capt. Michael Joshi,F/O Rajesh Khan,Boarding,0,1448
+6E714,IndiGo,2026-11-11,VOGO,GOI,Goa,VIDP,DEL,Delhi,T2,A36,16:10,16:50,19:20,150,Boeing 737-800,Capt. Daniel Mehta,F/O Meera Hughes,On time,0,1504
+AI430,Air India,2026-11-11,VOTV,TRV,Thiruvananthapuram,VOGO,GOI,Goa,T2,B12,07:30,08:10,09:49,99,Airbus A321neo,Capt. Michael Iyer,F/O Emma Walker,On time,0,837
+IX190,Air India Express,2026-11-11,VABB,BOM,Mumbai,VEGT,GAU,Guwahati,T2,B24,08:40,09:20,12:34,194,Boeing 737 MAX 8,Capt. Thomas Singh,F/O Rajesh Fischer,On time,0,2071
+AI953,Air India,2026-11-11,VOMM,MAA,Chennai,WSSS,SIN,Singapore,T1,H10,05:45,06:45,13:34,259,Boeing 787-9,Capt. Sanjay Chauhan,F/O Swati Sethi,Delayed,90,2924
+LH400,Lufthansa,2026-11-11,EDDF,FRA,Frankfurt,VOMM,MAA,Chennai,T2,G31,11:50,12:50,03:39 +1,619,Airbus A350-900,Capt. Aditya Kulkarni,F/O Omar Banerjee,On time,0,7594
+AI250,Air India,2026-11-11,VOHS,HYD,Hyderabad,VOCI,COK,Kochi,T2,D20,04:45,05:25,07:02,97,Airbus A321neo,Capt. Daniel Miller,F/O Karan Chauhan,Scheduled,0,818
+IX545,Air India Express,2026-11-11,VECC,CCU,Kolkata,VOMM,MAA,Chennai,T1,E16,18:30,19:10,21:31,141,Airbus A321neo,Capt. Vikram Nair,F/O Arjun Bhatt,On time,0,1385
+IX441,Air India Express,2026-11-11,VIJP,JAI,Jaipur,VECC,CCU,Kolkata,T2,A23,17:55,18:35,20:54,139,Airbus A320neo,Capt. Aditya Mehta,F/O Emma Al-Farsi,Delayed,35,1356
+QP598,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VIAR,ATQ,Amritsar,T2,G39,17:35,18:15,20:56,161,Airbus A321neo,Capt. Tarun Iyer,F/O Pooja Yadav,On time,0,1650
+QP251,Akasa Air,2026-11-11,VOMM,MAA,Chennai,VEGT,GAU,Guwahati,T1,G06,13:10,13:50,16:49,179,Boeing 737-800,Capt. Tarun Bose,F/O Isha Reddy,Delayed,10,1883
+SG817,SpiceJet,2026-11-11,VIAR,ATQ,Amritsar,VIJP,JAI,Jaipur,T1,D06,16:20,17:00,18:17,77,Airbus A321neo,Capt. Amit Rao,F/O Emma Khan,Delayed,20,552
+QP581,Akasa Air,2026-11-11,VEPT,PAT,Patna,VOBL,BLR,Bengaluru,T1,E30,18:45,19:25,22:01,156,Airbus A320neo,Capt. Thomas Mehta,F/O Anjali Kapoor,On time,0,1579
+QP481,Akasa Air,2026-11-11,VOMM,MAA,Chennai,VAPO,PNQ,Pune,T1,B37,12:05,12:45,14:30,105,Boeing 737-800,Capt. Harsh Saxena,F/O Anjali Reddy,On time,0,912
+SG667,SpiceJet,2026-11-11,VILK,LKO,Lucknow,VAAH,AMD,Ahmedabad,T2,H15,09:30,10:10,11:56,106,Airbus A321neo,Capt. Ankit Mehta,F/O Divya Hughes,Delayed,45,927
+QP494,Akasa Air,2026-11-11,VOGO,GOI,Goa,VOMM,MAA,Chennai,T2,A40,05:40,06:20,07:51,91,Boeing 737-800,Capt. Harsh Bose,F/O Kabir Verma,Scheduled,0,733
+SG355,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VEGT,GAU,Guwahati,T2,E04,18:35,19:15,21:41,146,Airbus A321neo,Capt. Deepak Das,F/O Pranav Al-Farsi,Delayed,60,1455
+QP482,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VIAR,ATQ,Amritsar,T1,C32,12:10,12:50,15:13,143,Boeing 737-800,Capt. Pranav Reddy,F/O Divya Singh,Scheduled,0,1416
+SG712,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VIAR,ATQ,Amritsar,T1,F24,19:45,20:25,21:31,66,Airbus A320neo,Capt. Varun Reddy,F/O Sanjay Verma,On time,0,413
+6E801,IndiGo,2026-11-11,VABB,BOM,Mumbai,VAID,IDR,Indore,T2,A35,11:15,11:55,13:08,73,Airbus A321neo,Capt. Pranav Miller,F/O Hannah Trivedi,Delayed,45,505
+QP794,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VOTV,TRV,Thiruvananthapuram,T2,G04,09:55,10:35,11:50,75,Airbus A320neo,Capt. Tarun Desai,F/O Thomas Sethi,On time,0,531
+6E415,IndiGo,2026-11-11,VECC,CCU,Kolkata,VOCI,COK,Kochi,T1,C07,11:45,12:25,15:25,180,Boeing 737 MAX 8,Capt. Rohan Joshi,F/O Daniel Khan,Scheduled,0,1890
+IX928,Air India Express,2026-11-11,VOHS,HYD,Hyderabad,VEPT,PAT,Patna,T2,F32,08:35,09:15,11:18,123,Airbus A321neo,Capt. Rajesh Joshi,F/O Laura Khan,Scheduled,0,1155
+IX526,Air India Express,2026-11-11,VOMM,MAA,Chennai,VAPO,PNQ,Pune,T2,A29,16:25,17:05,18:50,105,Boeing 737-800,Capt. Omar Mishra,F/O Ananya Bhatt,Delayed,60,912
+6E737,IndiGo,2026-11-11,VOMM,MAA,Chennai,VAPO,PNQ,Pune,T2,B19,22:50,23:30,01:15 +1,105,Boeing 737-800,Capt. Varun Bose,F/O Isha Iyer,Delayed,90,912
+IX429,Air India Express,2026-11-11,VABB,BOM,Mumbai,VOHS,HYD,Hyderabad,T1,H21,12:20,13:00,14:22,82,Airbus A321neo,Capt. Deepak Sethi,F/O Anjali Chauhan,Delayed,15,622
+IX764,Air India Express,2026-11-11,VOMM,MAA,Chennai,VOBL,BLR,Bengaluru,T2,H01,13:40,14:20,15:15,55,Airbus A320neo,Capt. Kabir Verma,F/O Nikhil Nair,On time,0,267
+SG372,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VEGT,GAU,Guwahati,T1,C16,15:05,15:45,18:56,191,Boeing 737-800,Capt. Rajesh Bose,F/O Deepak Desai,Delayed,45,2039
+IX743,Air India Express,2026-11-11,VECC,CCU,Kolkata,VABB,BOM,Mumbai,T1,H04,06:25,07:05,09:48,163,Boeing 737 MAX 8,Capt. Karan Kulkarni,F/O Rohan Bose,On time,0,1665
+IX311,Air India Express,2026-11-11,VOMM,MAA,Chennai,VOCI,COK,Kochi,T2,E31,12:05,12:45,13:59,74,Boeing 737-800,Capt. Pranav Bhatt,F/O Deepak Miller,Scheduled,0,517
+AI142,Air India,2026-11-11,VABB,BOM,Mumbai,VAID,IDR,Indore,T2,H24,14:20,15:00,16:13,73,Boeing 737-800,Capt. Michael Agarwal,F/O Sneha Das,On time,0,505
+AI636,Air India,2026-11-11,VECC,CCU,Kolkata,VOCI,COK,Kochi,T2,E08,22:35,23:15,02:15 +1,180,Airbus A321neo,Capt. Siddharth Pillai,F/O Nisha Reddy,On time,0,1890
+AI741,Air India,2026-11-11,VOHS,HYD,Hyderabad,EGLL,LHR,London,T2,F25,07:45,08:45,13:46,631,Boeing 787-9,Capt. Tarun Mishra,F/O Radhika Rao,On time,0,7752
+BA179,British Airways,2026-11-11,OTHH,DOH,Doha,VOHS,HYD,Hyderabad,T2,D31,17:15,18:15,01:04 +1,259,Airbus A330-300,Capt. Omar Chauhan,F/O Riya Miller,Scheduled,0,2913
+IX397,Air India Express,2026-11-11,VABB,BOM,Mumbai,VOCI,COK,Kochi,T2,E36,17:20,18:00,19:56,116,Boeing 737-800,Capt. Daniel Hughes,F/O Aisha Rao,Scheduled,0,1063
+AI973,Air India,2026-11-11,VOHS,HYD,Hyderabad,VILK,LKO,Lucknow,T1,B17,13:50,14:30,16:28,118,Boeing 737 MAX 8,Capt. Amit Banerjee,F/O Lucas Rao,On time,0,1088
+BA668,British Airways,2026-11-11,VTBS,BKK,Bangkok,VABB,BOM,Mumbai,T2,F39,17:15,18:15,21:13,268,Boeing 777-300ER,Capt. Arjun Rao,F/O Meera Nair,On time,0,3030
+6E815,IndiGo,2026-11-11,VIDP,DEL,Delhi,VOCI,COK,Kochi,T2,G31,05:55,06:35,09:47,192,Boeing 737 MAX 8,Capt. Rohan Hughes,F/O Laura Kapoor,On time,0,2048
+SG439,SpiceJet,2026-11-11,VABB,BOM,Mumbai,VOHS,HYD,Hyderabad,T1,F38,08:25,09:05,10:27,82,Boeing 737 MAX 8,Capt. Ankit Khan,F/O Manish Khan,Scheduled,0,622
+SG606,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VOCI,COK,Kochi,T3,H03,22:40,23:20,02:32 +1,192,Boeing 737 MAX 8,Capt. Deepak Chopra,F/O Kabir Reddy,On time,0,2048
+AI784,Air India,2026-11-11,EGLL,LHR,London,VOHS,HYD,Hyderabad,T2,B07,09:55,10:55,02:56 +1,631,Boeing 777-300ER,Capt. Vikram Joshi,F/O Shruti Patel,Delayed,60,7752
+AI929,Air India,2026-11-11,VOBL,BLR,Bengaluru,VOTV,TRV,Thiruvananthapuram,T2,A10,20:05,20:45,22:00,75,Boeing 737 MAX 8,Capt. Rahul Trivedi,F/O Pallavi Banerjee,On time,0,531
+IX561,Air India Express,2026-11-11,VOTV,TRV,Thiruvananthapuram,VECC,CCU,Kolkata,T2,F09,19:15,19:55,23:03,188,Airbus A321neo,Capt. Ishaan Clarke,F/O Sanjay Nair,Scheduled,0,1999
+6E848,IndiGo,2026-11-11,VIDP,DEL,Delhi,VOMM,MAA,Chennai,T1,F03,12:35,13:15,16:05,170,Airbus A321neo,Capt. Harsh Hughes,F/O Fatima Kapoor,On time,0,1760
+6E298,IndiGo,2026-11-11,VOMM,MAA,Chennai,VIDP,DEL,Delhi,T2,E18,18:25,19:05,21:55,170,Airbus A321neo,Capt. Varun Nair,F/O Aisha Bose,Delayed,45,1760
+AI610,Air India,2026-11-11,VECC,CCU,Kolkata,VAPO,PNQ,Pune,T2,H30,16:00,16:40,19:16,156,Airbus A321neo,Capt. Daniel Miller,F/O Swati Fischer,Scheduled,0,1577
+AI214,Air India,2026-11-11,VIDP,DEL,Delhi,VOCI,COK,Kochi,T1,C28,20:45,21:25,00:37 +1,192,Airbus A320neo,Capt. Thomas Mishra,F/O Varun Khan,Delayed,35,2048
+QP239,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VAAH,AMD,Ahmedabad,T1,D28,12:35,13:15,14:24,69,Airbus A321neo,Capt. Daniel Walker,F/O Tanvi Singh,Delayed,60,444
+AI194,Air India,2026-11-11,VOCI,COK,Kochi,VIAR,ATQ,Amritsar,T1,H28,06:15,06:55,10:34,219,Airbus A320neo,Capt. Kabir Chopra,F/O Sneha Agarwal,On time,0,2402
+QP172,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VIJP,JAI,Jaipur,T2,G14,16:50,17:30,19:49,139,Airbus A320neo,Capt. Rajesh Rao,F/O Rahul Al-Farsi,Delayed,10,1356
+AI904,Air India,2026-11-11,VEPT,PAT,Patna,VOCI,COK,Kochi,T1,E18,17:30,18:10,21:14,184,Airbus A321neo,Capt. Pranav Khan,F/O Emma Verma,Boarding,0,1945
+EK102,Emirates,2026-11-11,EDDF,FRA,Frankfurt,VIDP,DEL,Delhi,T1,G33,14:45,15:45,04:40 +1,505,Airbus A330-300,Capt. Siddharth Saxena,F/O Lucas Verma,Delayed,60,6121
+AI110,Air India,2026-11-11,VEGT,GAU,Guwahati,VOMM,MAA,Chennai,T2,D11,14:30,15:10,18:09,179,Airbus A320neo,Capt. Rahul Joshi,F/O Lucas Desai,On time,0,1883
+SG269,SpiceJet,2026-11-11,VAAH,AMD,Ahmedabad,VANP,NAG,Nagpur,T1,G15,05:50,06:30,07:58,88,Airbus A320neo,Capt. Deepak Chauhan,F/O Vikram Malhotra,Scheduled,0,696
+6E650,IndiGo,2026-11-11,VECC,CCU,Kolkata,VOHS,HYD,Hyderabad,T1,C14,09:35,10:15,12:22,127,Boeing 737-800,Capt. Manish Malhotra,F/O Ananya Iyer,On time,0,1207
+AI926,Air India,2026-11-11,VEPT,PAT,Patna,VOBL,BLR,Bengaluru,T2,H23,14:15,14:55,17:31,156,Boeing 737 MAX 8,Capt. Rahul Sharma,F/O James Gupta,On time,0,1579
+QP466,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VIJP,JAI,Jaipur,T1,D07,16:00,16:40,17:32,52,Boeing 737 MAX 8,Capt. Rahul Clarke,F/O Nikhil Sethi,Delayed,25,231
+6E816,IndiGo,2026-11-11,VECC,CCU,Kolkata,VOHS,HYD,Hyderabad,T2,A22,20:20,21:00,23:07,127,Airbus A320neo,Capt. Rajesh Khan,F/O Tarun Bose,Scheduled,0,1207
+6E502,IndiGo,2026-11-11,VIDP,DEL,Delhi,VEGT,GAU,Guwahati,T1,E32,12:15,12:55,15:21,146,Airbus A321neo,Capt. Rohan Desai,F/O Arjun Trivedi,Delayed,45,1455
+BA157,British Airways,2026-11-11,VOHS,HYD,Hyderabad,EDDF,FRA,Frankfurt,T1,C06,13:25,14:25,19:37,582,Boeing 777-300ER,Capt. Nikhil Khan,F/O Vikram Chopra,Scheduled,0,7116
+LH144,Lufthansa,2026-11-11,OTHH,DOH,Doha,VOHS,HYD,Hyderabad,T2,B04,07:05,08:05,14:54,259,Boeing 777-300ER,Capt. Sanjay Mehta,F/O Kabir Kulkarni,On time,0,2913
+SG861,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VIDP,DEL,Delhi,T2,E14,22:40,23:20,02:10 +1,170,Airbus A321neo,Capt. Michael Pillai,F/O Nisha Kapoor,On time,0,1760
+QP651,Akasa Air,2026-11-11,VEGT,GAU,Guwahati,VILK,LKO,Lucknow,T2,B04,12:20,13:00,14:57,117,Boeing 737 MAX 8,Capt. Aditya Rao,F/O Meera Trivedi,Scheduled,0,1067
+6E214,IndiGo,2026-11-11,VABB,BOM,Mumbai,VECC,CCU,Kolkata,T2,F21,19:35,20:15,22:58,163,Boeing 737-800,Capt. Siddharth Sharma,F/O Deepak Malhotra,On time,0,1665
+6E631,IndiGo,2026-11-11,VOHS,HYD,Hyderabad,VOMM,MAA,Chennai,T1,A07,17:45,18:25,19:39,74,Boeing 737 MAX 8,Capt. Daniel Sethi,F/O Emma Sharma,On time,0,508
+6E787,IndiGo,2026-11-11,VOBL,BLR,Bengaluru,VAAH,AMD,Ahmedabad,T1,F33,21:25,22:05,00:13 +1,128,Boeing 737-800,Capt. Omar Joshi,F/O Sneha Menon,Delayed,60,1221
+QP201,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VIJP,JAI,Jaipur,T1,B02,14:15,14:55,17:14,139,Airbus A321neo,Capt. Varun Malhotra,F/O Thomas Miller,On time,0,1356
+SG119,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VAPO,PNQ,Pune,T2,E36,12:25,13:05,14:35,90,Boeing 737 MAX 8,Capt. Manish Mishra,F/O Ishaan Bhatt,On time,0,722
+LH941,Lufthansa,2026-11-11,OTHH,DOH,Doha,VECC,CCU,Kolkata,T1,B21,05:15,06:15,14:07,322,Airbus A350-900,Capt. Karan Sethi,F/O James Saxena,On time,0,3742
+AI168,Air India,2026-11-11,VOHS,HYD,Hyderabad,VOMM,MAA,Chennai,T1,H06,22:50,23:30,00:44 +1,74,Boeing 737-800,Capt. Sanjay Saxena,F/O Deepak Nair,Delayed,15,508
+AI460,Air India,2026-11-11,VIJP,JAI,Jaipur,VAAH,AMD,Ahmedabad,T1,D17,21:30,22:10,23:25,75,Boeing 737-800,Capt. Kabir Agarwal,F/O Radhika Malhotra,On time,0,525
+IX758,Air India Express,2026-11-11,VOBL,BLR,Bengaluru,VEGT,GAU,Guwahati,T2,C40,08:00,08:40,11:51,191,Boeing 737-800,Capt. Deepak Walker,F/O Aditya Joshi,On time,0,2039
+QP187,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VECC,CCU,Kolkata,T2,A01,05:45,06:25,08:40,135,Airbus A320neo,Capt. Nikhil Kulkarni,F/O Meera Miller,Scheduled,0,1312
+IX632,Air India Express,2026-11-11,VOMM,MAA,Chennai,VILK,LKO,Lucknow,T2,B08,19:30,20:10,22:42,152,Boeing 737 MAX 8,Capt. Harsh Sethi,F/O Arjun Mishra,Delayed,20,1533
+QP203,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VEPT,PAT,Patna,T3,H36,06:35,07:15,08:55,100,Boeing 737 MAX 8,Capt. Thomas Menon,F/O Radhika Verma,On time,0,856
+LH894,Lufthansa,2026-11-11,VABB,BOM,Mumbai,EGLL,LHR,London,T2,C04,12:15,13:15,17:34,589,Airbus A350-900,Capt. Rohan Fischer,F/O Arjun Bhatt,On time,0,7212
+IX254,Air India Express,2026-11-11,VABB,BOM,Mumbai,VAAH,AMD,Ahmedabad,T1,H17,08:50,09:30,10:39,69,Airbus A320neo,Capt. James Pillai,F/O Pranav Gupta,On time,0,444
+6E729,IndiGo,2026-11-11,VABB,BOM,Mumbai,VAAH,AMD,Ahmedabad,T1,C34,21:25,22:05,23:14,69,Airbus A320neo,Capt. James Patel,F/O Shruti Saxena,On time,0,444
+IX239,Air India Express,2026-11-11,VABB,BOM,Mumbai,VOBL,BLR,Bengaluru,T2,B14,19:20,20:00,21:39,99,Boeing 737 MAX 8,Capt. Varun Bhatt,F/O Swati Reddy,On time,0,834
+SG413,SpiceJet,2026-11-11,VOHS,HYD,Hyderabad,VOGO,GOI,Goa,T2,C12,19:20,20:00,21:15,75,Airbus A320neo,Capt. Rohan Banerjee,F/O Vikram Malhotra,On time,0,532
+SG564,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VOGO,GOI,Goa,T2,B29,21:45,22:25,23:56,91,Airbus A321neo,Capt. Rajesh Chopra,F/O Pranav Malhotra,Scheduled,0,733
+QP418,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VILK,LKO,Lucknow,T2,G10,15:50,16:30,19:03,153,Airbus A320neo,Capt. Tarun Saxena,F/O Thomas Bhatt,On time,0,1544
+AI469,Air India,2026-11-11,OTHH,DOH,Doha,VABB,BOM,Mumbai,T2,B01,07:30,08:30,14:31,211,Airbus A330-300,Capt. Rahul Saxena,F/O Daniel Bose,On time,0,2291
+QP219,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VILK,LKO,Lucknow,T2,H30,07:05,07:45,08:52,67,Boeing 737 MAX 8,Capt. Harsh Kulkarni,F/O Sophie Kapoor,Delayed,15,423
+EK574,Emirates,2026-11-11,VOBL,BLR,Bengaluru,WSSS,SIN,Singapore,T1,C17,17:55,18:55,02:04 +1,279,Boeing 787-9,Capt. Sanjay Bhatt,F/O Karan Verma,Delayed,20,3178
+SQ488,Singapore Airlines,2026-11-11,VABB,BOM,Mumbai,EDDF,FRA,Frankfurt,T1,A30,07:40,08:40,13:10,540,Boeing 787-9,Capt. Manish Menon,F/O Swati Clarke,On time,0,6569
+AI525,Air India,2026-11-11,VOHS,HYD,Hyderabad,VABB,BOM,Mumbai,T2,B17,06:45,07:25,08:47,82,Airbus A320neo,Capt. Rohan Verma,F/O Priya Iyer,Scheduled,0,622
+QP941,Akasa Air,2026-11-11,VEPT,PAT,Patna,VEGT,GAU,Guwahati,T2,H25,13:25,14:05,15:30,85,Airbus A320neo,Capt. Varun Yadav,F/O Hannah Gupta,On time,0,652
+6E282,IndiGo,2026-11-11,VOBL,BLR,Bengaluru,VOGO,GOI,Goa,T2,F03,15:00,15:40,16:52,72,Boeing 737 MAX 8,Capt. Michael Clarke,F/O Swati Malhotra,Delayed,15,482
+QP762,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VIDP,DEL,Delhi,T2,A39,05:30,06:10,08:25,135,Boeing 737-800,Capt. Pranav Malhotra,F/O Daniel Walker,On time,0,1312
+AI334,Air India,2026-11-11,VIDP,DEL,Delhi,VILK,LKO,Lucknow,T1,F04,09:50,10:30,11:37,67,Boeing 737 MAX 8,Capt. Ishaan Joshi,F/O Michael Desai,On time,0,423
+EK456,Emirates,2026-11-11,VABB,BOM,Mumbai,OMDB,DXB,Dubai,T2,B28,19:15,20:15,21:48,183,Boeing 777-300ER,Capt. Amit Menon,F/O Aarti Bhatt,On time,0,1926
+AI116,Air India,2026-11-11,VOBL,BLR,Bengaluru,VECC,CCU,Kolkata,T2,C15,14:25,15:05,17:38,153,Boeing 737-800,Capt. Lucas Singh,F/O Harsh Joshi,Scheduled,0,1546
+AI439,Air India,2026-11-11,VOHS,HYD,Hyderabad,VOCI,COK,Kochi,T1,A08,04:35,05:15,06:52,97,Airbus A320neo,Capt. Ankit Sharma,F/O Fatima Trivedi,On time,0,818
+IX513,Air India Express,2026-11-11,VOMM,MAA,Chennai,VOHS,HYD,Hyderabad,T2,E38,13:15,13:55,15:09,74,Airbus A321neo,Capt. Karan Bose,F/O Isha Miller,Boarding,0,508
+IX171,Air India Express,2026-11-11,VIJP,JAI,Jaipur,VOMM,MAA,Chennai,T1,B37,13:20,14:00,16:38,158,Boeing 737-800,Capt. Rohan Trivedi,F/O Kabir Rao,Delayed,45,1603
+6E722,IndiGo,2026-11-11,VOBL,BLR,Bengaluru,VOHS,HYD,Hyderabad,T2,F23,10:25,11:05,12:15,70,Boeing 737 MAX 8,Capt. Ishaan Agarwal,F/O Pooja Sharma,Scheduled,0,456
+QR621,Qatar Airways,2026-11-11,VOMM,MAA,Chennai,EDDF,FRA,Frankfurt,T1,E04,06:10,07:10,12:59,619,Boeing 777-300ER,Capt. Nikhil Chopra,F/O Harsh Miller,On time,0,7594
+AI336,Air India,2026-11-11,VOHS,HYD,Hyderabad,WSSS,SIN,Singapore,T2,F20,17:15,18:15,01:34 +1,289,Airbus A330-300,Capt. Omar Kapoor,F/O Riya Banerjee,Delayed,20,3305
+QP905,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VANP,NAG,Nagpur,T2,A01,17:35,18:15,19:42,87,Airbus A321neo,Capt. Vikram Kapoor,F/O Pranav Mishra,Boarding,0,682
+SG858,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VAID,IDR,Indore,T2,A22,10:35,11:15,13:20,125,Airbus A321neo,Capt. Harsh Sethi,F/O Ishaan Gupta,On time,0,1176
+EK553,Emirates,2026-11-11,WSSS,SIN,Singapore,VABB,BOM,Mumbai,T2,H14,20:20,21:20,00:26 +1,336,Airbus A330-300,Capt. Harsh Miller,F/O Pooja Fischer,On time,0,3920
+SG396,SpiceJet,2026-11-11,VABB,BOM,Mumbai,VANP,NAG,Nagpur,T1,G15,11:15,11:55,13:22,87,Boeing 737-800,Capt. Aditya Yadav,F/O Deepak Chauhan,Delayed,90,682
+AI589,Air India,2026-11-11,VIDP,DEL,Delhi,VAID,IDR,Indore,T3,E21,22:40,23:20,00:45 +1,85,Airbus A320neo,Capt. Thomas Nair,F/O Shruti Trivedi,Boarding,0,662
+QR194,Qatar Airways,2026-11-11,WSSS,SIN,Singapore,VOBL,BLR,Bengaluru,T1,E37,05:05,06:05,08:14,279,Airbus A350-900,Capt. Vikram Sethi,F/O Manish Khan,On time,0,3178
+IX741,Air India Express,2026-11-11,VAID,IDR,Indore,VAAH,AMD,Ahmedabad,T1,G13,21:00,21:40,22:40,60,Boeing 737-800,Capt. Tarun Verma,F/O Harsh Rao,On time,0,326
+AI502,Air India,2026-11-11,VABB,BOM,Mumbai,VTBS,BKK,Bangkok,T2,G34,13:00,14:00,19:58,268,Airbus A350-900,Capt. James Sharma,F/O Kavya Trivedi,On time,0,3030
+SG811,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VILK,LKO,Lucknow,T1,G12,10:00,10:40,12:23,103,Boeing 737-800,Capt. Omar Pillai,F/O Emma Mehta,On time,0,889
+QP541,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VOGO,GOI,Goa,T2,A23,16:45,17:25,18:37,72,Airbus A320neo,Capt. Pranav Malhotra,F/O Tarun Mishra,Scheduled,0,482
+SG835,SpiceJet,2026-11-11,VIJP,JAI,Jaipur,VECC,CCU,Kolkata,T2,C34,15:50,16:30,18:49,139,Airbus A321neo,Capt. Sanjay Agarwal,F/O Arjun Malhotra,Delayed,45,1356
+6E814,IndiGo,2026-11-11,VIDP,DEL,Delhi,VIAR,ATQ,Amritsar,T3,E38,12:40,13:20,14:26,66,Airbus A321neo,Capt. Siddharth Trivedi,F/O Omar Bose,Scheduled,0,413
+SG756,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VECC,CCU,Kolkata,T3,B11,08:45,09:25,11:40,135,Boeing 737 MAX 8,Capt. Thomas Chauhan,F/O Aisha Malhotra,On time,0,1312
+SG200,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VOGO,GOI,Goa,T2,A16,09:05,09:45,11:16,91,Boeing 737-800,Capt. Lucas Nair,F/O Rahul Chopra,Scheduled,0,733
+AI942,Air India,2026-11-11,VABB,BOM,Mumbai,VAID,IDR,Indore,T1,F14,15:45,16:25,17:38,73,Boeing 737 MAX 8,Capt. Manish Das,F/O Divya Clarke,On time,0,505
+AI684,Air India,2026-11-11,VOBL,BLR,Bengaluru,VIDP,DEL,Delhi,T2,F22,20:25,21:05,23:51,166,Boeing 737 MAX 8,Capt. Nikhil Kulkarni,F/O Ishaan Joshi,Scheduled,0,1710
+SG504,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VOBL,BLR,Bengaluru,T2,C18,10:55,11:35,12:30,55,Airbus A320neo,Capt. Thomas Chauhan,F/O Radhika Nair,On time,0,267
+SG511,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VANP,NAG,Nagpur,T1,B21,12:35,13:15,14:59,104,Boeing 737-800,Capt. Vikram Verma,F/O Amit Walker,Scheduled,0,908
+6E958,IndiGo,2026-11-11,VABB,BOM,Mumbai,VAPO,PNQ,Pune,T1,G20,11:00,11:40,12:24,44,Boeing 737-800,Capt. Sanjay Singh,F/O Rajesh Trivedi,On time,0,124
+IX961,Air India Express,2026-11-11,VOMM,MAA,Chennai,VECC,CCU,Kolkata,T1,A16,08:25,09:05,11:26,141,Airbus A320neo,Capt. Varun Iyer,F/O Tanvi Yadav,On time,0,1385
+QR483,Qatar Airways,2026-11-11,VTBS,BKK,Bangkok,VOHS,HYD,Hyderabad,T1,C40,12:05,13:05,15:16,221,Airbus A330-300,Capt. Lucas Khan,F/O Divya Mishra,Scheduled,0,2422
+AI740,Air India,2026-11-11,VILK,LKO,Lucknow,VOCI,COK,Kochi,T1,A16,07:15,07:55,10:56,181,Airbus A320neo,Capt. Ankit Clarke,F/O Daniel Kulkarni,On time,0,1905
+AI930,Air India,2026-11-11,VOMM,MAA,Chennai,EGLL,LHR,London,T1,A34,21:00,22:00,03:38 +1,668,Airbus A350-900,Capt. Pranav Singh,F/O Meera Desai,Scheduled,0,8234
+AI223,Air India,2026-11-11,VABB,BOM,Mumbai,VOMM,MAA,Chennai,T1,G07,10:50,11:30,13:24,114,Boeing 737 MAX 8,Capt. Lucas Fischer,F/O Fatima Nair,Delayed,90,1033
+SG412,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VIDP,DEL,Delhi,T2,H35,16:20,17:00,19:15,135,Airbus A321neo,Capt. Karan Patel,F/O Priya Kulkarni,On time,0,1312
+6E613,IndiGo,2026-11-11,VOHS,HYD,Hyderabad,VILK,LKO,Lucknow,T2,B07,11:40,12:20,14:18,118,Airbus A321neo,Capt. James Mishra,F/O Ishaan Patel,On time,0,1088
+QP707,Akasa Air,2026-11-11,VANP,NAG,Nagpur,VOTV,TRV,Thiruvananthapuram,T2,F28,11:40,12:20,14:44,144,Boeing 737 MAX 8,Capt. Rohan Khan,F/O Ankit Agarwal,On time,0,1420
+AI135,Air India,2026-11-11,VAAH,AMD,Ahmedabad,VAPO,PNQ,Pune,T2,C39,09:10,09:50,11:04,74,Airbus A321neo,Capt. Pranav Nair,F/O Karan Iyer,On time,0,517
+6E680,IndiGo,2026-11-11,VOMM,MAA,Chennai,VAPO,PNQ,Pune,T2,C33,10:50,11:30,13:15,105,Boeing 737-800,Capt. Karan Rao,F/O Karan Reddy,On time,0,912
+IX621,Air India Express,2026-11-11,VOCI,COK,Kochi,VOMM,MAA,Chennai,T1,C07,22:05,22:45,23:59,74,Boeing 737 MAX 8,Capt. Ankit Walker,F/O Aditya Desai,Scheduled,0,517
+QP232,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VEPT,PAT,Patna,T2,E24,17:45,18:25,20:05,100,Boeing 737 MAX 8,Capt. Pranav Sharma,F/O Swati Al-Farsi,Delayed,10,856
+LH129,Lufthansa,2026-11-11,OTHH,DOH,Doha,VIDP,DEL,Delhi,T1,A18,21:40,22:40,05:01 +1,231,Airbus A350-900,Capt. Rohan Desai,F/O Omar Patel,Scheduled,0,2549
+BA195,British Airways,2026-11-11,VECC,CCU,Kolkata,OTHH,DOH,Doha,T1,B22,16:30,17:30,20:22,322,Boeing 787-9,Capt. Deepak Iyer,F/O Harsh Hughes,Scheduled,0,3742
+IX783,Air India Express,2026-11-11,VECC,CCU,Kolkata,VANP,NAG,Nagpur,T2,G35,12:40,13:20,15:10,110,Boeing 737-800,Capt. Rahul Bose,F/O Pooja Saxena,Scheduled,0,985
+SG215,SpiceJet,2026-11-11,VEGT,GAU,Guwahati,VAPO,PNQ,Pune,T1,A29,22:25,23:05,02:13 +1,188,Airbus A321neo,Capt. Rahul Trivedi,F/O Sneha Malhotra,On time,0,1997
+AI199,Air India,2026-11-11,VAID,IDR,Indore,VABB,BOM,Mumbai,T2,G11,16:00,16:40,17:53,73,Boeing 737-800,Capt. Omar Al-Farsi,F/O Kavya Pillai,On time,0,505
+SG138,SpiceJet,2026-11-11,VABB,BOM,Mumbai,VEGT,GAU,Guwahati,T1,H01,05:10,05:50,09:04,194,Airbus A321neo,Capt. Karan Iyer,F/O Sanjay Nair,Delayed,10,2071
+AI962,Air India,2026-11-11,VOHS,HYD,Hyderabad,VAID,IDR,Indore,T2,F30,05:45,06:25,07:51,86,Airbus A320neo,Capt. Omar Sharma,F/O Riya Miller,Scheduled,0,668
+6E950,IndiGo,2026-11-11,VOBL,BLR,Bengaluru,VOMM,MAA,Chennai,T1,D10,09:35,10:15,11:10,55,Airbus A321neo,Capt. Pranav Agarwal,F/O Deepak Mehta,On time,0,267
+AI746,Air India,2026-11-11,VOBL,BLR,Bengaluru,VIAR,ATQ,Amritsar,T2,E26,22:00,22:40,01:54 +1,194,Airbus A320neo,Capt. Ishaan Malhotra,F/O Sarah Das,Scheduled,0,2079
+SG659,SpiceJet,2026-11-11,VOCI,COK,Kochi,VEGT,GAU,Guwahati,T1,F23,10:25,11:05,14:43,218,Boeing 737 MAX 8,Capt. Arjun Bose,F/O Kavya Banerjee,Scheduled,0,2387
+IX414,Air India Express,2026-11-11,VECC,CCU,Kolkata,VEGT,GAU,Guwahati,T2,A37,14:05,14:45,15:58,73,Airbus A320neo,Capt. Pranav Sharma,F/O Rahul Nair,On time,0,498
+SG395,SpiceJet,2026-11-11,VABB,BOM,Mumbai,VIAR,ATQ,Amritsar,T1,E34,09:00,09:40,12:03,143,Boeing 737-800,Capt. Amit Bose,F/O Hannah Mehta,On time,0,1416
+AI995,Air India,2026-11-11,VOMM,MAA,Chennai,VOCI,COK,Kochi,T1,H18,12:20,13:00,14:14,74,Airbus A320neo,Capt. Karan Das,F/O Omar Mehta,On time,0,517
+BA285,British Airways,2026-11-11,OTHH,DOH,Doha,VOBL,BLR,Bengaluru,T1,F01,12:30,13:30,20:29,269,Airbus A330-300,Capt. Pranav Al-Farsi,F/O Sophie Bhatt,Delayed,20,3042
+IX114,Air India Express,2026-11-11,VECC,CCU,Kolkata,VIAR,ATQ,Amritsar,T2,C08,14:50,15:30,18:14,164,Airbus A320neo,Capt. Thomas Saxena,F/O Deepak Al-Farsi,On time,0,1681
+IX300,Air India Express,2026-11-11,VOTV,TRV,Thiruvananthapuram,VANP,NAG,Nagpur,T1,E22,22:45,23:25,01:49 +1,144,Boeing 737-800,Capt. Tarun Desai,F/O Siddharth Kulkarni,Delayed,90,1420
+QP247,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VOGO,GOI,Goa,T2,H37,05:05,05:45,08:33,168,Airbus A321neo,Capt. Siddharth Nair,F/O Kavya Pillai,On time,0,1734
+QP806,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VABB,BOM,Mumbai,T1,H35,12:50,13:30,16:13,163,Boeing 737-800,Capt. Sanjay Singh,F/O Lucas Sharma,Boarding,0,1665
+QP998,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VAAH,AMD,Ahmedabad,T1,G17,22:30,23:10,01:49 +1,159,Airbus A320neo,Capt. Rohan Hughes,F/O Aditya Desai,Scheduled,0,1619
+AI907,Air India,2026-11-11,VILK,LKO,Lucknow,VOHS,HYD,Hyderabad,T2,C34,21:35,22:15,00:13 +1,118,Airbus A321neo,Capt. Kabir Pillai,F/O Tarun Kulkarni,Scheduled,0,1088
+AI415,Air India,2026-11-11,OTHH,DOH,Doha,VOBL,BLR,Bengaluru,T1,G33,17:35,18:35,01:34 +1,269,Airbus A350-900,Capt. Sanjay Al-Farsi,F/O Radhika Gupta,On time,0,3042
+AI456,Air India,2026-11-11,VOTV,TRV,Thiruvananthapuram,VAAH,AMD,Ahmedabad,T1,C29,08:15,08:55,11:39,164,Airbus A320neo,Capt. Amit Menon,F/O Aisha Gupta,Delayed,60,1686
+QP523,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VILK,LKO,Lucknow,T2,H33,07:05,07:45,09:28,103,Airbus A321neo,Capt. Ishaan Patel,F/O Aarti Pillai,On time,0,889
+AI163,Air India,2026-11-11,VECC,CCU,Kolkata,VAID,IDR,Indore,T1,E38,10:35,11:15,13:29,134,Airbus A320neo,Capt. Ankit Trivedi,F/O Ankit Kulkarni,Scheduled,0,1296
+AI690,Air India,2026-11-11,OTHH,DOH,Doha,VOMM,MAA,Chennai,T2,E22,06:30,07:30,14:47,287,Airbus A350-900,Capt. Arjun Yadav,F/O Manish Mehta,Delayed,90,3286
+AI674,Air India,2026-11-11,VOHS,HYD,Hyderabad,VEPT,PAT,Patna,T1,H20,06:55,07:35,09:38,123,Airbus A320neo,Capt. Rahul Agarwal,F/O Nisha Agarwal,Scheduled,0,1155
+QP286,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VOMM,MAA,Chennai,T2,D18,10:00,10:40,12:34,114,Airbus A320neo,Capt. Michael Sethi,F/O Rahul Chopra,Scheduled,0,1033
+QR324,Qatar Airways,2026-11-11,OMDB,DXB,Dubai,VOMM,MAA,Chennai,T1,A08,16:15,17:15,23:05,260,Airbus A350-900,Capt. Deepak Walker,F/O Sarah Pillai,Delayed,15,2933
+SG848,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VANP,NAG,Nagpur,T2,H20,14:30,15:10,16:53,103,Airbus A320neo,Capt. Omar Sharma,F/O Sneha Clarke,On time,0,889
+SG805,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VIJP,JAI,Jaipur,T3,G18,14:35,15:15,16:07,52,Airbus A320neo,Capt. Vikram Hughes,F/O Amit Kulkarni,Delayed,60,231
+SQ809,Singapore Airlines,2026-11-11,EGLL,LHR,London,VOHS,HYD,Hyderabad,T2,C32,10:50,11:50,03:51 +1,631,Airbus A330-300,Capt. Siddharth Reddy,F/O Ananya Agarwal,On time,0,7752
+6E996,IndiGo,2026-11-11,VABB,BOM,Mumbai,VOMM,MAA,Chennai,T1,D39,12:45,13:25,15:19,114,Airbus A321neo,Capt. Daniel Malhotra,F/O Harsh Joshi,On time,0,1033
+SQ535,Singapore Airlines,2026-11-11,VABB,BOM,Mumbai,OMDB,DXB,Dubai,T2,F24,08:30,09:30,11:03,183,Boeing 787-9,Capt. Ishaan Sharma,F/O Thomas Mehta,Delayed,20,1926
+IX253,Air India Express,2026-11-11,VOHS,HYD,Hyderabad,VOMM,MAA,Chennai,T1,H25,13:40,14:20,15:34,74,Airbus A321neo,Capt. Ankit Patel,F/O Rohan Banerjee,On time,0,508
+AI241,Air India,2026-11-11,VABB,BOM,Mumbai,VILK,LKO,Lucknow,T1,C36,19:45,20:25,22:31,126,Airbus A320neo,Capt. Daniel Iyer,F/O Swati Malhotra,Scheduled,0,1183
+6E119,IndiGo,2026-11-11,VOHS,HYD,Hyderabad,OTHH,DOH,Doha,T1,B13,17:25,18:25,20:14,259,Boeing 777-300ER,Capt. Ishaan Kapoor,F/O Nikhil Chopra,Delayed,90,2913
+AI229,Air India,2026-11-11,VOMM,MAA,Chennai,VEPT,PAT,Patna,T2,A15,07:10,07:50,10:19,149,Boeing 737 MAX 8,Capt. Vikram Nair,F/O Laura Das,Scheduled,0,1492
+SG610,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VIAR,ATQ,Amritsar,T1,H36,14:15,14:55,17:39,164,Airbus A321neo,Capt. Deepak Desai,F/O Sarah Agarwal,On time,0,1681
+EK649,Emirates,2026-11-11,EDDF,FRA,Frankfurt,VOMM,MAA,Chennai,T1,B02,17:35,18:35,09:24 +1,619,Boeing 777-300ER,Capt. Thomas Yadav,F/O Pallavi Pillai,On time,0,7594
+SG613,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VOCI,COK,Kochi,T2,B29,07:35,08:15,11:15,180,Airbus A321neo,Capt. Ankit Mishra,F/O Arjun Chauhan,Delayed,45,1890
+QP618,Akasa Air,2026-11-11,VAAH,AMD,Ahmedabad,VILK,LKO,Lucknow,T2,F25,17:40,18:20,20:06,106,Boeing 737 MAX 8,Capt. Vikram Kulkarni,F/O Swati Banerjee,Delayed,20,927
+IX607,Air India Express,2026-11-11,VECC,CCU,Kolkata,VEGT,GAU,Guwahati,T1,G11,17:30,18:10,19:23,73,Boeing 737-800,Capt. Karan Pillai,F/O Sneha Nair,Scheduled,0,498
+AI108,Air India,2026-11-11,VOBL,BLR,Bengaluru,VAPO,PNQ,Pune,T2,G20,05:25,06:05,07:35,90,Boeing 737 MAX 8,Capt. Nikhil Reddy,F/O Sneha Yadav,On time,0,722
+SG647,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VABB,BOM,Mumbai,T3,F24,08:10,08:50,10:52,122,Boeing 737-800,Capt. Rajesh Malhotra,F/O Simran Walker,Delayed,35,1138
+SG617,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VOHS,HYD,Hyderabad,T1,B32,07:30,08:10,09:24,74,Boeing 737 MAX 8,Capt. Nikhil Singh,F/O Aisha Verma,Scheduled,0,508
+SG502,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VOGO,GOI,Goa,T2,G24,13:15,13:55,16:43,168,Boeing 737 MAX 8,Capt. Tarun Menon,F/O Anjali Malhotra,Delayed,20,1734
+QP435,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VEGT,GAU,Guwahati,T1,E23,20:15,20:55,00:06 +1,191,Boeing 737 MAX 8,Capt. Lucas Iyer,F/O Emma Chauhan,Scheduled,0,2039
+AI376,Air India,2026-11-11,VAPO,PNQ,Pune,VAAH,AMD,Ahmedabad,T2,A03,12:55,13:35,14:49,74,Boeing 737-800,Capt. Lucas Mehta,F/O Sarah Al-Farsi,On time,0,517
+QP612,Akasa Air,2026-11-11,VOTV,TRV,Thiruvananthapuram,VEGT,GAU,Guwahati,T1,B15,21:55,22:35,02:22 +1,227,Airbus A321neo,Capt. Michael Chopra,F/O Pallavi Verma,Scheduled,0,2497
+IX669,Air India Express,2026-11-11,VABB,BOM,Mumbai,VIAR,ATQ,Amritsar,T2,F06,17:25,18:05,20:28,143,Airbus A320neo,Capt. Rahul Chopra,F/O Manish Joshi,Boarding,0,1416
+QP852,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VEGT,GAU,Guwahati,T1,F06,13:00,13:40,16:24,164,Boeing 737 MAX 8,Capt. Kabir Hughes,F/O Ankit Bhatt,Delayed,45,1677
+IX488,Air India Express,2026-11-11,VOHS,HYD,Hyderabad,VEGT,GAU,Guwahati,T2,G34,12:00,12:40,15:24,164,Airbus A321neo,Capt. Deepak Miller,F/O Ishaan Singh,Delayed,35,1677
+QR100,Qatar Airways,2026-11-11,WSSS,SIN,Singapore,VECC,CCU,Kolkata,T2,H10,11:15,12:15,14:03,258,Airbus A330-300,Capt. Lucas Mehta,F/O Kabir Banerjee,On time,0,2902
+IX877,Air India Express,2026-11-11,VOMM,MAA,Chennai,VOTV,TRV,Thiruvananthapuram,T1,D30,18:00,18:40,20:02,82,Airbus A320neo,Capt. Amit Sethi,F/O Sophie Joshi,On time,0,614
+AI273,Air India,2026-11-11,VILK,LKO,Lucknow,VECC,CCU,Kolkata,T2,D14,20:15,20:55,22:38,103,Airbus A320neo,Capt. Tarun Kulkarni,F/O Swati Al-Farsi,Delayed,90,889
+AI383,Air India,2026-11-11,VOMM,MAA,Chennai,VIAR,ATQ,Amritsar,T1,D17,13:35,14:15,17:35,200,Airbus A321neo,Capt. Tarun Menon,F/O Hannah Chauhan,On time,0,2152
+SG512,SpiceJet,2026-11-11,VABB,BOM,Mumbai,VEPT,PAT,Patna,T2,A10,16:40,17:20,19:46,146,Boeing 737-800,Capt. Ishaan Saxena,F/O Riya Nair,Boarding,0,1448
+EK360,Emirates,2026-11-11,EGLL,LHR,London,VOHS,HYD,Hyderabad,T1,E22,10:20,11:20,03:21 +1,631,Boeing 777-300ER,Capt. Amit Yadav,F/O Thomas Malhotra,Scheduled,0,7752
+AI773,Air India,2026-11-11,VOHS,HYD,Hyderabad,VAAH,AMD,Ahmedabad,T2,A17,16:25,17:05,18:48,103,Airbus A321neo,Capt. Manish Khan,F/O Emma Yadav,On time,0,886
+AI387,Air India,2026-11-11,VOMM,MAA,Chennai,VEPT,PAT,Patna,T2,H27,18:50,19:30,21:59,149,Boeing 737-800,Capt. Varun Menon,F/O Aisha Chopra,Delayed,20,1492
+IX227,Air India Express,2026-11-11,VIDP,DEL,Delhi,VAAH,AMD,Ahmedabad,T2,C11,16:55,17:35,19:08,93,Airbus A320neo,Capt. Pranav Al-Farsi,F/O Ankit Nair,On time,0,756
+SQ265,Singapore Airlines,2026-11-11,VABB,BOM,Mumbai,EGLL,LHR,London,T2,B27,08:40,09:40,13:59,589,Airbus A350-900,Capt. Manish Singh,F/O Aditya Mishra,On time,0,7212
+AI112,Air India,2026-11-11,VAPO,PNQ,Pune,VANP,NAG,Nagpur,T1,D38,10:15,10:55,12:16,81,Airbus A321neo,Capt. Varun Banerjee,F/O Meera Chauhan,Delayed,25,604
+6E659,IndiGo,2026-11-11,VANP,NAG,Nagpur,VABB,BOM,Mumbai,T1,D04,06:10,06:50,08:17,87,Airbus A321neo,Capt. Thomas Saxena,F/O Riya Walker,Delayed,45,682
+6E976,IndiGo,2026-11-11,VILK,LKO,Lucknow,VEGT,GAU,Guwahati,T1,G04,08:20,09:00,10:57,117,Boeing 737 MAX 8,Capt. Aditya Nair,F/O Ishaan Yadav,On time,0,1067
+BA800,British Airways,2026-11-11,VABB,BOM,Mumbai,WSSS,SIN,Singapore,T1,D34,18:15,19:15,03:21 +1,336,Airbus A330-300,Capt. Rajesh Walker,F/O Riya Bhatt,On time,0,3920
+IX296,Air India Express,2026-11-11,VECC,CCU,Kolkata,VOBL,BLR,Bengaluru,T2,C18,21:10,21:50,00:23 +1,153,Boeing 737-800,Capt. Pranav Mehta,F/O Sarah Trivedi,On time,0,1546
+SG230,SpiceJet,2026-11-11,VABB,BOM,Mumbai,VOTV,TRV,Thiruvananthapuram,T2,D16,13:10,13:50,16:01,131,Boeing 737-800,Capt. Thomas Walker,F/O Hannah Sethi,Scheduled,0,1257
+AI555,Air India,2026-11-11,VOCI,COK,Kochi,VABB,BOM,Mumbai,T2,D27,16:35,17:15,19:11,116,Boeing 737 MAX 8,Capt. Manish Saxena,F/O Sneha Sethi,Scheduled,0,1063
+IX281,Air India Express,2026-11-11,VOBL,BLR,Bengaluru,VAAH,AMD,Ahmedabad,T2,G08,12:30,13:10,15:18,128,Airbus A320neo,Capt. Michael Desai,F/O Shruti Sharma,On time,0,1221
+BA119,British Airways,2026-11-11,VABB,BOM,Mumbai,WSSS,SIN,Singapore,T2,H15,21:30,22:30,06:36 +1,336,Boeing 777-300ER,Capt. Arjun Miller,F/O Nisha Bose,Boarding,0,3920
+QP925,Akasa Air,2026-11-11,VOMM,MAA,Chennai,VOTV,TRV,Thiruvananthapuram,T2,B10,18:00,18:40,20:02,82,Boeing 737-800,Capt. Kabir Gupta,F/O Karan Verma,On time,0,614
+6E299,IndiGo,2026-11-11,VABB,BOM,Mumbai,VAPO,PNQ,Pune,T1,F05,15:20,16:00,16:44,44,Boeing 737 MAX 8,Capt. Michael Miller,F/O Kavya Sethi,Boarding,0,124
+IX319,Air India Express,2026-11-11,VOMM,MAA,Chennai,VAPO,PNQ,Pune,T2,H39,16:45,17:25,19:10,105,Boeing 737-800,Capt. Thomas Singh,F/O Isha Trivedi,Delayed,25,912
+IX633,Air India Express,2026-11-11,VABB,BOM,Mumbai,VOBL,BLR,Bengaluru,T1,C15,08:35,09:15,10:54,99,Airbus A320neo,Capt. Rahul Malhotra,F/O Siddharth Pillai,Scheduled,0,834
+IX199,Air India Express,2026-11-11,VABB,BOM,Mumbai,VANP,NAG,Nagpur,T2,B01,11:50,12:30,13:57,87,Boeing 737 MAX 8,Capt. Thomas Reddy,F/O Emma Desai,On time,0,682
+QR896,Qatar Airways,2026-11-11,VOHS,HYD,Hyderabad,WSSS,SIN,Singapore,T1,C35,21:15,22:15,05:34 +1,289,Airbus A330-300,Capt. Siddharth Reddy,F/O Harsh Kulkarni,On time,0,3305
+QP546,Akasa Air,2026-11-11,VOMM,MAA,Chennai,VECC,CCU,Kolkata,T1,B03,15:55,16:35,18:56,141,Boeing 737-800,Capt. Karan Mishra,F/O Kabir Walker,On time,0,1385
+SG190,SpiceJet,2026-11-11,VABB,BOM,Mumbai,VECC,CCU,Kolkata,T2,C40,06:55,07:35,10:18,163,Boeing 737 MAX 8,Capt. Siddharth Saxena,F/O Daniel Trivedi,Scheduled,0,1665
+SG570,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VEGT,GAU,Guwahati,T1,F38,12:20,13:00,14:13,73,Airbus A321neo,Capt. Tarun Kulkarni,F/O Divya Iyer,Scheduled,0,498
+IX148,Air India Express,2026-11-11,VABB,BOM,Mumbai,VECC,CCU,Kolkata,T2,F09,13:55,14:35,17:18,163,Boeing 737-800,Capt. Rahul Hughes,F/O Sneha Agarwal,Scheduled,0,1665
+QP871,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VAAH,AMD,Ahmedabad,T2,G31,19:10,19:50,20:59,69,Airbus A321neo,Capt. Rahul Das,F/O Tanvi Kapoor,On time,0,444
+6E518,IndiGo,2026-11-11,VOTV,TRV,Thiruvananthapuram,VABB,BOM,Mumbai,T2,D26,14:45,15:25,17:36,131,Airbus A320neo,Capt. Amit Al-Farsi,F/O Arjun Hughes,On time,0,1257
+SG755,SpiceJet,2026-11-11,VABB,BOM,Mumbai,VOGO,GOI,Goa,T1,E02,05:20,06:00,07:07,67,Boeing 737-800,Capt. Nikhil Walker,F/O Shruti Clarke,On time,0,424
+QP459,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VOHS,HYD,Hyderabad,T2,C16,06:00,06:40,07:50,70,Boeing 737-800,Capt. Nikhil Malhotra,F/O Isha Mehta,Scheduled,0,456
+QP330,Akasa Air,2026-11-11,VOMM,MAA,Chennai,VOTV,TRV,Thiruvananthapuram,T2,B02,17:40,18:20,19:42,82,Boeing 737-800,Capt. Vikram Walker,F/O Varun Bose,Delayed,90,614
+IX705,Air India Express,2026-11-11,VOMM,MAA,Chennai,VOTV,TRV,Thiruvananthapuram,T2,H28,16:25,17:05,18:27,82,Airbus A321neo,Capt. Amit Agarwal,F/O Ananya Pillai,On time,0,614
+6E968,IndiGo,2026-11-11,VOHS,HYD,Hyderabad,VILK,LKO,Lucknow,T1,F10,15:15,15:55,17:53,118,Airbus A321neo,Capt. Deepak Sharma,F/O Simran Bhatt,Delayed,45,1088
+IX659,Air India Express,2026-11-11,VOBL,BLR,Bengaluru,VANP,NAG,Nagpur,T1,G22,07:15,07:55,09:38,103,Boeing 737-800,Capt. Thomas Rao,F/O Daniel Al-Farsi,On time,0,889
+AI579,Air India,2026-11-11,VIDP,DEL,Delhi,VAPO,PNQ,Pune,T2,D22,20:40,21:20,23:23,123,Boeing 737-800,Capt. Omar Yadav,F/O Lucas Gupta,Scheduled,0,1156
+SG493,SpiceJet,2026-11-11,VOHS,HYD,Hyderabad,VILK,LKO,Lucknow,T1,F25,10:10,10:50,12:48,118,Boeing 737 MAX 8,Capt. Daniel Reddy,F/O Tarun Clarke,On time,0,1088
+SQ281,Singapore Airlines,2026-11-11,VOMM,MAA,Chennai,EDDF,FRA,Frankfurt,T2,C27,12:35,13:35,19:24,619,Boeing 777-300ER,Capt. Siddharth Yadav,F/O Lucas Hughes,On time,0,7594
+6E524,IndiGo,2026-11-11,VOHS,HYD,Hyderabad,WSSS,SIN,Singapore,T2,A36,18:25,19:25,02:44 +1,289,Boeing 777-300ER,Capt. Tarun Trivedi,F/O Rajesh Patel,Scheduled,0,3305
+AI520,Air India,2026-11-11,VIDP,DEL,Delhi,VOMM,MAA,Chennai,T3,H24,10:10,10:50,13:40,170,Airbus A321neo,Capt. Nikhil Chauhan,F/O Simran Reddy,Scheduled,0,1760
+AI156,Air India,2026-11-11,VABB,BOM,Mumbai,VOGO,GOI,Goa,T1,H07,10:30,11:10,12:17,67,Airbus A320neo,Capt. Omar Chopra,F/O Vikram Gupta,Delayed,45,424
+QP234,Akasa Air,2026-11-11,VOMM,MAA,Chennai,VOBL,BLR,Bengaluru,T1,B33,05:55,06:35,07:30,55,Airbus A320neo,Capt. Ishaan Pillai,F/O Divya Kapoor,Scheduled,0,267
+LH354,Lufthansa,2026-11-11,VIDP,DEL,Delhi,WSSS,SIN,Singapore,T2,B07,11:50,12:50,21:14,354,Airbus A330-300,Capt. Daniel Rao,F/O Emma Patel,Scheduled,0,4158
+6E201,IndiGo,2026-11-11,VABB,BOM,Mumbai,VILK,LKO,Lucknow,T1,C37,21:55,22:35,00:41 +1,126,Airbus A320neo,Capt. Amit Kapoor,F/O Pranav Sethi,Boarding,0,1183
+QP782,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VIAR,ATQ,Amritsar,T2,H24,04:50,05:30,06:36,66,Airbus A320neo,Capt. Michael Banerjee,F/O Daniel Bhatt,On time,0,413
+IX489,Air India Express,2026-11-11,VAID,IDR,Indore,VILK,LKO,Lucknow,T2,H39,06:55,07:35,09:02,87,Airbus A320neo,Capt. Thomas Pillai,F/O Karan Nair,Delayed,90,682
+IX754,Air India Express,2026-11-11,VOBL,BLR,Bengaluru,VOCI,COK,Kochi,T1,G07,08:30,09:10,10:13,63,Boeing 737 MAX 8,Capt. Lucas Pillai,F/O Rajesh Bhatt,On time,0,367
+AI361,Air India,2026-11-11,VECC,CCU,Kolkata,VANP,NAG,Nagpur,T2,D40,12:45,13:25,15:15,110,Boeing 737 MAX 8,Capt. Aditya Malhotra,F/O Thomas Verma,On time,0,985
+QP249,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VEGT,GAU,Guwahati,T2,A25,14:25,15:05,16:18,73,Boeing 737-800,Capt. Rahul Nair,F/O Daniel Singh,On time,0,498
+AI805,Air India,2026-11-11,VECC,CCU,Kolkata,VOMM,MAA,Chennai,T1,D28,10:20,11:00,13:21,141,Boeing 737 MAX 8,Capt. Harsh Mishra,F/O Pooja Hughes,On time,0,1385
+AI909,Air India,2026-11-11,EGLL,LHR,London,VOHS,HYD,Hyderabad,T2,D14,18:30,19:30,11:31 +1,631,Airbus A330-300,Capt. Kabir Miller,F/O Sophie Al-Farsi,Scheduled,0,7752
+6E869,IndiGo,2026-11-11,VECC,CCU,Kolkata,VOMM,MAA,Chennai,T2,G31,14:45,15:25,17:46,141,Boeing 737 MAX 8,Capt. Ishaan Al-Farsi,F/O Aarti Agarwal,Boarding,0,1385
+QR197,Qatar Airways,2026-11-11,EGLL,LHR,London,VABB,BOM,Mumbai,T1,H38,05:40,06:40,21:59,589,Airbus A330-300,Capt. Thomas Yadav,F/O Nikhil Trivedi,On time,0,7212
+AI730,Air India,2026-11-11,VOBL,BLR,Bengaluru,VILK,LKO,Lucknow,T2,F27,22:55,23:35,02:08 +1,153,Airbus A321neo,Capt. Harsh Miller,F/O Shruti Chauhan,Delayed,20,1544
+6E111,IndiGo,2026-11-11,VEGT,GAU,Guwahati,VILK,LKO,Lucknow,T2,B24,22:25,23:05,01:02 +1,117,Boeing 737-800,Capt. Aditya Mishra,F/O Tarun Bose,Scheduled,0,1067
+LH705,Lufthansa,2026-11-11,VABB,BOM,Mumbai,EDDF,FRA,Frankfurt,T2,D24,10:15,11:15,15:45,540,Airbus A330-300,Capt. Omar Rao,F/O Sanjay Chauhan,On time,0,6569
+LH615,Lufthansa,2026-11-11,VTBS,BKK,Bangkok,VOBL,BLR,Bengaluru,T2,H16,20:40,21:40,23:56,226,Airbus A350-900,Capt. Tarun Agarwal,F/O Lucas Bhatt,Boarding,0,2491
+AI517,Air India,2026-11-11,VIDP,DEL,Delhi,VABB,BOM,Mumbai,T3,D24,21:45,22:25,00:27 +1,122,Airbus A321neo,Capt. Harsh Gupta,F/O Sneha Khan,Scheduled,0,1138
+IX579,Air India Express,2026-11-11,VOMM,MAA,Chennai,VIJP,JAI,Jaipur,T1,H16,15:55,16:35,19:13,158,Airbus A320neo,Capt. Michael Nair,F/O Swati Miller,On time,0,1603
+SQ250,Singapore Airlines,2026-11-11,VIDP,DEL,Delhi,OMDB,DXB,Dubai,T2,D35,14:45,15:45,17:37,202,Airbus A350-900,Capt. James Al-Farsi,F/O Emma Kapoor,On time,0,2183
+AI100,Air India,2026-11-11,VIDP,DEL,Delhi,VIJP,JAI,Jaipur,T1,B14,05:05,05:45,06:37,52,Boeing 737-800,Capt. Siddharth Mishra,F/O Swati Hughes,Scheduled,0,231
+6E620,IndiGo,2026-11-11,VECC,CCU,Kolkata,VOCI,COK,Kochi,T1,H36,19:25,20:05,23:05,180,Airbus A320neo,Capt. Lucas Miller,F/O Nikhil Khan,Delayed,45,1890
+SG666,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VOGO,GOI,Goa,T3,F38,15:40,16:20,18:50,150,Boeing 737-800,Capt. Thomas Malhotra,F/O Sneha Yadav,On time,0,1504
+AI382,Air India,2026-11-11,EDDF,FRA,Frankfurt,VECC,CCU,Kolkata,T1,B39,16:55,17:55,08:28 +1,603,Boeing 777-300ER,Capt. Aditya Malhotra,F/O Aarti Walker,Scheduled,0,7390
+6E387,IndiGo,2026-11-11,VEGT,GAU,Guwahati,VOMM,MAA,Chennai,T1,H29,11:30,12:10,15:09,179,Boeing 737 MAX 8,Capt. Aditya Walker,F/O Aarti Verma,On time,0,1883
+IX423,Air India Express,2026-11-11,VOBL,BLR,Bengaluru,VAID,IDR,Indore,T1,A05,09:15,09:55,11:52,117,Boeing 737 MAX 8,Capt. Rahul Das,F/O Lucas Pillai,Boarding,0,1077
+EK454,Emirates,2026-11-11,EDDF,FRA,Frankfurt,VECC,CCU,Kolkata,T2,F11,12:45,13:45,04:18 +1,603,Airbus A330-300,Capt. Sanjay Hughes,F/O Meera Chopra,On time,0,7390
+6E440,IndiGo,2026-11-11,VOMM,MAA,Chennai,VIAR,ATQ,Amritsar,T1,H33,14:35,15:15,18:35,200,Boeing 737-800,Capt. Ishaan Sharma,F/O Radhika Sethi,On time,0,2152
+SG494,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VIAR,ATQ,Amritsar,T2,E04,22:45,23:25,02:09 +1,164,Boeing 737-800,Capt. Lucas Banerjee,F/O Rahul Menon,Delayed,35,1681
+QP964,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VOTV,TRV,Thiruvananthapuram,T1,H27,10:10,10:50,12:40,110,Boeing 737-800,Capt. Kabir Sharma,F/O Rahul Pillai,On time,0,987
+EK689,Emirates,2026-11-11,VECC,CCU,Kolkata,VTBS,BKK,Bangkok,T2,E01,06:20,07:20,11:30,160,Airbus A350-900,Capt. Daniel Yadav,F/O Ankit Das,On time,0,1636
+6E364,IndiGo,2026-11-11,VIJP,JAI,Jaipur,VOCI,COK,Kochi,T2,B06,12:35,13:15,16:12,177,Boeing 737 MAX 8,Capt. Daniel Khan,F/O Fatima Verma,On time,0,1854
+AI554,Air India,2026-11-11,VIDP,DEL,Delhi,VILK,LKO,Lucknow,T1,H39,12:25,13:05,14:12,67,Airbus A321neo,Capt. Manish Singh,F/O Radhika Khan,Delayed,20,423
+6E675,IndiGo,2026-11-11,VECC,CCU,Kolkata,VOGO,GOI,Goa,T2,H36,22:50,23:30,02:18 +1,168,Boeing 737-800,Capt. Tarun Menon,F/O Tarun Mishra,Delayed,25,1734
+6E842,IndiGo,2026-11-11,VECC,CCU,Kolkata,VOCI,COK,Kochi,T2,G23,17:20,18:00,21:00,180,Airbus A320neo,Capt. Omar Hughes,F/O Amit Verma,On time,0,1890
+SG468,SpiceJet,2026-11-11,VOTV,TRV,Thiruvananthapuram,VAPO,PNQ,Pune,T2,E09,05:55,06:35,08:39,124,Airbus A321neo,Capt. Ishaan Patel,F/O Omar Iyer,On time,0,1168
+IX434,Air India Express,2026-11-11,VOMM,MAA,Chennai,VANP,NAG,Nagpur,T1,F12,18:50,19:30,21:14,104,Airbus A321neo,Capt. Manish Bose,F/O Nikhil Kapoor,On time,0,908
+IX379,Air India Express,2026-11-11,VEPT,PAT,Patna,VOHS,HYD,Hyderabad,T1,C23,12:35,13:15,15:18,123,Boeing 737 MAX 8,Capt. Daniel Das,F/O Shruti Clarke,On time,0,1155
+6E597,IndiGo,2026-11-11,VABB,BOM,Mumbai,VAID,IDR,Indore,T2,B26,16:20,17:00,18:13,73,Airbus A321neo,Capt. Aditya Gupta,F/O Isha Kulkarni,Delayed,60,505
+SG243,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VEGT,GAU,Guwahati,T2,F30,21:15,21:55,00:54 +1,179,Boeing 737-800,Capt. Rahul Saxena,F/O Isha Trivedi,Scheduled,0,1883
+SG855,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VAPO,PNQ,Pune,T2,C35,16:35,17:15,19:00,105,Airbus A321neo,Capt. Amit Patel,F/O Tanvi Fischer,On time,0,912
+SG703,SpiceJet,2026-11-11,VILK,LKO,Lucknow,VOCI,COK,Kochi,T2,G10,13:15,13:55,16:56,181,Airbus A321neo,Capt. Omar Nair,F/O Vikram Verma,Scheduled,0,1905
+LH467,Lufthansa,2026-11-11,VOBL,BLR,Bengaluru,EGLL,LHR,London,T1,E36,04:30,05:30,10:53,653,Boeing 787-9,Capt. Vikram Miller,F/O Aisha Mishra,On time,0,8046
+QP177,Akasa Air,2026-11-11,VAID,IDR,Indore,VAPO,PNQ,Pune,T1,E32,08:45,09:25,10:38,73,Airbus A321neo,Capt. Ankit Fischer,F/O Sneha Sharma,On time,0,500
+AI280,Air India,2026-11-11,VIDP,DEL,Delhi,OMDB,DXB,Dubai,T3,D15,13:40,14:40,16:32,202,Boeing 787-9,Capt. Ishaan Malhotra,F/O Ankit Kulkarni,On time,0,2183
+6E476,IndiGo,2026-11-11,VECC,CCU,Kolkata,VOMM,MAA,Chennai,T2,F37,11:10,11:50,14:11,141,Airbus A321neo,Capt. Lucas Yadav,F/O Manish Trivedi,Scheduled,0,1385
+6E803,IndiGo,2026-11-11,VECC,CCU,Kolkata,VOHS,HYD,Hyderabad,T2,F30,10:00,10:40,12:47,127,Boeing 737 MAX 8,Capt. Tarun Walker,F/O Sophie Trivedi,Scheduled,0,1207
+AI876,Air India,2026-11-11,VOBL,BLR,Bengaluru,VOHS,HYD,Hyderabad,T2,A11,06:40,07:20,08:30,70,Boeing 737-800,Capt. Rahul Kulkarni,F/O Sanjay Yadav,Scheduled,0,456
+SG297,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VEGT,GAU,Guwahati,T2,C16,22:45,23:25,02:24 +1,179,Airbus A321neo,Capt. Amit Iyer,F/O Ananya Mishra,Scheduled,0,1883
+SQ650,Singapore Airlines,2026-11-11,VTBS,BKK,Bangkok,VECC,CCU,Kolkata,T2,C31,19:50,20:50,22:00,160,Airbus A350-900,Capt. Daniel Menon,F/O Aisha Clarke,Scheduled,0,1636
+AI948,Air India,2026-11-11,VIDP,DEL,Delhi,OTHH,DOH,Doha,T1,H06,09:10,10:10,11:31,231,Boeing 777-300ER,Capt. Harsh Joshi,F/O Emma Miller,On time,0,2549
+QP441,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VECC,CCU,Kolkata,T2,A17,20:50,21:30,00:03 +1,153,Airbus A320neo,Capt. Arjun Das,F/O Pooja Chopra,Boarding,0,1546
+SG686,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VOTV,TRV,Thiruvananthapuram,T2,C35,20:40,21:20,00:46 +1,206,Airbus A321neo,Capt. Kabir Rao,F/O Harsh Mishra,On time,0,2233
+QP229,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VIJP,JAI,Jaipur,T1,H14,08:15,08:55,11:27,152,Airbus A321neo,Capt. Rohan Sethi,F/O Karan Singh,On time,0,1527
+BA554,British Airways,2026-11-11,VECC,CCU,Kolkata,OMDB,DXB,Dubai,T2,D08,07:45,08:45,12:08,293,Boeing 777-300ER,Capt. Kabir Joshi,F/O Rajesh Trivedi,On time,0,3365
+QP824,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VOCI,COK,Kochi,T2,F28,05:10,05:50,06:53,63,Boeing 737-800,Capt. Omar Sharma,F/O Karan Hughes,Delayed,25,367
+QP722,Akasa Air,2026-11-11,VOMM,MAA,Chennai,VECC,CCU,Kolkata,T1,B19,04:55,05:35,07:56,141,Airbus A320neo,Capt. Aditya Chauhan,F/O Tanvi Agarwal,Delayed,20,1385
+SG890,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VAID,IDR,Indore,T1,D03,15:00,15:40,17:05,85,Airbus A321neo,Capt. Sanjay Joshi,F/O Swati Patel,On time,0,662
+QP276,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VOCI,COK,Kochi,T2,A15,05:50,06:30,09:42,192,Airbus A320neo,Capt. Ishaan Walker,F/O Nikhil Iyer,Delayed,60,2048
+6E720,IndiGo,2026-11-11,VOBL,BLR,Bengaluru,VABB,BOM,Mumbai,T2,F37,18:05,18:45,20:24,99,Boeing 737 MAX 8,Capt. Deepak Pillai,F/O Varun Menon,Scheduled,0,834
+IX781,Air India Express,2026-11-11,VABB,BOM,Mumbai,VECC,CCU,Kolkata,T2,F37,08:40,09:20,12:03,163,Airbus A321neo,Capt. Michael Yadav,F/O Hannah Bose,On time,0,1665
+LH901,Lufthansa,2026-11-11,WSSS,SIN,Singapore,VIDP,DEL,Delhi,T2,C21,08:05,09:05,12:29,354,Airbus A330-300,Capt. Kabir Saxena,F/O Pooja Hughes,On time,0,4158
+SG437,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VEGT,GAU,Guwahati,T2,D31,19:55,20:35,23:01,146,Boeing 737 MAX 8,Capt. Deepak Agarwal,F/O Rohan Yadav,Scheduled,0,1455
+SG690,SpiceJet,2026-11-11,VIAR,ATQ,Amritsar,VABB,BOM,Mumbai,T2,H02,22:20,23:00,01:23 +1,143,Boeing 737 MAX 8,Capt. Varun Agarwal,F/O Priya Chauhan,Scheduled,0,1416
+QP787,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VIDP,DEL,Delhi,T1,H20,15:25,16:05,18:07,122,Boeing 737-800,Capt. Deepak Chauhan,F/O Aisha Mehta,On time,0,1138
+SG196,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VAPO,PNQ,Pune,T1,A39,09:15,09:55,11:25,90,Airbus A321neo,Capt. Michael Mishra,F/O Daniel Mehta,Boarding,0,722
+6E622,IndiGo,2026-11-11,VIJP,JAI,Jaipur,VOCI,COK,Kochi,T1,E30,06:30,07:10,10:07,177,Airbus A321neo,Capt. Tarun Das,F/O Harsh Verma,Delayed,25,1854
+6E741,IndiGo,2026-11-11,VIDP,DEL,Delhi,VECC,CCU,Kolkata,T2,D13,11:25,12:05,14:20,135,Airbus A320neo,Capt. Siddharth Agarwal,F/O Ananya Verma,On time,0,1312
+QP643,Akasa Air,2026-11-11,VOMM,MAA,Chennai,VABB,BOM,Mumbai,T2,G09,11:40,12:20,14:14,114,Boeing 737-800,Capt. Karan Fischer,F/O Fatima Banerjee,Delayed,35,1033
+6E781,IndiGo,2026-11-11,VOMM,MAA,Chennai,VAAH,AMD,Ahmedabad,T2,B14,10:55,11:35,13:55,140,Airbus A321neo,Capt. Manish Bhatt,F/O Hannah Walker,Delayed,25,1374
+QP697,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VILK,LKO,Lucknow,T2,B35,18:30,19:10,21:16,126,Boeing 737 MAX 8,Capt. Michael Chauhan,F/O Riya Mishra,On time,0,1183
+IX975,Air India Express,2026-11-11,VECC,CCU,Kolkata,VOGO,GOI,Goa,T2,E17,21:15,21:55,00:43 +1,168,Airbus A321neo,Capt. Lucas Miller,F/O Michael Kulkarni,Delayed,25,1734
+IX613,Air India Express,2026-11-11,VECC,CCU,Kolkata,VOHS,HYD,Hyderabad,T2,C19,07:40,08:20,10:27,127,Boeing 737-800,Capt. Vikram Khan,F/O Manish Yadav,Delayed,35,1207
+SG739,SpiceJet,2026-11-11,VOHS,HYD,Hyderabad,VIDP,DEL,Delhi,T1,A10,12:30,13:10,15:22,132,Airbus A321neo,Capt. Ishaan Verma,F/O Neha Yadav,On time,0,1266
+IX823,Air India Express,2026-11-11,VABB,BOM,Mumbai,VIDP,DEL,Delhi,T1,D25,09:45,10:25,12:27,122,Airbus A321neo,Capt. Pranav Sharma,F/O Lucas Banerjee,On time,0,1138
+IX739,Air India Express,2026-11-11,VABB,BOM,Mumbai,VOCI,COK,Kochi,T1,F17,14:55,15:35,17:31,116,Boeing 737-800,Capt. James Trivedi,F/O Kabir Joshi,On time,0,1063
+IX303,Air India Express,2026-11-11,VIDP,DEL,Delhi,VIJP,JAI,Jaipur,T2,A39,14:00,14:40,15:32,52,Airbus A321neo,Capt. Omar Khan,F/O Simran Yadav,On time,0,231
+SG393,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VOGO,GOI,Goa,T2,B09,14:30,15:10,17:58,168,Boeing 737 MAX 8,Capt. Daniel Bose,F/O Karan Nair,On time,0,1734
+SG661,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VAID,IDR,Indore,T2,B34,05:00,05:40,07:37,117,Airbus A320neo,Capt. Rajesh Reddy,F/O Simran Das,On time,0,1077
+SG113,SpiceJet,2026-11-11,VANP,NAG,Nagpur,VIDP,DEL,Delhi,T1,E13,04:25,05:05,06:45,100,Boeing 737 MAX 8,Capt. Arjun Mishra,F/O Deepak Singh,Boarding,0,853
+AI944,Air India,2026-11-11,VOHS,HYD,Hyderabad,VILK,LKO,Lucknow,T1,D30,18:50,19:30,21:28,118,Boeing 737 MAX 8,Capt. James Nair,F/O Amit Trivedi,Scheduled,0,1088
+IX589,Air India Express,2026-11-11,VECC,CCU,Kolkata,VAPO,PNQ,Pune,T1,G29,11:10,11:50,14:26,156,Airbus A321neo,Capt. Amit Sethi,F/O Daniel Desai,On time,0,1577
+6E663,IndiGo,2026-11-11,VIDP,DEL,Delhi,VOTV,TRV,Thiruvananthapuram,T3,F38,05:20,06:00,09:26,206,Airbus A321neo,Capt. Daniel Malhotra,F/O Rajesh Walker,Scheduled,0,2233
+IX278,Air India Express,2026-11-11,VOCI,COK,Kochi,VECC,CCU,Kolkata,T2,F14,07:45,08:25,11:25,180,Airbus A321neo,Capt. Amit Yadav,F/O James Miller,Scheduled,0,1890
+QP645,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VEGT,GAU,Guwahati,T2,F36,07:00,07:40,10:06,146,Boeing 737-800,Capt. Rohan Agarwal,F/O Sarah Desai,On time,0,1455
+AI462,Air India,2026-11-11,VIDP,DEL,Delhi,VEPT,PAT,Patna,T3,A07,11:10,11:50,13:30,100,Airbus A320neo,Capt. Aditya Walker,F/O Ishaan Al-Farsi,On time,0,856
+QP356,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VIJP,JAI,Jaipur,T2,C28,15:20,16:00,18:19,139,Airbus A321neo,Capt. Daniel Iyer,F/O Aarti Chauhan,Delayed,90,1356
+AI729,Air India,2026-11-11,VOMM,MAA,Chennai,VOHS,HYD,Hyderabad,T2,B07,11:15,11:55,13:09,74,Boeing 737 MAX 8,Capt. Ishaan Joshi,F/O Varun Pillai,Delayed,60,508
+QP124,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VOBL,BLR,Bengaluru,T1,A10,19:00,19:40,22:26,166,Airbus A321neo,Capt. Ankit Sethi,F/O Divya Pillai,Scheduled,0,1710
+SG181,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VAAH,AMD,Ahmedabad,T2,B29,17:15,17:55,20:15,140,Boeing 737 MAX 8,Capt. Aditya Bose,F/O Nikhil Desai,Scheduled,0,1374
+6E366,IndiGo,2026-11-11,VECC,CCU,Kolkata,VIAR,ATQ,Amritsar,T2,G11,20:40,21:20,00:04 +1,164,Airbus A320neo,Capt. Vikram Menon,F/O Divya Chauhan,On time,0,1681
+IX860,Air India Express,2026-11-11,VECC,CCU,Kolkata,VIDP,DEL,Delhi,T1,A33,11:00,11:40,13:55,135,Airbus A320neo,Capt. Manish Gupta,F/O Amit Mehta,Delayed,35,1312
+6E303,IndiGo,2026-11-11,VOMM,MAA,Chennai,VAPO,PNQ,Pune,T1,B30,21:15,21:55,23:40,105,Boeing 737 MAX 8,Capt. Arjun Verma,F/O Aarti Mehta,On time,0,912
+AI949,Air India,2026-11-11,VAID,IDR,Indore,VANP,NAG,Nagpur,T1,A29,16:40,17:20,18:24,64,Boeing 737 MAX 8,Capt. Tarun Hughes,F/O Michael Mishra,Scheduled,0,380
+AI562,Air India,2026-11-11,VECC,CCU,Kolkata,VOMM,MAA,Chennai,T1,A20,13:05,13:45,16:06,141,Airbus A321neo,Capt. Aditya Mishra,F/O Anjali Sharma,Scheduled,0,1385
+AI590,Air India,2026-11-11,VOMM,MAA,Chennai,VILK,LKO,Lucknow,T2,G04,19:55,20:35,23:07,152,Airbus A321neo,Capt. Pranav Yadav,F/O Kabir Kapoor,On time,0,1533
+SG930,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VABB,BOM,Mumbai,T1,D02,14:00,14:40,16:19,99,Boeing 737-800,Capt. Nikhil Kulkarni,F/O Priya Banerjee,Delayed,25,834
+QP974,Akasa Air,2026-11-11,VILK,LKO,Lucknow,VOTV,TRV,Thiruvananthapuram,T2,E23,20:55,21:35,00:49 +1,194,Boeing 737 MAX 8,Capt. James Nair,F/O Tarun Trivedi,Delayed,45,2075
+SG344,SpiceJet,2026-11-11,VOCI,COK,Kochi,VOTV,TRV,Thiruvananthapuram,T1,F33,15:20,16:00,16:49,49,Boeing 737-800,Capt. Michael Kulkarni,F/O Tarun Gupta,Scheduled,0,194
+AI905,Air India,2026-11-11,VECC,CCU,Kolkata,VTBS,BKK,Bangkok,T2,H07,11:55,12:55,17:05,160,Boeing 787-9,Capt. Deepak Kulkarni,F/O Divya Agarwal,Scheduled,0,1636
+SG853,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VIDP,DEL,Delhi,T1,H27,08:15,08:55,11:45,170,Airbus A320neo,Capt. Vikram Chauhan,F/O Vikram Sharma,On time,0,1760
+IX179,Air India Express,2026-11-11,VOMM,MAA,Chennai,VIDP,DEL,Delhi,T2,F08,20:25,21:05,23:55,170,Airbus A320neo,Capt. Daniel Chopra,F/O Pranav Hughes,Boarding,0,1760
+EK895,Emirates,2026-11-11,VTBS,BKK,Bangkok,VECC,CCU,Kolkata,T2,F16,13:50,14:50,16:00,160,Airbus A350-900,Capt. Nikhil Hughes,F/O Emma Mehta,Delayed,10,1636
+SG891,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VOCI,COK,Kochi,T2,F37,08:10,08:50,09:53,63,Airbus A321neo,Capt. Omar Saxena,F/O Vikram Gupta,Scheduled,0,367
+6E377,IndiGo,2026-11-11,OTHH,DOH,Doha,VIDP,DEL,Delhi,T2,G25,13:45,14:45,21:06,231,Airbus A330-300,Capt. Michael Yadav,F/O James Hughes,On time,0,2549
+AI891,Air India,2026-11-11,VOBL,BLR,Bengaluru,VIJP,JAI,Jaipur,T1,G22,18:20,19:00,21:32,152,Airbus A320neo,Capt. Manish Nair,F/O Divya Gupta,Delayed,25,1527
+SQ460,Singapore Airlines,2026-11-11,VOBL,BLR,Bengaluru,OTHH,DOH,Doha,T1,D20,05:15,06:15,08:14,269,Airbus A330-300,Capt. Nikhil Menon,F/O Anjali Miller,On time,0,3042
+QP208,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VIAR,ATQ,Amritsar,T1,E21,15:05,15:45,18:26,161,Airbus A320neo,Capt. Rajesh Joshi,F/O Laura Chopra,Delayed,45,1650
+QP220,Akasa Air,2026-11-11,VANP,NAG,Nagpur,VIDP,DEL,Delhi,T1,A25,14:50,15:30,17:10,100,Airbus A320neo,Capt. Rahul Verma,F/O Aisha Clarke,Scheduled,0,853
+AI138,Air India,2026-11-11,VOHS,HYD,Hyderabad,VOTV,TRV,Thiruvananthapuram,T2,A01,08:05,08:45,10:35,110,Airbus A320neo,Capt. Tarun Miller,F/O Rohan Trivedi,Delayed,15,987
+EK681,Emirates,2026-11-11,VOHS,HYD,Hyderabad,OMDB,DXB,Dubai,T2,C03,21:50,22:50,01:10 +1,230,Boeing 787-9,Capt. Manish Chauhan,F/O Tarun Sethi,Scheduled,0,2546
+AI537,Air India,2026-11-11,VABB,BOM,Mumbai,VOBL,BLR,Bengaluru,T2,C15,16:10,16:50,18:29,99,Boeing 737-800,Capt. Amit Menon,F/O Priya Menon,On time,0,834
+6E887,IndiGo,2026-11-11,VOBL,BLR,Bengaluru,VAPO,PNQ,Pune,T1,G31,05:50,06:30,08:00,90,Airbus A320neo,Capt. Thomas Chauhan,F/O Nisha Joshi,On time,0,722
+SG214,SpiceJet,2026-11-11,VIJP,JAI,Jaipur,VECC,CCU,Kolkata,T1,G16,11:15,11:55,14:14,139,Boeing 737-800,Capt. Lucas Kapoor,F/O Tanvi Bose,On time,0,1356
+QR805,Qatar Airways,2026-11-11,VOHS,HYD,Hyderabad,EDDF,FRA,Frankfurt,T1,C28,09:30,10:30,15:42,582,Airbus A350-900,Capt. Lucas Trivedi,F/O Arjun Desai,On time,0,7116
+QP817,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VIJP,JAI,Jaipur,T2,B01,18:15,18:55,20:40,105,Boeing 737-800,Capt. Kabir Verma,F/O Swati Walker,Scheduled,0,911
+6E279,IndiGo,2026-11-11,VOMM,MAA,Chennai,VIAR,ATQ,Amritsar,T2,A32,11:20,12:00,15:20,200,Airbus A321neo,Capt. Lucas Bose,F/O Sanjay Bhatt,Delayed,35,2152
+IX814,Air India Express,2026-11-11,VOHS,HYD,Hyderabad,VOMM,MAA,Chennai,T2,D19,16:55,17:35,18:49,74,Airbus A320neo,Capt. Nikhil Walker,F/O Michael Sharma,On time,0,508
+BA663,British Airways,2026-11-11,OTHH,DOH,Doha,VIDP,DEL,Delhi,T2,D04,09:45,10:45,17:06,231,Boeing 777-300ER,Capt. Varun Pillai,F/O Swati Bhatt,Scheduled,0,2549
+IX172,Air India Express,2026-11-11,VECC,CCU,Kolkata,VOCI,COK,Kochi,T2,F30,22:25,23:05,02:05 +1,180,Boeing 737-800,Capt. Arjun Chopra,F/O Sophie Trivedi,On time,0,1890
+6E388,IndiGo,2026-11-11,VOMM,MAA,Chennai,VEPT,PAT,Patna,T2,A09,11:25,12:05,14:34,149,Airbus A321neo,Capt. Arjun Agarwal,F/O Sneha Saxena,Scheduled,0,1492
+IX499,Air India Express,2026-11-11,VABB,BOM,Mumbai,VIAR,ATQ,Amritsar,T1,H13,18:45,19:25,21:48,143,Boeing 737-800,Capt. Thomas Fischer,F/O Rohan Desai,On time,0,1416
+QP338,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VIDP,DEL,Delhi,T2,E13,06:55,07:35,09:47,132,Boeing 737-800,Capt. Nikhil Saxena,F/O Ananya Banerjee,Delayed,20,1266
+6E725,IndiGo,2026-11-11,VIDP,DEL,Delhi,VEPT,PAT,Patna,T3,H17,18:55,19:35,21:15,100,Boeing 737-800,Capt. Rahul Verma,F/O Daniel Singh,Scheduled,0,856
+AI184,Air India,2026-11-11,VOHS,HYD,Hyderabad,VAAH,AMD,Ahmedabad,T1,B27,09:55,10:35,12:18,103,Boeing 737 MAX 8,Capt. Karan Patel,F/O Vikram Joshi,Scheduled,0,886
+SQ961,Singapore Airlines,2026-11-11,VABB,BOM,Mumbai,OMDB,DXB,Dubai,T2,H20,21:35,22:35,00:08 +1,183,Boeing 777-300ER,Capt. Ishaan Reddy,F/O Simran Al-Farsi,On time,0,1926
+IX714,Air India Express,2026-11-11,VANP,NAG,Nagpur,VOCI,COK,Kochi,T2,F25,19:05,19:45,21:56,131,Boeing 737-800,Capt. Siddharth Chopra,F/O Aisha Desai,Scheduled,0,1248
+QP946,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VAID,IDR,Indore,T3,C15,07:30,08:10,09:35,85,Airbus A320neo,Capt. Karan Menon,F/O James Yadav,On time,0,662
+6E715,IndiGo,2026-11-11,VIDP,DEL,Delhi,VECC,CCU,Kolkata,T1,B04,16:25,17:05,19:20,135,Airbus A320neo,Capt. Varun Chopra,F/O Kavya Desai,Scheduled,0,1312
+6E489,IndiGo,2026-11-11,VOBL,BLR,Bengaluru,VIDP,DEL,Delhi,T1,E09,15:20,16:00,18:46,166,Airbus A320neo,Capt. Tarun Trivedi,F/O Isha Bose,On time,0,1710
+SG843,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VOCI,COK,Kochi,T2,D26,11:35,12:15,13:18,63,Airbus A321neo,Capt. Rohan Singh,F/O Rajesh Gupta,Scheduled,0,367
+IX412,Air India Express,2026-11-11,VIDP,DEL,Delhi,VEPT,PAT,Patna,T1,C27,21:00,21:40,23:20,100,Airbus A320neo,Capt. James Trivedi,F/O Tarun Sharma,On time,0,856
+6E390,IndiGo,2026-11-11,VECC,CCU,Kolkata,VAPO,PNQ,Pune,T1,F24,16:15,16:55,19:31,156,Airbus A321neo,Capt. Tarun Rao,F/O Rahul Saxena,On time,0,1577
+AI209,Air India,2026-11-11,VOBL,BLR,Bengaluru,EGLL,LHR,London,T2,G36,11:10,12:10,17:33,653,Airbus A330-300,Capt. Michael Das,F/O Tanvi Clarke,Scheduled,0,8046
+QP741,Akasa Air,2026-11-11,VOMM,MAA,Chennai,VAID,IDR,Indore,T1,E17,18:45,19:25,21:30,125,Boeing 737-800,Capt. Thomas Kulkarni,F/O Riya Iyer,Boarding,0,1176
+AI355,Air India,2026-11-11,VOHS,HYD,Hyderabad,VECC,CCU,Kolkata,T1,C17,19:50,20:30,22:37,127,Boeing 737-800,Capt. Vikram Sharma,F/O Tanvi Patel,Delayed,20,1207
+SG648,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VIJP,JAI,Jaipur,T2,B38,19:45,20:25,22:44,139,Airbus A320neo,Capt. Omar Bhatt,F/O Tanvi Al-Farsi,On time,0,1356
+QR547,Qatar Airways,2026-11-11,EDDF,FRA,Frankfurt,VOMM,MAA,Chennai,T1,C06,05:10,06:10,20:59,619,Boeing 777-300ER,Capt. Kabir Verma,F/O Kavya Chopra,Scheduled,0,7594
+SG803,SpiceJet,2026-11-11,VABB,BOM,Mumbai,VOCI,COK,Kochi,T2,C08,12:00,12:40,14:36,116,Boeing 737 MAX 8,Capt. Karan Sharma,F/O Rajesh Singh,On time,0,1063
+QP362,Akasa Air,2026-11-11,VIJP,JAI,Jaipur,VABB,BOM,Mumbai,T1,F35,22:25,23:05,00:50 +1,105,Airbus A320neo,Capt. Rohan Fischer,F/O Sneha Miller,Delayed,20,911
+AI618,Air India,2026-11-11,VILK,LKO,Lucknow,VEPT,PAT,Patna,T2,H40,04:40,05:20,06:28,68,Boeing 737-800,Capt. Rohan Kapoor,F/O Aisha Patel,On time,0,438
+IX955,Air India Express,2026-11-11,VIDP,DEL,Delhi,VOMM,MAA,Chennai,T3,A13,20:10,20:50,23:40,170,Boeing 737 MAX 8,Capt. Amit Mehta,F/O Pallavi Hughes,Scheduled,0,1760
+QP797,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VILK,LKO,Lucknow,T1,A10,06:00,06:40,08:23,103,Boeing 737 MAX 8,Capt. Rahul Banerjee,F/O Vikram Fischer,On time,0,889
+6E969,IndiGo,2026-11-11,VOMM,MAA,Chennai,VOHS,HYD,Hyderabad,T1,C04,08:20,09:00,10:14,74,Boeing 737 MAX 8,Capt. Pranav Nair,F/O Deepak Banerjee,Boarding,0,508
+AI615,Air India,2026-11-11,VIDP,DEL,Delhi,VECC,CCU,Kolkata,T3,F38,16:55,17:35,19:50,135,Boeing 737-800,Capt. Siddharth Joshi,F/O Arjun Trivedi,Scheduled,0,1312
+SG205,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VEPT,PAT,Patna,T1,F29,14:55,15:35,18:11,156,Airbus A320neo,Capt. Rajesh Joshi,F/O Ankit Banerjee,Delayed,60,1579
+AI761,Air India,2026-11-11,VTBS,BKK,Bangkok,VOBL,BLR,Bengaluru,T2,H12,18:10,19:10,21:26,226,Airbus A350-900,Capt. James Menon,F/O Swati Miller,Scheduled,0,2491
+QP835,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VECC,CCU,Kolkata,T1,D38,19:15,19:55,22:38,163,Boeing 737 MAX 8,Capt. Kabir Chauhan,F/O Swati Verma,Scheduled,0,1665
+QP710,Akasa Air,2026-11-11,VOGO,GOI,Goa,VAPO,PNQ,Pune,T1,B08,13:25,14:05,15:07,62,Boeing 737-800,Capt. Michael Rao,F/O Amit Saxena,On time,0,356
+QP432,Akasa Air,2026-11-11,VOMM,MAA,Chennai,VAAH,AMD,Ahmedabad,T1,B33,20:30,21:10,23:30,140,Boeing 737-800,Capt. Deepak Miller,F/O Hannah Yadav,Delayed,15,1374
+SG622,SpiceJet,2026-11-11,VABB,BOM,Mumbai,VIAR,ATQ,Amritsar,T2,C38,18:25,19:05,21:28,143,Airbus A321neo,Capt. James Banerjee,F/O Karan Agarwal,On time,0,1416
+AI176,Air India,2026-11-11,VAAH,AMD,Ahmedabad,VAID,IDR,Indore,T2,E40,09:40,10:20,11:20,60,Boeing 737-800,Capt. Sanjay Miller,F/O Fatima Hughes,Boarding,0,326
+IX821,Air India Express,2026-11-11,VOBL,BLR,Bengaluru,VOHS,HYD,Hyderabad,T1,A40,20:25,21:05,22:15,70,Boeing 737-800,Capt. Lucas Bhatt,F/O Aarti Hughes,Scheduled,0,456
+AI148,Air India,2026-11-11,VAPO,PNQ,Pune,VIAR,ATQ,Amritsar,T1,A19,08:50,09:30,11:57,147,Airbus A321neo,Capt. Nikhil Miller,F/O Aditya Fischer,Scheduled,0,1462
+AI256,Air India,2026-11-11,VABB,BOM,Mumbai,VOHS,HYD,Hyderabad,T2,C05,07:30,08:10,09:32,82,Boeing 737-800,Capt. Michael Rao,F/O Ishaan Kulkarni,Scheduled,0,622
+6E283,IndiGo,2026-11-11,VOHS,HYD,Hyderabad,VEPT,PAT,Patna,T2,G18,07:10,07:50,09:53,123,Boeing 737 MAX 8,Capt. Manish Kapoor,F/O James Yadav,Boarding,0,1155
+IX753,Air India Express,2026-11-11,VECC,CCU,Kolkata,VOCI,COK,Kochi,T1,C20,07:15,07:55,10:55,180,Airbus A321neo,Capt. Pranav Sethi,F/O Omar Reddy,Delayed,45,1890
+QP869,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VIJP,JAI,Jaipur,T1,G36,08:45,09:25,11:24,119,Airbus A321neo,Capt. Thomas Pillai,F/O Radhika Sethi,On time,0,1099
+SG991,SpiceJet,2026-11-11,VABB,BOM,Mumbai,VAPO,PNQ,Pune,T1,F16,13:25,14:05,14:49,44,Airbus A321neo,Capt. Rajesh Al-Farsi,F/O Ananya Mishra,On time,0,124
+IX405,Air India Express,2026-11-11,VIDP,DEL,Delhi,VEPT,PAT,Patna,T3,C36,04:20,05:00,06:40,100,Airbus A321neo,Capt. Kabir Agarwal,F/O Laura Singh,Scheduled,0,856
+QP260,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VANP,NAG,Nagpur,T1,H11,07:40,08:20,10:10,110,Airbus A320neo,Capt. Varun Sharma,F/O Isha Banerjee,Scheduled,0,985
+QP953,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VILK,LKO,Lucknow,T1,A18,12:20,13:00,14:58,118,Boeing 737 MAX 8,Capt. Siddharth Banerjee,F/O Shruti Mishra,Delayed,25,1088
+LH547,Lufthansa,2026-11-11,VABB,BOM,Mumbai,WSSS,SIN,Singapore,T2,D11,06:55,07:55,16:01,336,Boeing 787-9,Capt. Nikhil Singh,F/O Vikram Patel,Delayed,45,3920
+SG195,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VABB,BOM,Mumbai,T1,H02,20:20,21:00,23:02,122,Airbus A320neo,Capt. Deepak Miller,F/O Radhika Kapoor,Scheduled,0,1138
+AI137,Air India,2026-11-11,VEGT,GAU,Guwahati,VOHS,HYD,Hyderabad,T1,C21,20:20,21:00,23:44,164,Boeing 737-800,Capt. Ishaan Clarke,F/O Kavya Reddy,Scheduled,0,1677
+QP803,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VOTV,TRV,Thiruvananthapuram,T1,F29,07:10,07:50,10:01,131,Airbus A321neo,Capt. Ankit Hughes,F/O Deepak Iyer,Scheduled,0,1257
+AI396,Air India,2026-11-11,WSSS,SIN,Singapore,VIDP,DEL,Delhi,T1,H31,19:00,20:00,23:24,354,Boeing 777-300ER,Capt. Deepak Saxena,F/O Sneha Nair,Scheduled,0,4158
+IX730,Air India Express,2026-11-11,VOMM,MAA,Chennai,VIAR,ATQ,Amritsar,T2,E16,11:10,11:50,15:10,200,Airbus A321neo,Capt. Nikhil Das,F/O Sophie Miller,On time,0,2152
+SG555,SpiceJet,2026-11-11,VAPO,PNQ,Pune,VECC,CCU,Kolkata,T1,F27,05:55,06:35,09:11,156,Airbus A320neo,Capt. Daniel Walker,F/O Riya Kapoor,Delayed,35,1577
+SG674,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VOHS,HYD,Hyderabad,T1,E18,04:55,05:35,06:45,70,Airbus A320neo,Capt. Ishaan Bhatt,F/O Pranav Desai,On time,0,456
+IX349,Air India Express,2026-11-11,VOBL,BLR,Bengaluru,VABB,BOM,Mumbai,T2,E04,09:30,10:10,11:49,99,Airbus A321neo,Capt. Daniel Trivedi,F/O Pooja Singh,On time,0,834
+SG460,SpiceJet,2026-11-11,VOCI,COK,Kochi,VOTV,TRV,Thiruvananthapuram,T2,C26,21:00,21:40,22:29,49,Airbus A321neo,Capt. Rahul Trivedi,F/O Simran Saxena,On time,0,194
+AI231,Air India,2026-11-11,VOHS,HYD,Hyderabad,VIDP,DEL,Delhi,T1,D09,10:50,11:30,13:42,132,Airbus A320neo,Capt. Ishaan Rao,F/O Divya Verma,Delayed,20,1266
+IX463,Air India Express,2026-11-11,VIDP,DEL,Delhi,VEPT,PAT,Patna,T1,G19,16:20,17:00,18:40,100,Boeing 737 MAX 8,Capt. Nikhil Verma,F/O Manish Kapoor,On time,0,856
+6E483,IndiGo,2026-11-11,VABB,BOM,Mumbai,VOHS,HYD,Hyderabad,T1,G14,09:40,10:20,11:42,82,Boeing 737 MAX 8,Capt. Ankit Pillai,F/O Shruti Desai,Boarding,0,622
+6E977,IndiGo,2026-11-11,VABB,BOM,Mumbai,VILK,LKO,Lucknow,T2,F15,11:55,12:35,14:41,126,Boeing 737 MAX 8,Capt. Siddharth Sharma,F/O Omar Iyer,Delayed,45,1183
+6E409,IndiGo,2026-11-11,VOBL,BLR,Bengaluru,VIAR,ATQ,Amritsar,T2,F01,13:30,14:10,17:24,194,Boeing 737-800,Capt. Vikram Gupta,F/O Swati Hughes,Scheduled,0,2079
+6E895,IndiGo,2026-11-11,VIDP,DEL,Delhi,VAPO,PNQ,Pune,T1,A13,19:40,20:20,22:23,123,Boeing 737-800,Capt. Pranav Walker,F/O Arjun Gupta,On time,0,1156
+AI346,Air India,2026-11-11,VABB,BOM,Mumbai,VOHS,HYD,Hyderabad,T1,C37,11:20,12:00,13:22,82,Airbus A320neo,Capt. Manish Menon,F/O Karan Saxena,On time,0,622
+QP411,Akasa Air,2026-11-11,VOMM,MAA,Chennai,VOTV,TRV,Thiruvananthapuram,T1,G31,12:40,13:20,14:42,82,Airbus A321neo,Capt. Nikhil Reddy,F/O Sarah Yadav,Scheduled,0,614
+QP880,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VANP,NAG,Nagpur,T2,F05,08:45,09:25,11:15,110,Boeing 737 MAX 8,Capt. Karan Mishra,F/O Swati Clarke,Scheduled,0,985
+SG226,SpiceJet,2026-11-11,VOHS,HYD,Hyderabad,VOCI,COK,Kochi,T1,H18,16:25,17:05,18:42,97,Boeing 737 MAX 8,Capt. Varun Mishra,F/O Ishaan Mishra,Scheduled,0,818
+6E690,IndiGo,2026-11-11,VOMM,MAA,Chennai,VTBS,BKK,Bangkok,T1,F10,08:40,09:40,14:36,206,Boeing 787-9,Capt. Rajesh Kapoor,F/O Shruti Mishra,On time,0,2227
+IX202,Air India Express,2026-11-11,VOMM,MAA,Chennai,VIAR,ATQ,Amritsar,T1,D29,12:35,13:15,16:35,200,Airbus A320neo,Capt. Rajesh Verma,F/O Sophie Sethi,Delayed,20,2152
+IX410,Air India Express,2026-11-11,VIDP,DEL,Delhi,VOTV,TRV,Thiruvananthapuram,T3,D28,09:45,10:25,13:51,206,Airbus A320neo,Capt. Ishaan Rao,F/O Amit Walker,Scheduled,0,2233
+QR160,Qatar Airways,2026-11-11,VOMM,MAA,Chennai,VTBS,BKK,Bangkok,T2,D33,09:00,10:00,14:56,206,Boeing 777-300ER,Capt. Aditya Banerjee,F/O Daniel Gupta,Delayed,25,2227
+6E376,IndiGo,2026-11-11,VECC,CCU,Kolkata,VEPT,PAT,Patna,T2,G08,12:05,12:45,13:56,71,Boeing 737-800,Capt. Karan Bose,F/O Pallavi Chauhan,On time,0,471
+6E479,IndiGo,2026-11-11,VECC,CCU,Kolkata,VABB,BOM,Mumbai,T1,C33,07:15,07:55,10:38,163,Airbus A320neo,Capt. Rahul Chopra,F/O Sophie Mehta,Delayed,45,1665
+6E105,IndiGo,2026-11-11,VOHS,HYD,Hyderabad,VEPT,PAT,Patna,T2,A33,07:15,07:55,09:58,123,Airbus A321neo,Capt. Harsh Miller,F/O Rohan Nair,On time,0,1155
+QP355,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VIAR,ATQ,Amritsar,T2,G32,10:20,11:00,13:23,143,Boeing 737 MAX 8,Capt. Aditya Saxena,F/O Nisha Khan,On time,0,1416
+SG331,SpiceJet,2026-11-11,VOTV,TRV,Thiruvananthapuram,VECC,CCU,Kolkata,T1,G26,07:30,08:10,11:18,188,Airbus A320neo,Capt. Karan Rao,F/O Divya Agarwal,Delayed,10,1999
+QP604,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VAPO,PNQ,Pune,T1,H28,16:00,16:40,17:53,73,Airbus A320neo,Capt. Aditya Kulkarni,F/O Pranav Saxena,On time,0,499
+AI476,Air India,2026-11-11,VECC,CCU,Kolkata,VIJP,JAI,Jaipur,T1,F35,07:50,08:30,10:49,139,Airbus A321neo,Capt. Omar Singh,F/O Michael Verma,Scheduled,0,1356
+IX250,Air India Express,2026-11-11,VEGT,GAU,Guwahati,VEPT,PAT,Patna,T2,H05,14:20,15:00,16:25,85,Airbus A321neo,Capt. James Khan,F/O Kabir Malhotra,On time,0,652
+IX805,Air India Express,2026-11-11,VABB,BOM,Mumbai,VEGT,GAU,Guwahati,T2,G33,12:40,13:20,16:34,194,Airbus A321neo,Capt. Amit Khan,F/O Thomas Sharma,Scheduled,0,2071
+IX651,Air India Express,2026-11-11,VIDP,DEL,Delhi,VOCI,COK,Kochi,T1,A03,06:10,06:50,10:02,192,Airbus A320neo,Capt. Tarun Iyer,F/O Pranav Trivedi,On time,0,2048
+6E643,IndiGo,2026-11-11,VIDP,DEL,Delhi,VAPO,PNQ,Pune,T2,H29,21:30,22:10,00:13 +1,123,Boeing 737 MAX 8,Capt. Sanjay Sethi,F/O Aisha Chopra,Scheduled,0,1156
+QP257,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VOCI,COK,Kochi,T1,G20,08:00,08:40,10:36,116,Airbus A321neo,Capt. Sanjay Miller,F/O Lucas Chauhan,On time,0,1063
+6E602,IndiGo,2026-11-11,VOBL,BLR,Bengaluru,VAPO,PNQ,Pune,T1,E21,20:35,21:15,22:45,90,Boeing 737 MAX 8,Capt. Rahul Saxena,F/O Nisha Rao,Delayed,90,722
+AI737,Air India,2026-11-11,VOMM,MAA,Chennai,VAID,IDR,Indore,T1,B25,07:15,07:55,10:00,125,Boeing 737-800,Capt. Lucas Das,F/O Shruti Sharma,Delayed,60,1176
+IX675,Air India Express,2026-11-11,VECC,CCU,Kolkata,VEPT,PAT,Patna,T2,G23,10:30,11:10,12:21,71,Boeing 737 MAX 8,Capt. Karan Patel,F/O Ishaan Pillai,On time,0,471
+SG173,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VOHS,HYD,Hyderabad,T2,G30,16:00,16:40,17:50,70,Boeing 737 MAX 8,Capt. Manish Chopra,F/O Amit Khan,Scheduled,0,456
+SG522,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VIAR,ATQ,Amritsar,T2,H16,17:30,18:10,21:24,194,Airbus A321neo,Capt. Harsh Mishra,F/O Neha Pillai,On time,0,2079
+SG636,SpiceJet,2026-11-11,VAPO,PNQ,Pune,VEPT,PAT,Patna,T2,D16,09:05,09:45,12:06,141,Airbus A320neo,Capt. Manish Verma,F/O Vikram Clarke,On time,0,1388
+SG677,SpiceJet,2026-11-11,VEGT,GAU,Guwahati,VOBL,BLR,Bengaluru,T2,H03,08:10,08:50,12:01,191,Airbus A321neo,Capt. Ishaan Hughes,F/O Meera Walker,Scheduled,0,2039
+BA857,British Airways,2026-11-11,OMDB,DXB,Dubai,VOMM,MAA,Chennai,T1,H08,04:00,05:00,10:50,260,Airbus A350-900,Capt. Rahul Iyer,F/O Daniel Rao,Scheduled,0,2933
+AI557,Air India,2026-11-11,VOBL,BLR,Bengaluru,VAPO,PNQ,Pune,T2,G17,06:00,06:40,08:10,90,Boeing 737-800,Capt. Siddharth Banerjee,F/O Laura Nair,On time,0,722
+6E897,IndiGo,2026-11-11,VILK,LKO,Lucknow,VIAR,ATQ,Amritsar,T1,F21,09:00,09:40,11:17,97,Boeing 737 MAX 8,Capt. Sanjay Saxena,F/O Radhika Joshi,On time,0,807
+AI433,Air India,2026-11-11,VOBL,BLR,Bengaluru,VOCI,COK,Kochi,T2,D02,04:45,05:25,06:28,63,Boeing 737 MAX 8,Capt. Daniel Das,F/O Simran Saxena,Delayed,15,367
+6E920,IndiGo,2026-11-11,VABB,BOM,Mumbai,VECC,CCU,Kolkata,T2,C23,05:40,06:20,09:03,163,Airbus A320neo,Capt. Sanjay Khan,F/O Tanvi Al-Farsi,On time,0,1665
+AI976,Air India,2026-11-11,VOGO,GOI,Goa,VIJP,JAI,Jaipur,T1,E08,05:55,06:35,08:49,134,Airbus A320neo,Capt. Aditya Singh,F/O Harsh Bhatt,Delayed,25,1288
+6E983,IndiGo,2026-11-11,VIDP,DEL,Delhi,VABB,BOM,Mumbai,T3,E30,15:40,16:20,18:22,122,Airbus A321neo,Capt. Rohan Al-Farsi,F/O Radhika Fischer,On time,0,1138
+AI395,Air India,2026-11-11,VOBL,BLR,Bengaluru,VOTV,TRV,Thiruvananthapuram,T2,H13,15:05,15:45,17:00,75,Airbus A320neo,Capt. Manish Menon,F/O Omar Clarke,On time,0,531
+QP158,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VEGT,GAU,Guwahati,T1,F02,11:50,12:30,15:14,164,Boeing 737 MAX 8,Capt. Sanjay Iyer,F/O Anjali Kulkarni,On time,0,1677
+AI914,Air India,2026-11-11,VECC,CCU,Kolkata,VEGT,GAU,Guwahati,T2,G28,05:40,06:20,07:33,73,Boeing 737 MAX 8,Capt. Rohan Kapoor,F/O Sophie Agarwal,Delayed,15,498
+6E579,IndiGo,2026-11-11,VECC,CCU,Kolkata,VAPO,PNQ,Pune,T1,H22,06:35,07:15,09:51,156,Airbus A320neo,Capt. Amit Khan,F/O Pooja Saxena,On time,0,1577
+AI982,Air India,2026-11-11,VABB,BOM,Mumbai,VOHS,HYD,Hyderabad,T1,G32,19:00,19:40,21:02,82,Airbus A320neo,Capt. Varun Menon,F/O Aarti Kapoor,On time,0,622
+SG356,SpiceJet,2026-11-11,VOHS,HYD,Hyderabad,VOMM,MAA,Chennai,T2,C26,15:10,15:50,17:04,74,Airbus A321neo,Capt. Rahul Sharma,F/O Daniel Chopra,On time,0,508
+SQ416,Singapore Airlines,2026-11-11,VIDP,DEL,Delhi,EGLL,LHR,London,T2,G10,07:05,08:05,11:47,552,Boeing 777-300ER,Capt. Karan Khan,F/O Thomas Khan,On time,0,6730
+IX925,Air India Express,2026-11-11,VABB,BOM,Mumbai,VEGT,GAU,Guwahati,T2,D16,08:25,09:05,12:19,194,Airbus A321neo,Capt. Omar Nair,F/O Aditya Malhotra,Boarding,0,2071
+IX370,Air India Express,2026-11-11,VOMM,MAA,Chennai,VOTV,TRV,Thiruvananthapuram,T1,B11,17:50,18:30,19:52,82,Airbus A320neo,Capt. Kabir Bhatt,F/O Aditya Desai,Delayed,10,614
+IX493,Air India Express,2026-11-11,VABB,BOM,Mumbai,VOCI,COK,Kochi,T2,C09,20:55,21:35,23:31,116,Boeing 737-800,Capt. Vikram Kulkarni,F/O Fatima Singh,Boarding,0,1063
+SG876,SpiceJet,2026-11-11,VEGT,GAU,Guwahati,VEPT,PAT,Patna,T2,B16,20:00,20:40,22:05,85,Airbus A321neo,Capt. Tarun Kapoor,F/O Pranav Trivedi,Boarding,0,652
+AI418,Air India,2026-11-11,EDDF,FRA,Frankfurt,VECC,CCU,Kolkata,T1,E03,06:05,07:05,21:38,603,Boeing 787-9,Capt. Arjun Kulkarni,F/O Isha Agarwal,Boarding,0,7390
+IX388,Air India Express,2026-11-11,VOMM,MAA,Chennai,VILK,LKO,Lucknow,T2,F20,21:00,21:40,00:12 +1,152,Boeing 737-800,Capt. Siddharth Clarke,F/O Swati Singh,Delayed,25,1533
+QR750,Qatar Airways,2026-11-11,VOBL,BLR,Bengaluru,OMDB,DXB,Dubai,T1,E10,07:45,08:45,11:17,242,Boeing 777-300ER,Capt. Tarun Fischer,F/O Hannah Sharma,On time,0,2695
+SG543,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VAAH,AMD,Ahmedabad,T1,B32,16:30,17:10,19:30,140,Boeing 737-800,Capt. Deepak Singh,F/O Aisha Verma,On time,0,1374
+BA193,British Airways,2026-11-11,VOHS,HYD,Hyderabad,VTBS,BKK,Bangkok,T2,B39,15:00,16:00,21:11,221,Airbus A350-900,Capt. Michael Saxena,F/O Simran Bhatt,On time,0,2422
+QP347,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VOMM,MAA,Chennai,T2,E20,13:35,14:15,15:10,55,Boeing 737 MAX 8,Capt. James Mishra,F/O Fatima Iyer,On time,0,267
+IX274,Air India Express,2026-11-11,VIJP,JAI,Jaipur,VIAR,ATQ,Amritsar,T2,B27,17:45,18:25,19:42,77,Boeing 737 MAX 8,Capt. Amit Kapoor,F/O James Kapoor,Delayed,20,552
+AI575,Air India,2026-11-11,VILK,LKO,Lucknow,VAPO,PNQ,Pune,T1,C25,15:50,16:30,18:33,123,Boeing 737 MAX 8,Capt. James Reddy,F/O Sanjay Gupta,Scheduled,0,1156
+AI689,Air India,2026-11-11,VECC,CCU,Kolkata,VAPO,PNQ,Pune,T2,A13,12:35,13:15,15:51,156,Airbus A321neo,Capt. Rohan Patel,F/O Vikram Desai,Delayed,15,1577
+AI760,Air India,2026-11-11,VABB,BOM,Mumbai,VOGO,GOI,Goa,T2,H36,12:20,13:00,14:07,67,Airbus A320neo,Capt. Daniel Bhatt,F/O Thomas Yadav,Scheduled,0,424
+QP300,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VAID,IDR,Indore,T1,A16,06:30,07:10,09:24,134,Boeing 737 MAX 8,Capt. Arjun Malhotra,F/O Emma Miller,Scheduled,0,1296
+6E857,IndiGo,2026-11-11,VECC,CCU,Kolkata,VOBL,BLR,Bengaluru,T1,G05,10:15,10:55,13:28,153,Airbus A320neo,Capt. Tarun Hughes,F/O Ishaan Kulkarni,Scheduled,0,1546
+IX803,Air India Express,2026-11-11,VOMM,MAA,Chennai,VECC,CCU,Kolkata,T1,B35,05:10,05:50,08:11,141,Boeing 737-800,Capt. Aditya Sharma,F/O James Verma,Scheduled,0,1385
+IX780,Air India Express,2026-11-11,VOMM,MAA,Chennai,VOGO,GOI,Goa,T1,G27,11:05,11:45,13:16,91,Boeing 737 MAX 8,Capt. Tarun Hughes,F/O Lucas Mehta,On time,0,733
+QP381,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VEPT,PAT,Patna,T1,C40,10:15,10:55,13:21,146,Boeing 737 MAX 8,Capt. Thomas Kulkarni,F/O Swati Banerjee,Scheduled,0,1448
+6E340,IndiGo,2026-11-11,VECC,CCU,Kolkata,VIJP,JAI,Jaipur,T1,E06,19:55,20:35,22:54,139,Airbus A320neo,Capt. Nikhil Sethi,F/O Michael Mehta,On time,0,1356
+SG475,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VAAH,AMD,Ahmedabad,T2,A12,15:00,15:40,18:19,159,Boeing 737-800,Capt. Varun Sethi,F/O Ankit Agarwal,Scheduled,0,1619
+6E845,IndiGo,2026-11-11,VOGO,GOI,Goa,VIDP,DEL,Delhi,T1,H40,19:05,19:45,22:15,150,Airbus A320neo,Capt. Michael Chauhan,F/O Sophie Mehta,Scheduled,0,1504
+SG975,SpiceJet,2026-11-11,VAAH,AMD,Ahmedabad,VILK,LKO,Lucknow,T2,A16,22:45,23:25,01:11 +1,106,Boeing 737 MAX 8,Capt. Kabir Menon,F/O Ishaan Clarke,On time,0,927
+AI945,Air India,2026-11-11,VEGT,GAU,Guwahati,VOGO,GOI,Goa,T1,C23,22:25,23:05,02:28 +1,203,Airbus A321neo,Capt. Thomas Verma,F/O Swati Malhotra,Boarding,0,2193
+AI692,Air India,2026-11-11,VIDP,DEL,Delhi,OMDB,DXB,Dubai,T1,F25,20:05,21:05,22:57,202,Boeing 787-9,Capt. Michael Rao,F/O Varun Walker,On time,0,2183
+QP146,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VAID,IDR,Indore,T2,G10,13:30,14:10,15:35,85,Airbus A321neo,Capt. Pranav Das,F/O Hannah Nair,Scheduled,0,662
+AI602,Air India,2026-11-11,VOMM,MAA,Chennai,VOGO,GOI,Goa,T1,D27,22:30,23:10,00:41 +1,91,Airbus A320neo,Capt. Thomas Verma,F/O Nikhil Malhotra,On time,0,733
+6E993,IndiGo,2026-11-11,VOMM,MAA,Chennai,VANP,NAG,Nagpur,T1,H23,11:45,12:25,14:09,104,Airbus A321neo,Capt. Deepak Chauhan,F/O Siddharth Nair,Boarding,0,908
+6E384,IndiGo,2026-11-11,VIDP,DEL,Delhi,VIJP,JAI,Jaipur,T2,B02,20:20,21:00,21:52,52,Airbus A321neo,Capt. Lucas Menon,F/O Pallavi Bhatt,On time,0,231
+QP429,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VIDP,DEL,Delhi,T1,E27,21:05,21:45,00:00 +1,135,Airbus A321neo,Capt. Rahul Chauhan,F/O Manish Miller,Delayed,60,1312
+QP550,Akasa Air,2026-11-11,VOTV,TRV,Thiruvananthapuram,VECC,CCU,Kolkata,T2,B33,16:05,16:45,19:53,188,Boeing 737 MAX 8,Capt. Aditya Chauhan,F/O Nisha Rao,On time,0,1999
+IX391,Air India Express,2026-11-11,VILK,LKO,Lucknow,VAPO,PNQ,Pune,T1,E17,07:45,08:25,10:28,123,Boeing 737-800,Capt. Karan Verma,F/O Omar Gupta,On time,0,1156
+QP908,Akasa Air,2026-11-11,VOBL,BLR,Bengaluru,VAID,IDR,Indore,T2,B05,05:50,06:30,08:27,117,Boeing 737 MAX 8,Capt. Lucas Chauhan,F/O Ishaan Patel,Delayed,45,1077
+6E485,IndiGo,2026-11-11,VIDP,DEL,Delhi,VIJP,JAI,Jaipur,T3,B16,08:00,08:40,09:32,52,Airbus A320neo,Capt. Tarun Fischer,F/O Rohan Chopra,Scheduled,0,231
+AI230,Air India,2026-11-11,VECC,CCU,Kolkata,VEPT,PAT,Patna,T1,A28,11:50,12:30,13:41,71,Boeing 737-800,Capt. Aditya Banerjee,F/O Kabir Al-Farsi,On time,0,471
+IX279,Air India Express,2026-11-11,VOBL,BLR,Bengaluru,VECC,CCU,Kolkata,T2,C10,06:55,07:35,10:08,153,Boeing 737-800,Capt. Rajesh Malhotra,F/O Arjun Agarwal,On time,0,1546
+LH208,Lufthansa,2026-11-11,EGLL,LHR,London,VECC,CCU,Kolkata,T2,G16,05:45,06:45,23:04,649,Airbus A330-300,Capt. Daniel Agarwal,F/O Kabir Das,On time,0,7983
+SQ571,Singapore Airlines,2026-11-11,VABB,BOM,Mumbai,WSSS,SIN,Singapore,T1,F07,18:45,19:45,03:51 +1,336,Boeing 777-300ER,Capt. Nikhil Malhotra,F/O Varun Iyer,On time,0,3920
+AI295,Air India,2026-11-11,VOHS,HYD,Hyderabad,VIAR,ATQ,Amritsar,T2,F35,12:40,13:20,16:01,161,Boeing 737 MAX 8,Capt. Deepak Banerjee,F/O Amit Chauhan,On time,0,1650
+SG489,SpiceJet,2026-11-11,VOHS,HYD,Hyderabad,VAPO,PNQ,Pune,T2,C13,15:35,16:15,17:28,73,Airbus A320neo,Capt. Pranav Fischer,F/O Anjali Mehta,On time,0,499
+6E587,IndiGo,2026-11-11,VOBL,BLR,Bengaluru,VILK,LKO,Lucknow,T1,B28,12:50,13:30,16:03,153,Boeing 737-800,Capt. Arjun Joshi,F/O Simran Nair,On time,0,1544
+6E812,IndiGo,2026-11-11,VAAH,AMD,Ahmedabad,VOCI,COK,Kochi,T2,F34,16:55,17:35,20:04,149,Airbus A321neo,Capt. Michael Miller,F/O Manish Mishra,Scheduled,0,1491
+QP565,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VAAH,AMD,Ahmedabad,T2,D08,07:10,07:50,10:29,159,Boeing 737 MAX 8,Capt. Varun Malhotra,F/O Hannah Patel,Scheduled,0,1619
+QP903,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VILK,LKO,Lucknow,T1,D13,10:10,10:50,12:48,118,Boeing 737 MAX 8,Capt. Amit Singh,F/O Sarah Nair,On time,0,1088
+LH552,Lufthansa,2026-11-11,VOBL,BLR,Bengaluru,VTBS,BKK,Bangkok,T1,C16,10:40,11:40,16:56,226,Airbus A350-900,Capt. Pranav Banerjee,F/O Karan Banerjee,On time,0,2491
+IX322,Air India Express,2026-11-11,VECC,CCU,Kolkata,VAPO,PNQ,Pune,T1,A25,07:30,08:10,10:46,156,Airbus A320neo,Capt. Harsh Bhatt,F/O Karan Clarke,On time,0,1577
+6E392,IndiGo,2026-11-11,VTBS,BKK,Bangkok,VOBL,BLR,Bengaluru,T2,E19,12:55,13:55,16:11,226,Airbus A350-900,Capt. Daniel Sharma,F/O Rajesh Hughes,Boarding,0,2491
+QP844,Akasa Air,2026-11-11,VIDP,DEL,Delhi,VANP,NAG,Nagpur,T3,F05,22:35,23:15,00:55 +1,100,Airbus A321neo,Capt. Aditya Fischer,F/O Amit Chauhan,On time,0,853
+SG965,SpiceJet,2026-11-11,VOBL,BLR,Bengaluru,VOCI,COK,Kochi,T1,B40,07:25,08:05,09:08,63,Boeing 737 MAX 8,Capt. Rajesh Khan,F/O Rahul Bhatt,Boarding,0,367
+6E566,IndiGo,2026-11-11,VECC,CCU,Kolkata,VOGO,GOI,Goa,T2,F11,15:30,16:10,18:58,168,Boeing 737 MAX 8,Capt. Amit Chopra,F/O Meera Yadav,Delayed,10,1734
+IX498,Air India Express,2026-11-11,VOBL,BLR,Bengaluru,VOHS,HYD,Hyderabad,T1,F34,10:10,10:50,12:00,70,Boeing 737 MAX 8,Capt. Aditya Malhotra,F/O Laura Chauhan,On time,0,456
+AI471,Air India,2026-11-11,VIDP,DEL,Delhi,VIJP,JAI,Jaipur,T2,D30,16:10,16:50,17:42,52,Boeing 737-800,Capt. Thomas Menon,F/O Sneha Mehta,On time,0,231
+6E949,IndiGo,2026-11-11,VECC,CCU,Kolkata,VEGT,GAU,Guwahati,T1,F33,18:25,19:05,20:18,73,Airbus A320neo,Capt. Siddharth Nair,F/O Daniel Chopra,Delayed,25,498
+QP505,Akasa Air,2026-11-11,VECC,CCU,Kolkata,VAPO,PNQ,Pune,T1,H06,20:05,20:45,23:21,156,Boeing 737 MAX 8,Capt. Rajesh Reddy,F/O Arjun Sethi,On time,0,1577
+SQ426,Singapore Airlines,2026-11-11,VOMM,MAA,Chennai,EDDF,FRA,Frankfurt,T1,G36,14:35,15:35,21:24,619,Boeing 787-9,Capt. Ankit Khan,F/O Simran Mehta,Delayed,20,7594
+QP422,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VOGO,GOI,Goa,T1,D06,11:20,12:00,13:07,67,Airbus A320neo,Capt. Amit Singh,F/O Omar Das,On time,0,424
+6E770,IndiGo,2026-11-11,VEGT,GAU,Guwahati,VIAR,ATQ,Amritsar,T1,G30,19:00,19:40,22:29,169,Airbus A320neo,Capt. Deepak Nair,F/O Sneha Kulkarni,Scheduled,0,1746
+6E683,IndiGo,2026-11-11,VABB,BOM,Mumbai,VAAH,AMD,Ahmedabad,T1,G08,11:50,12:30,13:39,69,Airbus A320neo,Capt. Omar Clarke,F/O Riya Walker,Delayed,25,444
+IX986,Air India Express,2026-11-11,VOBL,BLR,Bengaluru,VOHS,HYD,Hyderabad,T2,H30,17:50,18:30,19:40,70,Boeing 737-800,Capt. Vikram Bose,F/O Sanjay Khan,Scheduled,0,456
+AI691,Air India,2026-11-11,VIDP,DEL,Delhi,VABB,BOM,Mumbai,T2,E27,15:05,15:45,17:47,122,Boeing 737 MAX 8,Capt. Michael Saxena,F/O Tarun Gupta,On time,0,1138
+SG315,SpiceJet,2026-11-11,VOGO,GOI,Goa,VECC,CCU,Kolkata,T1,C28,16:55,17:35,20:23,168,Airbus A320neo,Capt. Kabir Hughes,F/O Daniel Singh,Scheduled,0,1734
+AI272,Air India,2026-11-11,OMDB,DXB,Dubai,VECC,CCU,Kolkata,T1,H37,10:50,11:50,18:13,293,Airbus A350-900,Capt. Michael Chauhan,F/O Nisha Chopra,Boarding,0,3365
+AI797,Air India,2026-11-11,VECC,CCU,Kolkata,VAAH,AMD,Ahmedabad,T2,B24,20:50,21:30,00:09 +1,159,Boeing 737-800,Capt. James Sharma,F/O Kavya Banerjee,Scheduled,0,1619
+IX139,Air India Express,2026-11-11,VOBL,BLR,Bengaluru,VOMM,MAA,Chennai,T1,A25,07:10,07:50,08:45,55,Boeing 737-800,Capt. Lucas Agarwal,F/O Harsh Pillai,On time,0,267
+6E668,IndiGo,2026-11-11,VOMM,MAA,Chennai,VILK,LKO,Lucknow,T1,G33,08:20,09:00,11:32,152,Airbus A321neo,Capt. Rahul Miller,F/O Shruti Gupta,Scheduled,0,1533
+AI413,Air India,2026-11-11,VABB,BOM,Mumbai,VOMM,MAA,Chennai,T2,F09,15:20,16:00,17:54,114,Boeing 737 MAX 8,Capt. Lucas Bose,F/O Rohan Trivedi,On time,0,1033
+IX868,Air India Express,2026-11-11,VABB,BOM,Mumbai,VEPT,PAT,Patna,T2,F22,14:35,15:15,17:41,146,Boeing 737 MAX 8,Capt. Siddharth Bose,F/O Tarun Malhotra,On time,0,1448
+AI928,Air India,2026-11-11,VECC,CCU,Kolkata,VAPO,PNQ,Pune,T2,D13,12:35,13:15,15:51,156,Airbus A320neo,Capt. Kabir Banerjee,F/O Aarti Chauhan,Scheduled,0,1577
+AI606,Air India,2026-11-11,VECC,CCU,Kolkata,VAPO,PNQ,Pune,T2,A07,16:55,17:35,20:11,156,Airbus A321neo,Capt. Rajesh Verma,F/O Pranav Menon,On time,0,1577
+AI113,Air India,2026-11-11,VECC,CCU,Kolkata,EDDF,FRA,Frankfurt,T2,E09,14:00,15:00,20:33,603,Airbus A330-300,Capt. Nikhil Gupta,F/O Pallavi Fischer,Scheduled,0,7390
+AI300,Air India,2026-11-11,VOTV,TRV,Thiruvananthapuram,VECC,CCU,Kolkata,T2,G39,13:25,14:05,17:13,188,Boeing 737 MAX 8,Capt. Kabir Agarwal,F/O Pooja Fischer,On time,0,1999
+QP244,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VAAH,AMD,Ahmedabad,T2,D05,10:15,10:55,12:38,103,Airbus A321neo,Capt. James Agarwal,F/O Sophie Sethi,On time,0,886
+QP281,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VAID,IDR,Indore,T1,G39,22:50,23:30,00:43 +1,73,Boeing 737-800,Capt. Sanjay Bose,F/O Omar Chauhan,Delayed,20,505
+SG217,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VAAH,AMD,Ahmedabad,T2,D16,04:35,05:15,07:35,140,Airbus A320neo,Capt. Pranav Mehta,F/O Manish Pillai,Delayed,15,1374
+6E808,IndiGo,2026-11-11,VIDP,DEL,Delhi,VAID,IDR,Indore,T3,C06,10:55,11:35,13:00,85,Boeing 737 MAX 8,Capt. Harsh Yadav,F/O Fatima Malhotra,On time,0,662
+LH151,Lufthansa,2026-11-11,OMDB,DXB,Dubai,VOBL,BLR,Bengaluru,T2,E33,11:10,12:10,17:42,242,Boeing 787-9,Capt. Aditya Patel,F/O Michael Banerjee,Delayed,25,2695
+6E369,IndiGo,2026-11-11,VECC,CCU,Kolkata,VIAR,ATQ,Amritsar,T2,C06,20:15,20:55,23:39,164,Airbus A321neo,Capt. Sanjay Al-Farsi,F/O Karan Walker,On time,0,1681
+6E186,IndiGo,2026-11-11,VIDP,DEL,Delhi,VIJP,JAI,Jaipur,T1,G27,04:40,05:20,06:12,52,Airbus A320neo,Capt. Aditya Bhatt,F/O Omar Patel,On time,0,231
+QP266,Akasa Air,2026-11-11,VOHS,HYD,Hyderabad,VAAH,AMD,Ahmedabad,T2,F08,20:50,21:30,23:13,103,Boeing 737 MAX 8,Capt. Harsh Clarke,F/O Nikhil Agarwal,On time,0,886
+6E581,IndiGo,2026-11-11,VOHS,HYD,Hyderabad,VOGO,GOI,Goa,T1,F22,15:20,16:00,17:15,75,Boeing 737 MAX 8,Capt. Amit Chopra,F/O Neha Singh,On time,0,532
+6E907,IndiGo,2026-11-11,VAPO,PNQ,Pune,VOGO,GOI,Goa,T2,G23,15:50,16:30,17:32,62,Boeing 737-800,Capt. Vikram Walker,F/O Hannah Bose,Delayed,10,356
+SG947,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VOHS,HYD,Hyderabad,T1,E07,20:25,21:05,23:17,132,Airbus A321neo,Capt. Ishaan Gupta,F/O Sanjay Kapoor,On time,0,1266
+LH812,Lufthansa,2026-11-11,VOHS,HYD,Hyderabad,WSSS,SIN,Singapore,T1,G36,18:30,19:30,02:49 +1,289,Airbus A350-900,Capt. Arjun Chauhan,F/O Kavya Chauhan,On time,0,3305
+AI363,Air India,2026-11-11,VECC,CCU,Kolkata,VILK,LKO,Lucknow,T2,B26,09:10,09:50,11:33,103,Airbus A320neo,Capt. Siddharth Desai,F/O Manish Bhatt,On time,0,889
+SG514,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VANP,NAG,Nagpur,T2,F15,05:55,06:35,08:15,100,Boeing 737 MAX 8,Capt. Pranav Bose,F/O Sanjay Agarwal,On time,0,853
+6E570,IndiGo,2026-11-11,VIAR,ATQ,Amritsar,VAID,IDR,Indore,T2,F35,05:25,06:05,07:57,112,Airbus A321neo,Capt. Lucas Sharma,F/O Aisha Patel,Delayed,25,1004
+AI143,Air India,2026-11-11,VOTV,TRV,Thiruvananthapuram,VEGT,GAU,Guwahati,T1,E26,09:10,09:50,13:37,227,Boeing 737-800,Capt. Lucas Iyer,F/O Hannah Bhatt,On time,0,2497
+AI957,Air India,2026-11-11,EGLL,LHR,London,VOHS,HYD,Hyderabad,T2,D09,14:35,15:35,07:36 +1,631,Boeing 787-9,Capt. Lucas Malhotra,F/O Nisha Menon,Delayed,90,7752
+SG364,SpiceJet,2026-11-11,VIAR,ATQ,Amritsar,VAID,IDR,Indore,T1,E23,06:25,07:05,08:57,112,Boeing 737-800,Capt. Aditya Trivedi,F/O Priya Singh,Scheduled,0,1004
+QP836,Akasa Air,2026-11-11,VOMM,MAA,Chennai,VIAR,ATQ,Amritsar,T2,F01,15:45,16:25,19:45,200,Boeing 737 MAX 8,Capt. Pranav Bose,F/O Tanvi Saxena,On time,0,2152
+SQ609,Singapore Airlines,2026-11-11,VECC,CCU,Kolkata,OMDB,DXB,Dubai,T2,A19,06:40,07:40,11:03,293,Boeing 787-9,Capt. Rajesh Mehta,F/O Simran Al-Farsi,On time,0,3365
+AI354,Air India,2026-11-11,VOHS,HYD,Hyderabad,VOBL,BLR,Bengaluru,T2,G20,11:55,12:35,13:45,70,Airbus A320neo,Capt. Ishaan Chopra,F/O Sophie Sethi,On time,0,456
+SG611,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VANP,NAG,Nagpur,T3,G25,13:50,14:30,16:10,100,Airbus A320neo,Capt. Vikram Reddy,F/O Kavya Menon,Scheduled,0,853
+6E328,IndiGo,2026-11-11,VOBL,BLR,Bengaluru,VOCI,COK,Kochi,T2,D18,12:25,13:05,14:08,63,Airbus A321neo,Capt. Rohan Bose,F/O Emma Das,Scheduled,0,367
+AI821,Air India,2026-11-11,VIDP,DEL,Delhi,VABB,BOM,Mumbai,T2,A03,04:35,05:15,07:17,122,Airbus A320neo,Capt. Thomas Nair,F/O Kabir Desai,Delayed,15,1138
+IX812,Air India Express,2026-11-11,VOBL,BLR,Bengaluru,VILK,LKO,Lucknow,T1,E09,15:00,15:40,18:13,153,Airbus A320neo,Capt. Rohan Singh,F/O Amit Menon,Scheduled,0,1544
+6E218,IndiGo,2026-11-11,OMDB,DXB,Dubai,VIDP,DEL,Delhi,T1,C14,21:15,22:15,03:07 +1,202,Boeing 777-300ER,Capt. Omar Al-Farsi,F/O Rohan Chopra,Delayed,25,2183
+SG865,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VIDP,DEL,Delhi,T2,G30,11:00,11:40,14:30,170,Boeing 737-800,Capt. Sanjay Mehta,F/O Omar Khan,Scheduled,0,1760
+IX182,Air India Express,2026-11-11,VAID,IDR,Indore,VOGO,GOI,Goa,T1,G02,14:20,15:00,16:39,99,Boeing 737 MAX 8,Capt. Manish Al-Farsi,F/O Divya Chauhan,Scheduled,0,842
+LH750,Lufthansa,2026-11-11,VABB,BOM,Mumbai,VTBS,BKK,Bangkok,T1,B34,09:10,10:10,16:08,268,Boeing 787-9,Capt. Amit Yadav,F/O Ishaan Verma,On time,0,3030
+AI609,Air India,2026-11-11,VABB,BOM,Mumbai,VOGO,GOI,Goa,T1,F07,21:10,21:50,22:57,67,Boeing 737-800,Capt. Tarun Bose,F/O Swati Yadav,On time,0,424
+AI102,Air India,2026-11-11,VOMM,MAA,Chennai,VECC,CCU,Kolkata,T1,C21,20:05,20:45,23:06,141,Airbus A321neo,Capt. Kabir Bhatt,F/O Ishaan Nair,On time,0,1385
+EK716,Emirates,2026-11-11,VTBS,BKK,Bangkok,VOBL,BLR,Bengaluru,T1,D22,13:15,14:15,16:31,226,Airbus A350-900,Capt. Sanjay Nair,F/O Isha Desai,Scheduled,0,2491
+6E653,IndiGo,2026-11-11,VABB,BOM,Mumbai,VILK,LKO,Lucknow,T1,C38,16:40,17:20,19:26,126,Airbus A321neo,Capt. Sanjay Patel,F/O Emma Desai,On time,0,1183
+SG358,SpiceJet,2026-11-11,VIDP,DEL,Delhi,VOCI,COK,Kochi,T1,C20,13:40,14:20,17:32,192,Airbus A321neo,Capt. Lucas Das,F/O Meera Menon,On time,0,2048
+6E493,IndiGo,2026-11-11,VECC,CCU,Kolkata,VABB,BOM,Mumbai,T2,A04,18:30,19:10,21:53,163,Boeing 737-800,Capt. Rajesh Hughes,F/O Aarti Kapoor,Boarding,0,1665
+SG240,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VAPO,PNQ,Pune,T1,G32,10:40,11:20,13:56,156,Boeing 737-800,Capt. Lucas Patel,F/O Nikhil Kapoor,Scheduled,0,1577
+QP233,Akasa Air,2026-11-11,VABB,BOM,Mumbai,VOCI,COK,Kochi,T1,A33,22:45,23:25,01:21 +1,116,Airbus A320neo,Capt. James Iyer,F/O Nisha Fischer,Scheduled,0,1063
+6E170,IndiGo,2026-11-11,VIDP,DEL,Delhi,VIJP,JAI,Jaipur,T2,H08,22:10,22:50,23:42,52,Airbus A321neo,Capt. Rahul Mishra,F/O Aisha Mishra,Scheduled,0,231
+SG278,SpiceJet,2026-11-11,VECC,CCU,Kolkata,VABB,BOM,Mumbai,T2,A15,16:10,16:50,19:33,163,Airbus A321neo,Capt. Manish Al-Farsi,F/O Tanvi Fischer,Boarding,0,1665
+IX461,Air India Express,2026-11-11,VOMM,MAA,Chennai,VANP,NAG,Nagpur,T2,E14,21:40,22:20,00:04 +1,104,Boeing 737-800,Capt. Lucas Das,F/O Pranav Yadav,On time,0,908
+SG903,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VIDP,DEL,Delhi,T2,B05,08:15,08:55,11:45,170,Boeing 737 MAX 8,Capt. Arjun Miller,F/O Tarun Rao,On time,0,1760
+AI297,Air India,2026-11-11,VOMM,MAA,Chennai,VAPO,PNQ,Pune,T1,E03,07:55,08:35,10:20,105,Airbus A320neo,Capt. Deepak Bose,F/O Arjun Hughes,Delayed,60,912
+SG746,SpiceJet,2026-11-11,VOMM,MAA,Chennai,VOHS,HYD,Hyderabad,T1,A10,09:15,09:55,11:09,74,Boeing 737-800,Capt. Nikhil Mehta,F/O Kabir Mehta,Delayed,15,508
+AI960,Air India,2026-11-11,VIDP,DEL,Delhi,VEPT,PAT,Patna,T1,F18,05:15,05:55,07:35,100,Airbus A321neo,Capt. Lucas Sharma,F/O Simran Banerjee,Boarding,0,856
+AI277,Air India,2026-11-11,VANP,NAG,Nagpur,VEPT,PAT,Patna,T1,E14,12:00,12:40,14:16,96,Airbus A320neo,Capt. Vikram Al-Farsi,F/O Pallavi Fischer,On time,0,793

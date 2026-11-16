@@ -1,0 +1,296 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "flight-status",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.2,
+      "position": [
+        -256,
+        -320
+      ],
+      "id": "01a59f61-20f7-44fc-af5f-8f02def3e044",
+      "name": "Webhook",
+      "webhookId": "82227d18-7685-4f0a-b3b2-0ed58a45d1f7"
+    },
+    {
+      "parameters": {
+        "fileSelector": "/home/node/.n8n-files/flights.json",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [
+        16,
+        -128
+      ],
+      "id": "da5690df-ff37-4733-a377-88950cb62117",
+      "name": "Read Flights File"
+    },
+    {
+      "parameters": {
+        "operation": "fromJson",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.2,
+      "position": [
+        256,
+        -384
+      ],
+      "id": "cb5c9cda-69c0-4a34-a4d9-9c7caa0b65d2",
+      "name": "Extract Flights"
+    },
+    {
+      "parameters": {
+        "jsCode": "const AP = {\n  VIDP:[28.5665,77.1031], VABB:[19.0887,72.8679], VOBL:[13.1979,77.7063], VOMM:[12.99,80.1693],\n  VECC:[22.6547,88.4467], VOHS:[17.2403,78.4294], VAAH:[23.0772,72.6347], VOCI:[10.152,76.4019],\n  VAPO:[18.5821,73.9197], VOGO:[15.3808,73.8314], VILK:[26.7606,80.8893], VIJP:[26.8242,75.8122],\n  VEPT:[25.5913,85.088], VEGT:[26.1061,91.5859], VOTV:[8.4821,76.9201], VIAR:[31.7096,74.7973],\n  VANP:[21.0922,79.0472], VAID:[22.7218,75.8011], OMDB:[25.2528,55.3644], OTHH:[25.2731,51.6081],\n  WSSS:[1.3644,103.9915], EGLL:[51.47,-0.4543], EDDF:[50.0379,8.5622], VTBS:[13.69,100.7501]\n};\n\nconst all = $input.all();\nconst list = (all.length === 1 && Array.isArray(all[0].json.data))\n  ? all[0].json.data\n  : all.map(i => i.json);\n\nconst q = $('Webhook').first().json.query || {};\nconst flightId = (q.flight || '').toUpperCase();\nconst role = (q.role || (flightId ? 'passenger' : 'home')).toLowerCase();\n\nconst found = role === 'home'\n  ? null\n  : (list.find(x => x.flight_no === flightId) || list.find(x => x.flight_no === 'AI101'));\nconst flight = found\n  ? { ...found, from_lat: (AP[found.from_icao] || [])[0], from_lon: (AP[found.from_icao] || [])[1] }\n  : null;\n\nconst sample = list.slice(0, 15).map(x => ({\n  flight_no: x.flight_no, from_iata: x.from_iata, to_iata: x.to_iata,\n  departure_time: x.departure_time, status: x.status, delay_min: x.delay_min\n}));\n\nconst sameAirport = flight\n  ? list.filter(x => x.from_icao === flight.from_icao && x.flight_no !== flight.flight_no)\n        .sort((a, b) => a.departure_time.localeCompare(b.departure_time))\n        .slice(0, 8)\n        .map(x => ({ flight_no: x.flight_no, to_iata: x.to_iata, gate: x.gate,\n                     departure_time: x.departure_time, status: x.status, delay_min: x.delay_min }))\n  : [];\n\nreturn [{ json: { role, flight, sample, sameAirport, total: list.length } }];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        496,
+        -144
+      ],
+      "id": "0a6effb5-4f7f-4bf7-9f76-5b0b782c8395",
+      "name": "Flight Data"
+    },
+    {
+      "parameters": {
+        "url": "=https://aviationweather.gov/api/data/metar?ids={{ $json.flight ? $json.flight.from_icao + ',' + $json.flight.to_icao : 'VIDP' }}&format=json",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        1600,
+        -176
+      ],
+      "id": "3dff25cc-a6f1-4688-bf1a-aca7da863d85",
+      "name": "Weather",
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "const d = $('Passenger Data').first().json;\nconst wxAll = $('Weather').all().map(i => i.json);\nconst traffic = ($input.first() && $input.first().json) || {};\nconst f = d.flight;\nconst role = d.role;\nconst P = 'flight-status';\n\nconst css = `\n*{box-sizing:border-box}\nbody{font-family:Arial,sans-serif;background:#0b1f3a;color:#fff;margin:0;padding:16px;max-width:980px;margin:auto}\n.card{background:#12305a;border-radius:12px;padding:16px;margin-bottom:12px}\nh1{margin:0 0 4px}h2{margin:0 0 10px;font-size:18px;color:#9fd3ff}\n.big{font-size:30px;font-weight:bold}\n.pill{display:inline-block;padding:4px 12px;border-radius:20px;font-weight:bold;color:#fff}\n.nav{font-size:13px;margin-bottom:12px}.nav a{color:#9fd3ff;margin-right:10px}\na{color:#9fd3ff}\n.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}\n.kpi{background:#0e2748;border-radius:10px;padding:12px;text-align:center}\n.kpi b{display:block;font-size:22px}\n.kpi span{font-size:12px;color:#9fb6d3}\ntable{width:100%;border-collapse:collapse;font-size:13px}\nth,td{text-align:left;padding:6px 8px;border-bottom:1px solid #1f4378}\nth{color:#9fd3ff}\n.bar{background:#0e2748;border-radius:10px;height:18px;overflow:hidden}\n.bar div{background:#27ae60;height:100%}\n.banner{border-radius:12px;padding:14px;margin-bottom:12px;font-weight:bold;font-size:16px}\n.ok{background:#1e8449}.warn{background:#c0392b}.mid{background:#d68910}\n.tag{font-size:11px;color:#9fb6d3}\ninput,button{font-size:16px;padding:10px 14px;border-radius:8px;border:0;margin:4px 4px 4px 0}\nbutton{background:#2e86de;color:#fff;font-weight:bold;cursor:pointer}\nul{list-style:none;padding:0;margin:0}li{padding:3px 0}\n`;\nconst page = (title, body) => `<!DOCTYPE html><html><head><meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta http-equiv=\"refresh\" content=\"60\"><title>${title}</title><style>${css}</style></head><body>${body}</body></html>`;\n\n// ---------------- HOME ----------------\nif (role === 'home' || !f) {\n  const rows = d.sample.map(s => `<tr><td><b>${s.flight_no}</b></td><td>${s.from_iata} → ${s.to_iata}</td>\n<td>${s.departure_time}</td><td>${s.delay_min > 0 ? 'Delayed ' + s.delay_min + ' min' : s.status}</td>\n<td><a href=\"${P}?role=pilot&amp;flight=${s.flight_no}\">Pilot</a> · <a href=\"${P}?role=ground&amp;flight=${s.flight_no}\">Ground</a> · <a href=\"${P}?role=passenger&amp;flight=${s.flight_no}\">Passenger</a></td></tr>`).join('');\n  const body = `\n<div class=\"card\"><h1>✈️ Airline Operations Portal</h1>\n<div class=\"tag\">${d.total} flights loaded · demo data · live weather from aviationweather.gov</div></div>\n<div class=\"card\"><h2>Open a flight</h2>\n<form action=\"${P}\" method=\"get\">\n<input name=\"flight\" value=\"AI101\" placeholder=\"Flight e.g. AI101\" required>\n<button name=\"role\" value=\"pilot\">👨‍✈️ Pilot</button>\n<button name=\"role\" value=\"ground\">🧳 Ground staff</button>\n<button name=\"role\" value=\"passenger\">🧍 Passenger</button>\n</form></div>\n<div class=\"card\"><h2>Sample flights</h2>\n<table><tr><th>Flight</th><th>Route</th><th>Dep</th><th>Status</th><th>Open as</th></tr>${rows}</table></div>`;\n  return [{ json: { html: page('Airline Operations Portal', body) } }];\n}\n\n// ---------------- shared calculations ----------------\nconst wx = icao => wxAll.find(w => w.icaoId === icao) || {};\nconst dep = wx(f.from_icao), arr = wx(f.to_icao);\nconst risky = w => ['IFR', 'LIFR'].includes(w.fltCat) || (w.wspd || 0) > 25;\nconst catColor = w => risky(w) ? '#ff6b5b' : '#5fe08f';\n\nconst nowStr = new Date().toLocaleTimeString('en-GB', { timeZone: 'Asia/Kolkata', hour: '2-digit', minute: '2-digit' });\nconst mins = t => { const [h, m] = t.split(':').map(Number); return h * 60 + m; };\nconst now = mins(nowStr), b = mins(f.boarding_time), dp = mins(f.departure_time);\nlet phase, pct;\nif (now < b - 60) { phase = 'Check-in open'; pct = 0; }\nelse if (now < b) { phase = 'Boarding opens soon'; pct = 0; }\nelse if (now < dp - 15) { phase = 'Boarding'; pct = Math.round((now - b) / ((dp - 15) - b) * 100); }\nelse if (now < dp) { phase = 'Gate closing'; pct = 100; }\nelse { phase = 'Departed'; pct = 100; }\nconst delayed = Number(f.delay_min) > 0;\nconst statusText = delayed ? `Delayed ${f.delay_min} min · ${phase}` : phase;\nconst statusColor = delayed ? '#e67e22' : (phase === 'Gate closing' ? '#c0392b' : '#27ae60');\n\nconst pax = d.pax || [];\nconst nBiz = pax.filter(p => p.cabin === 'Business').length;\nconst nEco = pax.length - nBiz;\nconst bagKg = pax.reduce((s, p) => s + Number(p.baggage_kg || 0), 0);\nconst special = pax.filter(p => !['Vegetarian', 'Non-vegetarian', 'No meal'].includes(p.meal)).length;\n\nconst nav = `<div class=\"nav\"><a href=\"${P}?role=home\">🏠 Home</a>\n<a href=\"${P}?role=pilot&amp;flight=${f.flight_no}\">Pilot</a>\n<a href=\"${P}?role=ground&amp;flight=${f.flight_no}\">Ground staff</a>\n<a href=\"${P}?role=passenger&amp;flight=${f.flight_no}\">Passenger</a></div>`;\n\nconst head = (label) => `${nav}\n<div class=\"card\"><div class=\"tag\">${label} · ${f.airline} · Live time (IST) ${nowStr}</div>\n<h1>✈️ ${f.flight_no}</h1>\n<div class=\"big\">${f.from_iata} → ${f.to_iata}</div>\n<div>${f.from_city} to ${f.to_city}</div><br>\n<span class=\"pill\" style=\"background:${statusColor}\">${statusText}</span>\n<p>Terminal <b>${f.terminal}</b> | Gate <b>${f.gate}</b></p>\n<p>Boarding <b>${f.boarding_time}</b> | Departure <b>${f.departure_time}</b> | Arrival <b>${f.arrival_time}</b></p>\n<div class=\"bar\"><div style=\"width:${pct}%\"></div></div>\n<div class=\"tag\">Boarding progress ${pct}%</div></div>`;\n\nconst wxCard = (title, icao, w) => `<div class=\"card\"><h2>${title} (${icao})</h2>\n<div>Conditions: <b style=\"color:${catColor(w)}\">${w.fltCat || 'N/A'}</b></div>\n<div>Temperature: ${w.temp ?? 'N/A'} °C · Wind: ${w.wspd ?? 'N/A'} kt · Visibility: ${w.visib ?? 'N/A'}</div>\n${w.rawOb ? `<div class=\"tag\" style=\"margin-top:6px\">${w.rawOb}</div>` : ''}</div>`;\n\n\n// ---------------- live traffic radar (adsb.lol) ----------------\nconst R = 40; // nautical miles\nconst trafficList = (f.from_lat == null) ? [] : (Array.isArray(traffic.ac) ? traffic.ac : [])\n  .filter(a => typeof a.lat === 'number' && typeof a.lon === 'number')\n  .map(a => {\n    const dx = (a.lon - f.from_lon) * Math.cos(f.from_lat * Math.PI / 180) * 60;\n    const dy = (a.lat - f.from_lat) * 60;\n    return { ...a, dx, dy, dist: Math.sqrt(dx * dx + dy * dy) };\n  })\n  .filter(a => a.dist <= R)\n  .sort((a, b) => a.dist - b.dist);\nconst csign = a => ((a.flight || '').trim() || (a.r || '') || a.hex || '?');\nconst altTxt = a => typeof a.alt_baro === 'number' ? Math.round(a.alt_baro) + ' ft' : 'on ground';\nconst SC = 150 / R;\nconst dots = trafficList.slice(0, 60).map((a, i) => {\n  const x = (160 + a.dx * SC).toFixed(1), y = (160 - a.dy * SC).toFixed(1);\n  return `<polygon points=\"0,-6 4,5 -4,5\" transform=\"translate(${x} ${y}) rotate(${a.track || 0})\" fill=\"#ffd166\"/>`\n    + (i < 6 ? `<text x=\"${(+x + 7).toFixed(1)}\" y=\"${(+y + 3).toFixed(1)}\" font-size=\"9\" fill=\"#cfe3ff\">${csign(a)}</text>` : '');\n}).join('');\nconst svg = `<svg viewBox=\"0 0 320 320\" style=\"width:100%;max-width:360px;background:#0a1a30;border-radius:12px\">\n<circle cx=\"160\" cy=\"160\" r=\"150\" fill=\"none\" stroke=\"#1f4378\"/><circle cx=\"160\" cy=\"160\" r=\"75\" fill=\"none\" stroke=\"#1f4378\"/>\n<line x1=\"10\" y1=\"160\" x2=\"310\" y2=\"160\" stroke=\"#1f4378\"/><line x1=\"160\" y1=\"10\" x2=\"160\" y2=\"310\" stroke=\"#1f4378\"/>\n<text x=\"165\" y=\"86\" font-size=\"9\" fill=\"#6b8cb8\">${R / 2} nm</text><text x=\"165\" y=\"22\" font-size=\"9\" fill=\"#6b8cb8\">${R} nm</text>\n${dots}<circle cx=\"160\" cy=\"160\" r=\"5\" fill=\"#5fe08f\"/><text x=\"168\" y=\"176\" font-size=\"11\" fill=\"#5fe08f\" font-weight=\"bold\">${f.from_iata}</text></svg>`;\nconst frLink = f.from_lat == null ? '#' : `https://www.flightradar24.com/${f.from_lat.toFixed(2)},${f.from_lon.toFixed(2)}/10`;\nconst trafficCard = showTable => `<div class=\"card\"><h2>Live air traffic near ${f.from_iata}</h2>\n${Array.isArray(traffic.ac)\n  ? `<div class=\"tag\" style=\"margin-bottom:8px\">${trafficList.length} aircraft within ${R} nm right now (real ADS-B data)</div>${svg}`\n  : `<div>Live traffic data is not available right now.</div>`}\n${showTable && trafficList.length ? `<table style=\"margin-top:8px\"><tr><th>Callsign</th><th>Type</th><th>Altitude</th><th>Speed</th><th>Distance</th></tr>${\n  trafficList.slice(0, 8).map(a => `<tr><td>${csign(a)}</td><td>${a.t || '-'}</td><td>${altTxt(a)}</td><td>${Math.round(a.gs || 0)} kt</td><td>${a.dist.toFixed(0)} nm</td></tr>`).join('')}</table>` : ''}\n<div class=\"tag\" style=\"margin-top:8px\">Source: adsb.lol community network · <a href=\"${frLink}\" target=\"_blank\" rel=\"noopener\">Open this area on Flightradar24</a></div></div>`;\n\nlet body = '';\n\n// ---------------- PILOT ----------------\nif (role === 'pilot') {\n  const anyRisk = risky(dep) || risky(arr);\n  const banner = anyRisk\n    ? `<div class=\"banner warn\">⚠️ CAUTION: adverse weather at ${risky(dep) ? f.from_icao : ''} ${risky(arr) ? f.to_icao : ''}. Review before departure.</div>`\n    : `<div class=\"banner ok\">✅ GO: weather within limits at departure and destination</div>`;\n  const checks = [['Flight plan filed', true], ['Fuel uplift and reserves', true], ['Weight and balance', true],\n    ['NOTAMs reviewed', true], ['Engines and hydraulics', true], ['Flight controls', true],\n    ['Navigation systems', true], ['Weather review', !anyRisk]];\n  const checkRows = checks.map(c => `<tr><td>${c[0]}</td><td>${c[1] ? '✅ Complete' : '⚠️ Review'}</td></tr>`).join('');\n  body = head('PILOT BRIEFING') + banner + `\n<div class=\"card\"><h2>Flight</h2><div class=\"grid\">\n<div class=\"kpi\"><b>${f.aircraft}</b><span>Aircraft</span></div>\n<div class=\"kpi\"><b>${f.distance_km} km</b><span>Distance</span></div>\n<div class=\"kpi\"><b>${f.duration_min} min</b><span>Block time</span></div>\n<div class=\"kpi\"><b>${pax.length}</b><span>Passengers booked</span></div></div>\n<p>Captain: <b>${f.pilot}</b><br>First officer: <b>${f.copilot}</b></p>\n<div class=\"tag\">Cabin: ${nBiz} business, ${nEco} economy · Baggage ${bagKg} kg · ${special} special meals</div></div>\n${wxCard('Departure weather', f.from_icao, dep)}${wxCard('Destination weather', f.to_icao, arr)}\n${trafficCard(true)}\n<div class=\"card\"><h2>Pre-flight checklist</h2><table>${checkRows}</table></div>`;\n}\n\n// ---------------- GROUND STAFF ----------------\nelse if (role === 'ground') {\n  const alert = (risky(dep) || delayed)\n    ? `<div class=\"banner warn\">⚠️ DELAY RISK: ${delayed ? 'flight delayed ' + f.delay_min + ' min. ' : ''}${risky(dep) ? 'Weather at ' + f.from_icao + ' is ' + (dep.fltCat || 'poor') + '. ' : ''}Alert gates, crew and passenger services.</div>`\n    : `<div class=\"banner ok\">✅ NORMAL OPERATIONS</div>`;\n  const manifest = pax.map(p => `<tr><td>${p.boarding_seq}</td><td>${p.title} ${p.first_name} ${p.last_name}</td><td>${p.seat}</td><td>${p.cabin}</td><td>${p.boarding_group}</td><td>${p.pnr}</td><td>${p.baggage_kg} kg</td><td>${p.meal}</td></tr>`).join('');\n  const others = (d.sameAirport || []).map(o => `<tr><td><a href=\"${P}?role=ground&amp;flight=${o.flight_no}\">${o.flight_no}</a></td><td>→ ${o.to_iata}</td><td>${o.gate}</td><td>${o.departure_time}</td><td>${o.delay_min > 0 ? 'Delayed ' + o.delay_min + ' min' : o.status}</td></tr>`).join('');\n  body = head('GROUND STAFF DASHBOARD') + alert + `\n<div class=\"card\"><h2>Load summary</h2><div class=\"grid\">\n<div class=\"kpi\"><b>${pax.length}</b><span>Passengers</span></div>\n<div class=\"kpi\"><b>${nBiz} / ${nEco}</b><span>Business / Economy</span></div>\n<div class=\"kpi\"><b>${bagKg} kg</b><span>Checked baggage</span></div>\n<div class=\"kpi\"><b>${special}</b><span>Special meals</span></div></div></div>\n${wxCard('Weather at departure', f.from_icao, dep)}\n${trafficCard(true)}\n<div class=\"card\"><h2>Passenger manifest</h2><table>\n<tr><th>#</th><th>Name</th><th>Seat</th><th>Cabin</th><th>Grp</th><th>PNR</th><th>Bags</th><th>Meal</th></tr>${manifest}</table></div>\n<div class=\"card\"><h2>Other departures from ${f.from_iata}</h2><table>\n<tr><th>Flight</th><th>To</th><th>Gate</th><th>Dep</th><th>Status</th></tr>${others}</table></div>`;\n}\n\n// ---------------- PASSENGER ----------------\nelse {\n  const checks = ['Engines', 'Fuel', 'Flight controls', 'Cabin safety equipment', 'Navigation systems'];\n  const items = checks.map(c => `<li>✅ ${c}</li>`).join('');\n  body = head('PASSENGER INFORMATION') + `\n<div class=\"card\"><h2>Your crew</h2>\n<div>Pilot: <b>${f.pilot}</b></div><div>Co-pilot: <b>${f.copilot}</b></div>\n<div>Aircraft: ${f.aircraft}</div></div>\n<div class=\"card\"><h2>Pre-flight checks</h2><ul>${items}</ul></div>\n${wxCard('Weather at ' + f.from_city, f.from_icao, dep)}${wxCard('Weather at ' + f.to_city, f.to_icao, arr)}\n${trafficCard(false)}`;\n}\n\nbody += `<p class=\"tag\">Page refreshes every minute · Demo data</p>`;\nreturn [{ json: { html: page(f.flight_no + ' ' + role, body) } }];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2064,
+        -160
+      ],
+      "id": "0ee2015c-a1c5-4867-851e-2b119553947b",
+      "name": "Build Page"
+    },
+    {
+      "parameters": {
+        "respondWith": "text",
+        "responseBody": "={{ $json.html }}",
+        "options": {
+          "responseHeaders": {
+            "entries": [
+              {
+                "name": "Content-Type",
+                "value": "text/html; charset=utf-8"
+              }
+            ]
+          }
+        }
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "position": [
+        2320,
+        -336
+      ],
+      "id": "e2ff7940-9c4e-49e5-8951-5d070ddd7ee9",
+      "name": "Respond to Webhook"
+    },
+    {
+      "parameters": {
+        "fileSelector": "/home/node/.n8n-files/passengers.csv",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [
+        736,
+        -384
+      ],
+      "id": "e4e1ce16-7b9d-4edb-ba29-167e0b1d6aff",
+      "name": "Read Passengers File"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.2,
+      "position": [
+        1024,
+        -160
+      ],
+      "id": "8c90fbd4-0373-43be-803a-f9c25d49d8b8",
+      "name": "Extract Passengers."
+    },
+    {
+      "parameters": {
+        "jsCode": "const fd = $('Flight Data').first().json;\n\nlet pax = [];\nif (fd.flight) {\n  pax = $input.all()\n    .map(i => i.json)\n    .filter(p => p.flight_no === fd.flight.flight_no)\n    .sort((a, b) => Number(a.boarding_seq) - Number(b.boarding_seq));\n}\n\nreturn [{ json: { ...fd, pax } }];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1312,
+        -368
+      ],
+      "id": "de2a1524-14c2-4f46-a6c6-3036d0d4c60f",
+      "name": "Passenger Data"
+    },
+    {
+      "parameters": {
+        "url": "=   https://api.adsb.lol/v2/point/{{ $('Passenger Data').first().json.flight ? $('Passenger Data').first().json.flight.from_lat + '/' + $('Passenger Data').first().json.flight.from_lon : '28.5665/77.1031' }}/40",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        1824,
+        -368
+      ],
+      "id": "23e7bb2c-dbf9-4e74-918c-978774e5f8fa",
+      "name": "Live Traffic",
+      "executeOnce": true,
+      "alwaysOutputData": true,
+      "onError": "continueRegularOutput"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Read Flights File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read Flights File": {
+      "main": [
+        [
+          {
+            "node": "Extract Flights",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Flights": {
+      "main": [
+        [
+          {
+            "node": "Flight Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Flight Data": {
+      "main": [
+        [
+          {
+            "node": "Read Passengers File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Weather": {
+      "main": [
+        [
+          {
+            "node": "Live Traffic",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build Page": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read Passengers File": {
+      "main": [
+        [
+          {
+            "node": "Extract Passengers.",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Passengers.": {
+      "main": [
+        [
+          {
+            "node": "Passenger Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Passenger Data": {
+      "main": [
+        [
+          {
+            "node": "Weather",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Live Traffic": {
+      "main": [
+        [
+          {
+            "node": "Build Page",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "9bbf9f01-3600-42d2-9f84-1869c332f133",
+  "meta": {
+    "instanceId": "c119faaca30a6e29781a5cb77b9608f50fd489bc9c912a8bd7595300c9d9cec3"
+  },
+  "nodeGroups": [],
+  "id": "T38YUeOlbsjwn8R9",
+  "tags": []
+}
